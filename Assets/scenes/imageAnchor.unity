@@ -56,7 +56,7 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 2
-    m_BakeResolution: 40
+    m_BakeResolution: 80
     m_AtlasSize: 1024
     m_AO: 1
     m_AOMaxDistance: 1
@@ -67,7 +67,7 @@ LightmapSettings:
       type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
+    m_FinalGather: 1
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
@@ -2554,6 +2554,75 @@ Transform:
   m_Father: {fileID: 1755584684}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &546974169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546974170}
+  - component: {fileID: 546974171}
+  m_Layer: 9
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &546974170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546974169}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 16.039999, y: 3.7700012, z: 22.289997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1909784527}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &546974171
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546974169}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.9245283, g: 0.7357196, b: 0.5451228, a: 1}
+  m_Intensity: 2
+  m_Range: 6.5
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.595
+    m_Bias: 0.103
+    m_NormalBias: 0.424
+    m_NearPlane: 0.1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
 --- !u!1 &553981012
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,6 +2995,75 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   church: {fileID: 0}
+--- !u!1 &578568231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578568232}
+  - component: {fileID: 578568233}
+  m_Layer: 9
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &578568232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578568231}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 10.45, y: 3.77, z: 22.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1909784527}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &578568233
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578568231}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.9245283, g: 0.7357196, b: 0.5451228, a: 1}
+  m_Intensity: 2
+  m_Range: 6.5
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.595
+    m_Bias: 0.103
+    m_NormalBias: 0.424
+    m_NearPlane: 0.1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0.5
+  m_ShadowAngle: 0
 --- !u!1 &599121047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,7 +3215,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909784527}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 22, y: 90, z: 0}
 --- !u!108 &608497972
 Light:
@@ -13916,7 +14054,7 @@ Transform:
   - {fileID: 82243387}
   - {fileID: 1023274884}
   m_Father: {fileID: 1909784527}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869663056
 GameObject:
@@ -14056,6 +14194,8 @@ Transform:
   - {fileID: 1348924076}
   - {fileID: 1095508260}
   - {fileID: 175870352}
+  - {fileID: 546974170}
+  - {fileID: 578568232}
   - {fileID: 2091054759}
   - {fileID: 1817303495}
   - {fileID: 608497971}
@@ -14217,10 +14357,9 @@ MonoBehaviour:
   instructionsTextBox: {fileID: 322633800}
   texts:
   - Welcome to the National Gallery
-  - Start by scanning the floor & walls
+  - Move your device around to scan
   - Look at the centre panel of the painting
-  - Now take a few steps back and mind the bench!
-  - Look back at the painting and tap start
+  - Wait, watch and explore
   startBackground: {fileID: 1276026178}
   titleBox: {fileID: 1493437259}
   subtitleBox: {fileID: 1052474380}
@@ -14665,7 +14804,7 @@ Transform:
   - {fileID: 902670803}
   - {fileID: 1013141222}
   m_Father: {fileID: 1909784527}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107251713
 GameObject:
@@ -14812,32 +14951,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1. Go to Gallery 60 in the Sainsbury Wing of the National Gallery and find
-    the altarpiece by Jacopo di Cione.
+  m_Text: '1. Stand where you can view the whole altar piece, about 4 meters in front
+    of the central panel
 
-    2. Hold the device in landscape mode
+    2. Move your device around to scan the floor and walls
 
-    3. Stand in front of the bench opposite the altarpiece
+    3. Point the camera at the central panel of the altarpiece by Jacopo di Cione
+    until the app recognises it
 
-    4. Point the camera at the floor in front of the altarpiece, move it from side
-    to side
+    4. Wait and watch as the church expands out from the original church shown in
+    the left hand panel
 
-    5. Wait for the app to scan the floor
-
-    6. Point the camera at the walls, wait for the app to scan the walls
-
-    7. Point the camera at the altarpiece by Jacopo di Cione, making sure that you
-    can see the central panel in the camera view.
-
-    8. Point the camera at the church in the left hand panel of the altarpiece. Its
-    outline will appear on the screen.
-
-    9. Take a few steps backwards - being careful of the bench. Keep going slowly
-    backwards until you are near the center of the gallery.
-
-    10. When you are far enough, look back at the panel and tap start to watch
-
-    11. Walk around and explore the San Pier Maggiore'
+    5. Walk around and explore San Pier Maggiore'
 --- !u!222 &2114427078
 CanvasRenderer:
   m_ObjectHideFlags: 0
