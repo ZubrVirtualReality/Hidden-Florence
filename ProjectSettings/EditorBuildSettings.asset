@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Extras/Extras_HF.unity
     guid: 7c4621d3fb7d14dfdb869f68b901b8e7
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/ImageTracking.unity
+    guid: 4b2baccc142d0c34aa9c90515592db14
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 40350f41584118746bec75634b4ec693,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8f7236c5c9a96b842acd65e5459d7752,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 93a68112b4be75b47a2840eb83bc74ae,
+      type: 2}

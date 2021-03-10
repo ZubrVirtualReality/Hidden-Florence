@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.iOS;
-
+using UnityEngine.XR.ARFoundation;
 
 public class SceneManager_TapToPlace : MonoBehaviour
 {
@@ -56,6 +56,8 @@ public class SceneManager_TapToPlace : MonoBehaviour
     public GameObject focusSquare;
     public GameObject focusSquareFocused;
     [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
+    [SerializeField] ARPlaneManager planeManager;
+
 
 
     private void Start()
@@ -80,7 +82,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
             {
                 setExperienceState(TapToPlace_State.EXPERIENCING);
             }
-        } else if (state == TapToPlace_State.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
+        } else if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0)// generatePlaneScrip.hasGeneratedPlanes())
         {
             setExperienceState(TapToPlace_State.PLACING);
         }
@@ -137,6 +139,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 {
                     altarBase_Elsewhere.SetActive(true);
                 }
+                planeManager.subsystem.Stop();
                 focusSquare.SetActive(false);
                 break;
             case TapToPlace_State.EXPERIENCING:
@@ -149,7 +152,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
 
     private bool placeAltarPiece()
     {
-        if (!focusSquareFocused.active == true)
+        if (!focusSquareFocused.activeSelf)
 		{
 			return false;
 		}

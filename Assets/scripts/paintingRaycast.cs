@@ -23,7 +23,7 @@ public class paintingRaycast : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 200)) {
 			if(this.gameObject == hit.collider.gameObject == active){
 				Debug.Log("You have selected the " + hit.collider.name);
-                menu.callSetText(5);
+                menu?.callSetText(5);
 			}
         }
     }

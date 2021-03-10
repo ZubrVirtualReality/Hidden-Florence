@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.iOS;
 
-public class FocusSquare : MonoBehaviour {
+public class FocusSquare : MonoBehaviour 
+{
 
-	public enum FocusState {
+	public enum FocusState 
+	{
 		Initializing,
 		Finding,
 		Found
@@ -14,6 +17,7 @@ public class FocusSquare : MonoBehaviour {
 	public GameObject findingSquare;
 	public GameObject foundSquare;
 
+	[SerializeField] ARRaycastManager rays;
 	//for editor version
 	public float maxRayDistance = 30.0f;
 	public LayerMask collisionLayerMask;
@@ -34,7 +38,8 @@ public class FocusSquare : MonoBehaviour {
 	bool trackingInitialized;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		SquareState = FocusState.Initializing;
 		trackingInitialized = true;
 	}
@@ -55,10 +60,20 @@ public class FocusSquare : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 
 		//use center of screen for focusing
 		Vector3 center = new Vector3(Screen.width/2, Screen.height/2, findingSquareDist);
+		List<ARRaycastHit> hitt = new List<ARRaycastHit>();
+		if(rays.Raycast(Camera.main.ScreenPointToRay(center),hitt, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+        {
+			foundSquare.transform.position = hitt[0].pose.position;
+			foundSquare.transform.rotation = hitt[0].pose.rotation;
+			SquareState = FocusState.Found;
+			return;
+        }
+
 
 		#if UNITY_EDITOR
 		Ray ray = Camera.main.ScreenPointToRay (center);
@@ -106,7 +121,8 @@ public class FocusSquare : MonoBehaviour {
 		#endif
 
 		//if you got here, we have not found a plane, so if camera is facing below horizon, display the focus "finding" square
-		if (trackingInitialized) {
+		if (trackingInitialized) 
+		{
 			SquareState = FocusState.Finding;
 
 			//check camera forward is facing downward

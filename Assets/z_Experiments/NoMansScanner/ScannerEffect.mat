@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BlackLevel: 0.209
+    - _BlackLevel: 0.177
     - _BumpScale: 1
     - _Contrast: 60
     - _Cutoff: 0.5
@@ -107,7 +107,7 @@ Material:
     - _SrcBlend: 1
     - _StartFade: 0.1
     - _UVSec: 0
-    - _WarpScale: 0.535
+    - _WarpScale: 0
     - _ZWrite: 1
     - _rev: 0
     m_Colors:
@@ -119,3 +119,4 @@ Material:
     - _LeadColor: {r: 1, g: 1, b: 1, a: 1}
     - _MidColor: {r: 1, g: 0.28773582, b: 0.28773582, a: 0}
     - _TrailColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

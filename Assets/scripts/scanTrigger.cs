@@ -28,15 +28,18 @@ public class scanTrigger : MonoBehaviour {
 		// }
     // }	
 
-		public void startScan(){
-			if(!scanning){
+		public void startScan()
+		{
+			if(!scanning)
+			{
 				scanning = true;
 				StartCoroutine(scanningEvents());
 				menu.callSetText(7);
 			}
 		}
 
-	IEnumerator scanningEvents(){
+	IEnumerator scanningEvents()
+	{
 		Debug.Log("scanning1");
 		painting.startFade();
 		yield return new WaitForSeconds (3f);

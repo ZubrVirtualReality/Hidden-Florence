@@ -4,8 +4,8 @@ Shader "custom/ScannerEffect 01"
 {
 	Properties
 	{
-		_MainTex("Texture", 2D) = "white" {}
-		_NonTex("Texture", 2D) = "white" {}
+		_MainTex("MainTexture", 2D) = "white" {}
+		_NonTex("NONTexture", 2D) = "white" {}
 		_DetailTex("Noise Texture", 2D) = "white" {}
 		_LineTex("Line Texture", 2D) = "white" {}
 		_FadeTex("Texture", 2D) = "white" {}
