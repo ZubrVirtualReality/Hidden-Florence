@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityEngine.XR.iOS;
+
 
 enum ElsewhereExperience_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING};
 
@@ -47,7 +47,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     [Header("AR Object")]
     public GameObject focusSquare;
     public GameObject focusSquareFocused;
-    [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
+   // [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
 
     private ElsewhereExperience_State experienceState = ElsewhereExperience_State.SCANNING;
 
@@ -73,10 +73,11 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
             {
                 setExperienceState(ElsewhereExperience_State.EXPERIENCING);
             }
-        } else if (experienceState == ElsewhereExperience_State.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
-        {
-            setExperienceState(ElsewhereExperience_State.PLACING);
         }
+            //else if (experienceState == ElsewhereExperience_State.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
+        //{
+        //    setExperienceState(ElsewhereExperience_State.PLACING);
+        //}
     }
 
     private void setExperienceState(ElsewhereExperience_State state)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityEngine.XR.iOS;
+
 using UnityEngine.XR.ARFoundation;
 
 public class SceneManager_TapToPlace : MonoBehaviour
@@ -55,7 +55,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
     [Header("AR Object")]
     public GameObject focusSquare;
     public GameObject focusSquareFocused;
-    [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
+ //   [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
     [SerializeField] ARPlaneManager planeManager;
 
 

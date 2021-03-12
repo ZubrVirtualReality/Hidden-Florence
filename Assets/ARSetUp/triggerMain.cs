@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.iOS;
+
 
 public class triggerMain : MonoBehaviour {
 
 
-	[SerializeField] private ARReferenceImage referenceImage;
+	//[SerializeField] private ARReferenceImage referenceImage;
 	private GameObject imageAnchorGO;
 	//[SerializeField] private UnityARCameraManager camScript;
 	private bool seen = false;
@@ -37,16 +37,16 @@ public class triggerMain : MonoBehaviour {
 	
 	}
 
-    void AddImageAnchor(ARImageAnchor arImageAnchor)
-	{
-		if (arImageAnchor.referenceImageName == referenceImage.imageName) {
-			Vector3 position = UnityARMatrixOps.GetPosition (arImageAnchor.transform);
-			Quaternion rotation = UnityARMatrixOps.GetRotation (arImageAnchor.transform);
-			church.transform.position = position;
-			church.transform.rotation = rotation;
-			ScannerOrigin.position = position;
-		}
-	}
+ //   void AddImageAnchor(ARImageAnchor arImageAnchor)
+	//{
+	//	if (arImageAnchor.referenceImageName == referenceImage.imageName) {
+	//		Vector3 position = UnityARMatrixOps.GetPosition (arImageAnchor.transform);
+	//		Quaternion rotation = UnityARMatrixOps.GetRotation (arImageAnchor.transform);
+	//		church.transform.position = position;
+	//		church.transform.rotation = rotation;
+	//		ScannerOrigin.position = position;
+	//	}
+	//}
 	void AddImageAnchor(ARTrackedImage arImageAnchor)
 	{
 	
@@ -69,21 +69,21 @@ public class triggerMain : MonoBehaviour {
 			}
 		
 	}
-	void UpdateImageAnchor(ARImageAnchor arImageAnchor)
-	{
-		if (arImageAnchor.referenceImageName == referenceImage.imageName) {
-			church.transform.position = UnityARMatrixOps.GetPosition(arImageAnchor.transform);
-			church.transform.rotation = UnityARMatrixOps.GetRotation(arImageAnchor.transform);
-			if(!seen){
-				menu.callSetText(3);
-				seen = true;
-			}
-		}
-	}
+	//void UpdateImageAnchor(ARImageAnchor arImageAnchor)
+	//{
+	//	if (arImageAnchor.referenceImageName == referenceImage.imageName) {
+	//		church.transform.position = UnityARMatrixOps.GetPosition(arImageAnchor.transform);
+	//		church.transform.rotation = UnityARMatrixOps.GetRotation(arImageAnchor.transform);
+	//		if(!seen){
+	//			menu.callSetText(3);
+	//			seen = true;
+	//		}
+	//	}
+	//}
 
-	void RemoveImageAnchor(ARImageAnchor arImageAnchor)
-	{
-	}
+	//void RemoveImageAnchor(ARImageAnchor arImageAnchor)
+	//{
+	//}
 
 	void OnDestroy()
 	{

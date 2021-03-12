@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.iOS;
-
 public class FocusSquare : MonoBehaviour 
 {
 
@@ -45,19 +43,19 @@ public class FocusSquare : MonoBehaviour
 	}
 
 
-	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
-	{
-		List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
-		if (hitResults.Count > 0) {
-			foreach (var hitResult in hitResults) {
-				foundSquare.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-				foundSquare.transform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
-				Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.transform.position.x, foundSquare.transform.position.y, foundSquare.transform.position.z));
-				return true;
-			}
-		}
-		return false;
-	}
+	//bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
+	//{
+	//	List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
+	//	if (hitResults.Count > 0) {
+	//		foreach (var hitResult in hitResults) {
+	//			foundSquare.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+	//			foundSquare.transform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+	//			Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", foundSquare.transform.position.x, foundSquare.transform.position.y, foundSquare.transform.position.z));
+	//			return true;
+	//		}
+	//	}
+	//	return false;
+	//}
 
 	// Update is called once per frame
 	void Update () 
@@ -94,29 +92,29 @@ public class FocusSquare : MonoBehaviour
 
 
 		#else
-		var screenPosition = Camera.main.ScreenToViewportPoint(center);
-		ARPoint point = new ARPoint {
-			x = screenPosition.x,
-			y = screenPosition.y
-		};
+		//var screenPosition = Camera.main.ScreenToViewportPoint(center);
+		//ARPoint point = new ARPoint {
+		//	x = screenPosition.x,
+		//	y = screenPosition.y
+		//};
 
-		// prioritize reults types
-		ARHitTestResultType[] resultTypes = {
-			ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, 
-			// if you want to use infinite planes use this:
-			//ARHitTestResultType.ARHitTestResultTypeExistingPlane,
-			//ARHitTestResultType.ARHitTestResultTypeHorizontalPlane, 
-			//ARHitTestResultType.ARHitTestResultTypeFeaturePoint
-		}; 
+		//// prioritize reults types
+		//ARHitTestResultType[] resultTypes = {
+		//	ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, 
+		//	// if you want to use infinite planes use this:
+		//	//ARHitTestResultType.ARHitTestResultTypeExistingPlane,
+		//	//ARHitTestResultType.ARHitTestResultTypeHorizontalPlane, 
+		//	//ARHitTestResultType.ARHitTestResultTypeFeaturePoint
+		//}; 
 
-		foreach (ARHitTestResultType resultType in resultTypes)
-		{
-			if (HitTestWithResultType (point, resultType))
-			{
-				SquareState = FocusState.Found;
-				return;
-			}
-		}
+		//foreach (ARHitTestResultType resultType in resultTypes)
+		//{
+		//	if (HitTestWithResultType (point, resultType))
+		//	{
+		//		SquareState = FocusState.Found;
+		//		return;
+		//	}
+		//}
 
 		#endif
 
