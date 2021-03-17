@@ -12,7 +12,7 @@ public class OutlinePlacement : MonoBehaviour
   
     private void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0||Input.GetMouseButtonUp(0))
         {
             if (!placed)
             {

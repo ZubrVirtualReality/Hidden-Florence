@@ -49,13 +49,11 @@ public class triggerMain : MonoBehaviour {
 	//}
 	void AddImageAnchor(ARTrackedImage arImageAnchor)
 	{
-	
 			Vector3 position = arImageAnchor.transform.position;
 			Quaternion rotation =arImageAnchor.transform.rotation;
 			church.transform.position = position;
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
-		
 	}
 	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
 	{

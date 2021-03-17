@@ -40,7 +40,7 @@ public class ScannerEffectDemo : MonoBehaviour
 	void Start()
 	{
 		// _scannables = FindObjectsOfType<Scannable>();
-		particleMat.SetColor("_TintColor", _particlesStart);
+		particleMat?.SetColor("_TintColor", _particlesStart);
     }
 
 	void Update()
@@ -92,7 +92,7 @@ public class ScannerEffectDemo : MonoBehaviour
 		_scanning = false;
 		// ScanDistance = 100;
 		// speed = 0;
-		dbScript.addToString("camera off");
+		//dbScript.addToString("camera off");
 		// // cam02.SetActive(false);
 		Debug.Log("debugging --- cam02 off");
 		// menuScript.boundariesOn();
