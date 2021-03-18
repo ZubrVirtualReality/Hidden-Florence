@@ -12,6 +12,8 @@ public class ScannerEffectDemo : MonoBehaviour
 	public Material EffectMaterial;
 	public float ScanDistance;
 	public float speed = 25;
+	public float scanDistanceStart = 0;
+	public float startSpeed = 0;
 
 	public Camera _cameraMain;
 
@@ -67,11 +69,11 @@ public class ScannerEffectDemo : MonoBehaviour
 	}
 
 	public void startPainting(){
-		ScanDistance = 0;
+		ScanDistance =scanDistanceStart;
 		EffectMaterial.SetInt("_rev", 0);
 		Debug.Log("debugging --- startPainting00");
 		_scanning = true;
-		speed=0.25f;
+		speed=startSpeed+0.25f;
 		Debug.Log("debugging --- startPainting01");
 		StartCoroutine(turnOffCam02());
 	}
