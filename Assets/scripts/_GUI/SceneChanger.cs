@@ -28,7 +28,7 @@ public class SceneChanger : MonoBehaviour
 				previousScene = "ExperienceSelector";
 				break;
             default:
-				previousScene = "MainMenu";
+				previousScene = "IntroScene";
 				break;
 		}
 
