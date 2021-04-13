@@ -9,6 +9,8 @@ public class PanelHandler : MonoBehaviour
     public static PanelHandler instance;
     [SerializeField] private List<Panel> panels = new List<Panel>();
     public Panel currentPanel;
+    public string previousPanelName;
+    public string futurePanelName;
 
     void Start()
     {
@@ -39,6 +41,11 @@ public class PanelHandler : MonoBehaviour
                 tempGroup.alpha = 1;
                 tempGroup.blocksRaycasts = true;
                 tempGroup.interactable = true;
+                if(_panel.sceneToMoveTo != "")
+                {
+                    futurePanelName = _panel.sceneToMoveTo;
+                }
+                previousPanelName = currentPanel.panelName;
                 currentPanel = panel;
             }
         }
@@ -60,6 +67,7 @@ public class PanelHandler : MonoBehaviour
                 tempGroup.alpha = 1;
                 tempGroup.blocksRaycasts = true;
                 tempGroup.interactable = true;
+                previousPanelName = currentPanel.panelName;
                 currentPanel = panel;
             }
         }
