@@ -639,8 +639,8 @@ CanvasGroup:
   m_GameObject: {fileID: 228987746}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &228987750
 MonoBehaviour:
@@ -658,6 +658,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 228987749}
+  sceneToMoveTo: 
 --- !u!1 &231700433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1371,7 @@ MonoBehaviour:
   button: {fileID: 1223849697}
   panelToOpen: Elsewhere
   canvasGroup: {fileID: 1295638613}
+  sceneToMoveTo: 
 --- !u!1 &673512925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1725,7 @@ MonoBehaviour:
   button: {fileID: 1593937634}
   panelToOpen: V&A
   canvasGroup: {fileID: 1295638613}
+  sceneToMoveTo: 
 --- !u!1 &753774065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2038,7 @@ MonoBehaviour:
   button: {fileID: 140785628}
   panelToOpen: Santa
   canvasGroup: {fileID: 1295638613}
+  sceneToMoveTo: 
 --- !u!1 &838209727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2426,7 @@ MonoBehaviour:
   button: {fileID: 1016779044}
   panelToOpen: Final
   canvasGroup: {fileID: 946903036}
+  sceneToMoveTo: 
 --- !u!1 &958610476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,6 +2439,7 @@ GameObject:
   - component: {fileID: 958610481}
   - component: {fileID: 958610480}
   - component: {fileID: 958610479}
+  - component: {fileID: 958610478}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2461,6 +2467,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -2, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &958610478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958610476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a8c8f44dfc55440ac6eed6dcb5095c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 958610479}
+  scenes:
+  - 
+  - 
+  - 
+  - 
 --- !u!114 &958610479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3591,6 +3615,7 @@ MonoBehaviour:
   button: {fileID: 2137605011}
   panelToOpen: Museo
   canvasGroup: {fileID: 1295638613}
+  sceneToMoveTo: 
 --- !u!1 &1428426685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,6 +4662,8 @@ MonoBehaviour:
   - {fileID: 946903037}
   - {fileID: 228987750}
   currentPanel: {fileID: 0}
+  previousPanelName: 
+  futurePanelName: 
 --- !u!4 &1858837940
 Transform:
   m_ObjectHideFlags: 0
@@ -7121,6 +7148,7 @@ MonoBehaviour:
   button: {fileID: 6892610028033260195}
   panelToOpen: Final
   canvasGroup: {fileID: 3248142933723952985}
+  sceneToMoveTo: 
 --- !u!114 &3248142933723952990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7628,6 +7656,7 @@ MonoBehaviour:
   button: {fileID: 5057706371604619652}
   panelToOpen: Final
   canvasGroup: {fileID: 5057706371604619654}
+  sceneToMoveTo: ChapelDoor
 --- !u!114 &6892610026980395272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8439,6 +8468,7 @@ MonoBehaviour:
   button: {fileID: 676917173032395371}
   panelToOpen: Final
   canvasGroup: {fileID: 8921670519947603857}
+  sceneToMoveTo: ChapelStatues
 --- !u!114 &8921670519947603862
 MonoBehaviour:
   m_ObjectHideFlags: 0

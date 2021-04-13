@@ -260,7 +260,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8265442891979350083, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
 --- !u!224 &286277583 stripped
 RectTransform:
@@ -268,6 +269,38 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 286277582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &286277584 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8265442891979350110, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
+    type: 3}
+  m_PrefabInstance: {fileID: 286277582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &286277585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8265442892337739300, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
+    type: 3}
+  m_PrefabInstance: {fileID: 286277582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &286277586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286277585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04fc947efb9d704687a8cac936717f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 286277584}
+  nextScene: RelatedArtwork
 --- !u!1001 &381755544
 PrefabInstance:
   m_ObjectHideFlags: 0

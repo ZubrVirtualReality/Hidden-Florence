@@ -9,7 +9,7 @@ public class Panel : MonoBehaviour
     [SerializeField] private Button button;
     public string panelToOpen;
     public CanvasGroup canvasGroup;
-
+    public string sceneToMoveTo;
 
     void Start()
     {
