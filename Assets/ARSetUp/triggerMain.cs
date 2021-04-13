@@ -17,8 +17,13 @@ public class triggerMain : MonoBehaviour {
 	public GameObject church;
 	[SerializeField] private IMStartMenu menu;
 	[SerializeField] ARTrackedImageManager tim;
+	[SerializeField] bool isInnocenti = false;
+	const string innocenti = "Adoration_of_the_Magi_Spedale_degli_Innocenti";
+	const string sanPierMaggiore = "newTrigger";
+
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		tim.trackedImagesChanged += Changed;//.ARImageAnchorAddedEvent += AddImageAnchor;
 		//tim.ARImageAnchorUpdatedEvent += UpdateImageAnchor;
 		//tim.ARImageAnchorRemovedEvent += RemoveImageAnchor;
@@ -49,6 +54,10 @@ public class triggerMain : MonoBehaviour {
 	//}
 	void AddImageAnchor(ARTrackedImage arImageAnchor)
 	{
+		if(arImageAnchor.referenceImage.name != (isInnocenti? innocenti: sanPierMaggiore))
+        {
+			return;
+        }
 			Vector3 position = arImageAnchor.transform.position;
 			Quaternion rotation =arImageAnchor.transform.rotation;
 			church.transform.position = position;
@@ -57,8 +66,12 @@ public class triggerMain : MonoBehaviour {
 	}
 	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
 	{
+		if (arImageAnchor.referenceImage.name != (isInnocenti ? innocenti : sanPierMaggiore))
+		{
+			return;
+		}
 
-			church.transform.position = arImageAnchor.transform.position;
+		church.transform.position = arImageAnchor.transform.position;
 			church.transform.rotation = arImageAnchor.transform.rotation;
 			if (!seen)
 			{

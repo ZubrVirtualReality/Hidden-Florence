@@ -25,3 +25,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: newTrigger
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5717600904468194109
+      m_GuidHigh: 13814935803547612308
+    m_SerializedTextureGuid:
+      m_GuidLow: 9022096694854450246
+      m_GuidHigh: 7106387881351291672
+    m_Size: {x: 2.43, y: 2.8765125}
+    m_SpecifySize: 1
+    m_Name: Adoration_of_the_Magi_Spedale_degli_Innocenti
+    m_Texture: {fileID: 0}
