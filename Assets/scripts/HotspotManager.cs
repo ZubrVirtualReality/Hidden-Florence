@@ -13,6 +13,7 @@ public class HotspotManager : MonoBehaviour
     [SerializeField] TMP_Text content;
     [SerializeField] RectTransform panel;
     [SerializeField] Button close;
+    [SerializeField] Image infoImage;
     Sequence s;
 
     private void Awake()
@@ -41,10 +42,20 @@ public class HotspotManager : MonoBehaviour
         close.onClick.AddListener(Hide);
     }
 
-    public void ShowInfo(string _title, string _info)
+    public void ShowInfo(string _title, string _info, Sprite _image = null)
     {
         title.text = _title;
         content.text = _info;
+        if(_image)
+        {
+            infoImage.sprite = _image;
+            infoImage.enabled = true;
+            infoImage.preserveAspect = true;
+        }
+        else
+        {
+            infoImage.enabled = false;
+        }
         Show();
     }
 

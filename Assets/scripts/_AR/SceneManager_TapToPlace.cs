@@ -58,6 +58,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
  //   [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
     [SerializeField] ARPlaneManager planeManager;
 
+    [SerializeField] GameObject hotspots;
 
 
     private void Start()
@@ -144,6 +145,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 break;
             case TapToPlace_State.EXPERIENCING:
 				StartCoroutine(fadeOut(instructionsCanvas, 0f));
+                hotspots.SetActive(true);
 				this.state = newState;
 				startExperience();
                 break;
