@@ -1409,8 +1409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -20}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 52, y: -52}
+  m_SizeDelta: {x: 52, y: 52}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &673512927
 MonoBehaviour:
@@ -2480,11 +2480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 958610479}
-  scenes:
-  - 
-  - 
-  - 
-  - 
 --- !u!114 &958610479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3292,7 +3287,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295638611}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -5084,7 +5079,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 70
     m_Right: 0
-    m_Top: 80
+    m_Top: 125
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -6483,7 +6478,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 70
     m_Right: 0
-    m_Top: 80
+    m_Top: 125
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -7265,7 +7260,7 @@ PrefabInstance:
     - target: {fileID: 5057706370301689000, guid: 3261ef4ffe5edae408f4cffdd8a4fd47,
         type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5057706370301689000, guid: 3261ef4ffe5edae408f4cffdd8a4fd47,
         type: 3}
@@ -7611,6 +7606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057706371960013019, guid: 3261ef4ffe5edae408f4cffdd8a4fd47,
+        type: 3}
+      propertyPath: m_Padding.m_Top
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3784243737487995215, guid: 3261ef4ffe5edae408f4cffdd8a4fd47, type: 3}
@@ -8743,7 +8743,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 70
     m_Right: 0
-    m_Top: 80
+    m_Top: 125
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0

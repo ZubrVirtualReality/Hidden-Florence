@@ -217,6 +217,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 82541486}
+  sceneToMoveTo: 
 --- !u!1 &177309212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1255,7 @@ MonoBehaviour:
   button: {fileID: 637925442}
   panelToOpen: Download
   canvasGroup: {fileID: 1277252844}
+  sceneToMoveTo: 
 --- !u!114 &637925442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -1585,6 +1587,7 @@ MonoBehaviour:
   button: {fileID: 830031014}
   panelToOpen: OpenSource
   canvasGroup: {fileID: 1277252844}
+  sceneToMoveTo: 
 --- !u!114 &830031014 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -2624,6 +2627,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 1100875583}
+  sceneToMoveTo: 
 --- !u!1001 &1182099188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2959,7 +2963,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277252842}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -3005,6 +3009,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 1277252844}
+  sceneToMoveTo: 
 --- !u!1 &1313723863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,7 +3127,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 1
+    m_Top: 65
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -3339,7 +3344,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 1
+    m_Top: 65
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 70
@@ -3601,6 +3606,8 @@ MonoBehaviour:
   - {fileID: 1100875585}
   - {fileID: 82541488}
   currentPanel: {fileID: 0}
+  previousPanelName: 
+  futurePanelName: 
 --- !u!4 &1552910111
 Transform:
   m_ObjectHideFlags: 0
@@ -4010,7 +4017,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638244924}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -4056,6 +4063,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 1638244926}
+  sceneToMoveTo: 
 --- !u!1 &1669377309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4851,6 +4859,7 @@ MonoBehaviour:
   button: {fileID: 1938784650}
   panelToOpen: WhyAR
   canvasGroup: {fileID: 1277252844}
+  sceneToMoveTo: 
 --- !u!114 &1938784650 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -5030,7 +5039,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 1
+    m_Top: 65
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -5423,8 +5432,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 22, y: -20}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchoredPosition: {x: 52, y: -52}
+  m_SizeDelta: {x: 52, y: 52}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &1158798703900310037
 RectTransform:
@@ -5875,7 +5884,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 1
+    m_Top: 65
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0

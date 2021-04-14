@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.37840623
+  m_Size: 0.5172527
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -634,6 +634,7 @@ MonoBehaviour:
   button: {fileID: 8265442892302875123}
   panelToOpen: Santa
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!114 &189798323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,6 +737,7 @@ MonoBehaviour:
   button: {fileID: 195337376}
   panelToOpen: Final
   canvasGroup: {fileID: 967205041}
+  sceneToMoveTo: 
 --- !u!114 &195337376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,7 +1369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1}
+  m_AnchoredPosition: {x: 0, y: 13}
   m_SizeDelta: {x: 1100, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351401246
@@ -1446,6 +1448,8 @@ MonoBehaviour:
   - {fileID: 1615520431}
   - {fileID: 2138078031}
   currentPanel: {fileID: 0}
+  previousPanelName: 
+  futurePanelName: 
 --- !u!4 &395458926
 Transform:
   m_ObjectHideFlags: 0
@@ -1651,7 +1655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 121}
+  m_AnchoredPosition: {x: 0, y: 111}
   m_SizeDelta: {x: 1368, y: 7.0960693}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &508685112
@@ -3051,6 +3055,7 @@ MonoBehaviour:
   button: {fileID: 8265442893041173581}
   panelToOpen: Museo
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!114 &753364282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4285,6 +4290,7 @@ MonoBehaviour:
   button: {fileID: 8265442893041173581}
   panelToOpen: NationalGallery
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!1 &1104655845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,7 +5837,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.37840623
+  m_Size: 0.5172527
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6715,6 +6721,7 @@ MonoBehaviour:
   button: {fileID: 1615520432}
   panelToOpen: Final
   canvasGroup: {fileID: 1117686016}
+  sceneToMoveTo: 
 --- !u!114 &1615520432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6976,7 +6983,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 50
     m_Right: 50
-    m_Top: -135
+    m_Top: -125
     m_Bottom: -149
   m_ChildAlignment: 4
   m_Spacing: 300
@@ -7043,6 +7050,7 @@ MonoBehaviour:
   button: {fileID: 8265442893185425114}
   panelToOpen: Santa
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!114 &1675193653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7923,6 +7931,7 @@ MonoBehaviour:
   button: {fileID: 8265442893185425114}
   panelToOpen: Florence
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!1 &2030775912
 GameObject:
   m_ObjectHideFlags: 0
@@ -8412,7 +8421,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.35580972
+  m_Size: 0.486365
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8496,7 +8505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138078031
@@ -8515,6 +8524,7 @@ MonoBehaviour:
   button: {fileID: 0}
   panelToOpen: 
   canvasGroup: {fileID: 2138078033}
+  sceneToMoveTo: 
 --- !u!114 &2138078032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9278,6 +9288,7 @@ MonoBehaviour:
   button: {fileID: 8265442892302875123}
   panelToOpen: Elsewhere
   canvasGroup: {fileID: 937247616}
+  sceneToMoveTo: 
 --- !u!222 &8265442892346172601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9728,6 +9739,7 @@ MonoBehaviour:
   button: {fileID: 8265442892795293096}
   panelToOpen: Final
   canvasGroup: {fileID: 669851991}
+  sceneToMoveTo: 
 --- !u!222 &8265442892795293110
 CanvasRenderer:
   m_ObjectHideFlags: 0
