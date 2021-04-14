@@ -41,15 +41,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/About/About_OpenSource.unity
     guid: 574055b5c0d1240079ddc00ac53f2058
-  - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 1545694e7c48648e4a328af7afcddaf2
   - enabled: 0
     path: Assets/Scenes/Extras/Extras.unity
     guid: de5d07994bbf442e698f50fd876cb4a5
   - enabled: 1
     path: Assets/Scenes/IntroScene.unity
     guid: cd69e2127ae73c64f8c2db1921892582
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 1545694e7c48648e4a328af7afcddaf2
   - enabled: 1
     path: Assets/Scenes/SanPierWhereAreYou.unity
     guid: 27f8c60433b344644af9953e36c16ded
