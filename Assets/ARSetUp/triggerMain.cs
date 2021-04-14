@@ -20,6 +20,7 @@ public class triggerMain : MonoBehaviour {
 	[SerializeField] bool isInnocenti = false;
 	const string innocenti = "Adoration_of_the_Magi_Spedale_degli_Innocenti";
 	const string sanPierMaggiore = "newTrigger";
+	[SerializeField] GameObject hotspots;
 
 	// Use this for initialization
 	void Start () 
@@ -63,6 +64,7 @@ public class triggerMain : MonoBehaviour {
 			church.transform.position = position;
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
+		hotspots.SetActive(true);
 	}
 	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
 	{
