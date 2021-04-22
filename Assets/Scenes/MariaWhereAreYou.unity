@@ -3287,7 +3287,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295638611}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -7143,7 +7143,7 @@ MonoBehaviour:
   button: {fileID: 6892610028033260195}
   panelToOpen: Final
   canvasGroup: {fileID: 3248142933723952985}
-  sceneToMoveTo: 
+  sceneToMoveTo: ChapelDoor
 --- !u!114 &3248142933723952990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7260,7 +7260,7 @@ PrefabInstance:
     - target: {fileID: 5057706370301689000, guid: 3261ef4ffe5edae408f4cffdd8a4fd47,
         type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5057706370301689000, guid: 3261ef4ffe5edae408f4cffdd8a4fd47,
         type: 3}
@@ -7656,7 +7656,7 @@ MonoBehaviour:
   button: {fileID: 5057706371604619652}
   panelToOpen: Final
   canvasGroup: {fileID: 5057706371604619654}
-  sceneToMoveTo: ChapelDoor
+  sceneToMoveTo: imageAnchorInnocenti
 --- !u!114 &6892610026980395272
 MonoBehaviour:
   m_ObjectHideFlags: 0
