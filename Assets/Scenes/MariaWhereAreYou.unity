@@ -5222,10 +5222,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The model of San Pier Maggiore is large, so this
+  m_text: 'The model of Santa Maria degli Innocenti is large, so this
 
-    experience will
-    work best outdoors, in a large open
+    experience
+    will work best outdoors, in a large open
 
     space like a park or square.'
   m_isRightToLeft: 0
