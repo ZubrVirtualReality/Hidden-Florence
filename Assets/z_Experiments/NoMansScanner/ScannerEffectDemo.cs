@@ -36,13 +36,13 @@ public class ScannerEffectDemo : MonoBehaviour
 	[SerializeField] private Material particleMat;
 	[SerializeField] private Color _particlesStart;
 	[SerializeField] private Color _particlesOff;
-	[SerializeField] private debugLogTextScript dbScript;
-	[SerializeField] private IMStartMenu menuScript;
+	//[SerializeField] private debugLogTextScript dbScript;
+	//[SerializeField] private IMStartMenu menuScript;
 
 	void Start()
 	{
 		// _scannables = FindObjectsOfType<Scannable>();
-		particleMat?.SetColor("_TintColor", _particlesStart);
+		//particleMat?.SetColor("_TintColor", _particlesStart);
     }
 
 	void Update()
