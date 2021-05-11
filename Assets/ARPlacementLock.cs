@@ -22,7 +22,7 @@ public class ARPlacementLock : MonoBehaviour
         fillImage.fillAmount = 0;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
 #if UNITY_EDITOR
         if (Input.GetMouseButton(0) && !holdComplete)
@@ -51,9 +51,9 @@ public class ARPlacementLock : MonoBehaviour
             }
             gameObject.SetActive(false);
         }
+       
 
-#endif
-#if UNITY_ANDROID && !UNITY_EDITOR
+#elif UNITY_IOS || UNITY_ANDROID
         if (Input.touchCount > 0 && !holdComplete)
         {
             if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
