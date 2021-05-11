@@ -12764,8 +12764,23 @@ PrefabInstance:
       objectReference: {fileID: 2048189245}
     - target: {fileID: 5056012495852814650, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012495852814650, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012495852814650, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
       propertyPath: m_RaycastTarget
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012495852814650, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
@@ -12946,6 +12961,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: innocenti info
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012496505484430, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012496505484430, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012496505484430, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012496505484430, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5c092463db13462ba647626ea688ccb, type: 3}
