@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ExperiencesMenu/ExperienceLoader.unity
     guid: dc2b2a64514fa4d4994babf26a3b4e4e
   - enabled: 1
+    path: Assets/Scenes/imageAnchorInnocenti.unity
+    guid: 4c6df3e5257ec0c40ad01bacbfb5de89
+  - enabled: 1
     path: Assets/Scenes/imageAnchor.unity
     guid: b3b84c8362dcfb94592e98fa227927bf
   - enabled: 1

@@ -19,7 +19,7 @@ public class Panel : MonoBehaviour
         }
         if(canvasGroup == null)
         {
-            Debug.LogError("Missing canvas group on = " + panelName);
+            Debug.LogWarning("Missing canvas group on = " + panelName);
         }
         if(button != null)
         {

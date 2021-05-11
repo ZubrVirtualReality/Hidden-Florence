@@ -9,24 +9,51 @@ public class OutlinePlacement : MonoBehaviour
     [SerializeField] GameObject outline;
     [SerializeField] GameObject arObject;
     [SerializeField] Animator ani;
-  
+
+    private void OnEnable()
+    {
+        ARPlacementLock.HoldFinished += PlaceDoor;
+    }
+
+    private void OnDisable()
+    {
+        ARPlacementLock.HoldFinished -= PlaceDoor;
+    }
+
+    private void PlaceDoor()
+    {
+        if (!placed)
+        {
+            outline.SetActive(false);
+            arObject.transform.parent = null;
+
+            arObject.AddComponent<ARAnchor>();
+
+            arObject.SetActive(true);
+            ani.SetTrigger("Open");
+
+            placed = true;
+        }
+    }
+
     private void Update()
     {
-        if (Input.touchCount > 0||Input.GetMouseButtonUp(0))
-        {
-            if (!placed)
-            {
-                outline.SetActive(false);
-                arObject.transform.parent = null;
-                
-                arObject.AddComponent<ARAnchor>();
-                
-                arObject.SetActive(true);
-                ani.SetTrigger("Open");
-                
-                placed = true;
-            }
-        }
+
+        //if (Input.touchCount > 0||Input.GetMouseButtonUp(0))
+        //{
+        //    if (!placed)
+        //    {
+        //        outline.SetActive(false);
+        //        arObject.transform.parent = null;
+        //        
+        //        arObject.AddComponent<ARAnchor>();
+        //        
+        //        arObject.SetActive(true);
+        //        ani.SetTrigger("Open");
+        //        
+        //        placed = true;
+        //    }
+        //}
     }
 }
 

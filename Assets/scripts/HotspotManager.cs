@@ -62,7 +62,7 @@ public class HotspotManager : MonoBehaviour
     public void Show()
     {
         s?.Kill(true);
-        s.Append(panel.DOAnchorPosX(1000,0.3f));
+        s.Append(panel.DOAnchorPosX(panel.sizeDelta.x,0.3f));
     }
 
     public void Hide()
