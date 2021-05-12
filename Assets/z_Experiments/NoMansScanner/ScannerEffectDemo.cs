@@ -41,9 +41,14 @@ public class ScannerEffectDemo : MonoBehaviour
 
 	void Start()
 	{
-		// _scannables = FindObjectsOfType<Scannable>();
-		//particleMat?.SetColor("_TintColor", _particlesStart);
-    }
+
+	}
+
+	public void StartShader()
+    {
+		_scanning = true;
+		ScanDistance = 0;
+	}
 
 	void Update()
 	{

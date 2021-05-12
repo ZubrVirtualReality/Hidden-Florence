@@ -13,11 +13,12 @@ public class SceneSetup_TapToPlace : MonoBehaviour
 
     private void Awake()
     {
-        selectedExperience = AppManager.Instance.SelectedExperience;
+
     }
 
     void Start()
     {
+        selectedExperience = AppManager.Instance.SelectedExperience;
         Transform churchTransform = church.GetComponent<Transform>();
         Animator churchAnimator = church.GetComponent<Animator>();
         Vector3 newPosition = churchTransform.position;

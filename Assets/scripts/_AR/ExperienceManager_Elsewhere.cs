@@ -4,8 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-
-enum ElsewhereExperience_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING};
+[System.Serializable]
+public enum ElsewhereExperience_State
+{ 
+    SCANNING,
+    PLACING,
+    GETTING_READY,
+    EXPERIENCING
+};
 
 public class ExperienceManager_Elsewhere : MonoBehaviour
 {
@@ -49,7 +55,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     public GameObject focusSquareFocused;
    // [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
 
-    private ElsewhereExperience_State experienceState = ElsewhereExperience_State.SCANNING;
+    public ElsewhereExperience_State experienceState = ElsewhereExperience_State.SCANNING;
 
     private void Start()
     {
@@ -63,6 +69,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
         paintingMat.SetFloat("_Level", paintingNum);
         // Update scanner effect origin position
         scannerEffectOrigin.position = altarPiece.position;
+        //Debug.Log(Input.GetMouseButtonDown(0) + " " + !isPointerOverUIObject());
 
         if (Input.GetMouseButtonDown(0) && !isPointerOverUIObject())
         {
@@ -132,12 +139,12 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 			return false;
 		}
 
-        // Move church to focusSquare position
-        churchContainer.transform.position = new Vector3(
-            focusSquareFocused.transform.position.x,
-            focusSquareFocused.transform.position.y + altarPieceOffsetHeight,
-            focusSquareFocused.transform.position.z);
-        // Rotate church to face Camera
+         //Move church to focusSquare position
+         churchContainer.transform.position = new Vector3(
+          focusSquareFocused.transform.position.x,
+          focusSquareFocused.transform.position.y + altarPieceOffsetHeight,
+          focusSquareFocused.transform.position.z);
+         //Rotate church to face Camera
         churchContainer.transform.eulerAngles = new Vector3(
             churchContainer.transform.eulerAngles.x,
             Camera.main.transform.eulerAngles.y, //camera.transform.eulerAngles.y,
