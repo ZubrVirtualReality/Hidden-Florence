@@ -7,7 +7,7 @@ public class AppManager : MonoBehaviour {
 
     public static AppManager Instance { get; private set; }
 
-    public ExperienceType SelectedExperience;
+    [SerializeField] private ExperienceType SelectedExperience;
 
     private void Awake()
     {
@@ -20,5 +20,36 @@ public class AppManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+    }
+
+    public void ChangeExperience(string _experience)
+    {
+        switch (_experience)
+        {
+            case "":
+                {
+                    break;
+                }
+            case "NATIONAL_GALLERY":
+                {
+                    SelectedExperience = ExperienceType.NATIONAL_GALLERY;
+                    break;
+                }
+            case "FLORENCE":
+                {
+                    SelectedExperience = ExperienceType.FLORENCE;
+                    break;
+                }
+            case "ELSEWHERE":
+                {
+                    SelectedExperience = ExperienceType.ELSEWHERE;
+                    break;
+                }
+        }
+    }
+
+    public ExperienceType GetExperienceType()
+    {
+        return SelectedExperience;
     }
 }

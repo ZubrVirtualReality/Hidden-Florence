@@ -18,7 +18,7 @@ public class SceneSetup_TapToPlace : MonoBehaviour
 
     void Start()
     {
-        selectedExperience = AppManager.Instance.SelectedExperience;
+        selectedExperience = AppManager.Instance.GetExperienceType();
         Transform churchTransform = church.GetComponent<Transform>();
         Animator churchAnimator = church.GetComponent<Animator>();
         Vector3 newPosition = churchTransform.position;

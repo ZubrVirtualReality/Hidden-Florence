@@ -11,6 +11,7 @@ public class PanelHandler : MonoBehaviour
     public Panel currentPanel;
     public string previousPanelName;
     public string futurePanelName;
+    public string sceneName;
 
     void Start()
     {
@@ -44,6 +45,11 @@ public class PanelHandler : MonoBehaviour
                 if(_panel.sceneToMoveTo != "")
                 {
                     futurePanelName = _panel.sceneToMoveTo;
+                    sceneName = _panel.location;
+
+                    AppManager.Instance.ChangeExperience(_panel.location);
+
+                    
                 }
                 previousPanelName = currentPanel.panelName;
                 currentPanel = panel;

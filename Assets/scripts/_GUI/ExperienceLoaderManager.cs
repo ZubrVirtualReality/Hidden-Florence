@@ -23,7 +23,7 @@ public class ExperienceLoaderManager : MonoBehaviour
 
     private void Awake()
     {
-        selectedExperience = AppManager.Instance.SelectedExperience;
+        selectedExperience = AppManager.Instance.GetExperienceType();
         buttonPressed = false;
         continueButton.interactable = false;
 

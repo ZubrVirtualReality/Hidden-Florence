@@ -81,10 +81,6 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
                 setExperienceState(ElsewhereExperience_State.EXPERIENCING);
             }
         }
-            //else if (experienceState == ElsewhereExperience_State.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
-        //{
-        //    setExperienceState(ElsewhereExperience_State.PLACING);
-        //}
     }
 
     private void setExperienceState(ElsewhereExperience_State state)
@@ -194,7 +190,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
         Debug.Log("debugging --- go");
         scannerEffectScrip.startPainting();
         yield return new WaitForSeconds(0.1f);
-        churchAnimator.SetTrigger("go");
+        //churchAnimator.SetTrigger("go"); //commented
         scannerEffectScrip.startPainting();
         Debug.Log("debugging --- go end");
     }

@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.30929807
+  m_Size: 0.5118791
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -662,6 +662,7 @@ MonoBehaviour:
   panelToOpen: Santa
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &189798323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,6 +766,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 967205041}
   sceneToMoveTo: tapToPlace
+  location: FLORENCE
 --- !u!114 &195337376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,6 +1243,50 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &329405315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329405317}
+  - component: {fileID: 329405316}
+  m_Layer: 0
+  m_Name: AppManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &329405316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329405315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a08f8afc95ea4ce9a833946c9f1d1f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedExperience: 3
+--- !u!4 &329405317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329405315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &332962850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1523,7 @@ MonoBehaviour:
   currentPanel: {fileID: 0}
   previousPanelName: 
   futurePanelName: 
+  sceneName: 
 --- !u!4 &395458926
 Transform:
   m_ObjectHideFlags: 0
@@ -3110,6 +3157,7 @@ MonoBehaviour:
   panelToOpen: Museo
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &753364282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4372,6 +4420,7 @@ MonoBehaviour:
   panelToOpen: NationalGallery
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &1104655845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,7 +5967,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.30929807
+  m_Size: 0.5118791
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6803,6 +6852,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 1117686016}
   sceneToMoveTo: tapToPlace
+  location: ELSEWHERE
 --- !u!114 &1615520432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7132,6 +7182,7 @@ MonoBehaviour:
   panelToOpen: Santa
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &1675193653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8013,6 +8064,7 @@ MonoBehaviour:
   panelToOpen: Florence
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &2030775912
 GameObject:
   m_ObjectHideFlags: 0
@@ -8516,7 +8568,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.29082835
+  m_Size: 0.48131227
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8620,6 +8672,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 2138078033}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &2138078032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9384,6 +9437,7 @@ MonoBehaviour:
   panelToOpen: Elsewhere
   canvasGroup: {fileID: 937247616}
   sceneToMoveTo: 
+  location: 
 --- !u!222 &8265442892346172601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9834,7 +9888,8 @@ MonoBehaviour:
   button: {fileID: 8265442892795293096}
   panelToOpen: Final
   canvasGroup: {fileID: 669851991}
-  sceneToMoveTo: imageAnchor
+  sceneToMoveTo: imageAnchorInnocenti
+  location: NATIONAL_GALLERY
 --- !u!222 &8265442892795293110
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -5,11 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 using UnityEngine.XR.ARFoundation;
+using DG.Tweening;
 
 public class SceneManager_TapToPlace : MonoBehaviour
 {
-    public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
-    private TapToPlace_State state = TapToPlace_State.SCANNING;
+    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
+    public TapToPlace_State state = TapToPlace_State.SCANNING;
     private ExperienceType selectedExperience;
 
     [Header("Church")]
@@ -59,13 +60,14 @@ public class SceneManager_TapToPlace : MonoBehaviour
     [SerializeField] ARPlaneManager planeManager;
 
     [SerializeField] GameObject hotspots;
+    [SerializeField] private ScannerEffectDemo shader;
 
 
     private void Start()
     {
         alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
-        selectedExperience = AppManager.Instance.SelectedExperience;
-
+        selectedExperience = AppManager.Instance.GetExperienceType();
+        churchAnimator.SetTrigger("go");
         setExperienceState(TapToPlace_State.SCANNING);
     }
 
@@ -95,7 +97,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
         }
     }
 
-    private void setExperienceState(TapToPlace_State newState)
+    public void setExperienceState(TapToPlace_State newState)
     {
         Text alert = alertText.GetComponent<UnityEngine.UI.Text>();
         Text instructions = instructionsText.GetComponent<UnityEngine.UI.Text>();
@@ -143,6 +145,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 planeManager.subsystem.Stop();
                 focusSquare.SetActive(false);
                 break;
+
             case TapToPlace_State.EXPERIENCING:
 				StartCoroutine(fadeOut(instructionsCanvas, 0f));
                 hotspots.SetActive(true);
@@ -150,6 +153,19 @@ public class SceneManager_TapToPlace : MonoBehaviour
 				startExperience();
                 break;
         }
+    }
+
+    public void StartAltarAnim()
+    {
+        if (selectedExperience == ExperienceType.FLORENCE)
+        {
+            altarBase_Florence.SetActive(true);
+        }
+        else
+        {
+            altarBase_Elsewhere.SetActive(true);
+        }
+        churchAnimator.SetTrigger("go");
     }
 
     private bool placeAltarPiece()
@@ -203,14 +219,16 @@ public class SceneManager_TapToPlace : MonoBehaviour
             paintingNum -= Time.deltaTime * 1.5f;
             yield return null;
         }
+        
     }
-
+    
     IEnumerator startScannerEffect()
     {
         Debug.Log("debugging --- go");
         scannerEffectScrip.startPainting();
-        yield return new WaitForSeconds(0.1f);
         churchAnimator.SetTrigger("go");
+        yield return new WaitForSeconds(0.1f);
+        shader.StartShader();
         scannerEffectScrip.startPainting();
         Debug.Log("debugging --- go end");
     }

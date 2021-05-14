@@ -10,6 +10,7 @@ public class Panel : MonoBehaviour
     public string panelToOpen;
     public CanvasGroup canvasGroup;
     public string sceneToMoveTo;
+    public string location;
 
     void Start()
     {

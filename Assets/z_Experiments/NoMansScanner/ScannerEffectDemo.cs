@@ -23,6 +23,8 @@ public class ScannerEffectDemo : MonoBehaviour
 	public bool _scanning;
 	public bool _unscanning;
 	[SerializeField] private bool tapToPlace;
+	[SerializeField] private bool effectBegun;
+	[SerializeField] private bool freeze = true;
 	// Scannable[] _scannables;
 
 	// public GenerateImageAnchor imageScript;
@@ -39,37 +41,50 @@ public class ScannerEffectDemo : MonoBehaviour
 	//[SerializeField] private debugLogTextScript dbScript;
 	//[SerializeField] private IMStartMenu menuScript;
 
-	void Start()
-	{
-
+	public void StartShader()
+    {
+		freeze = false;
 	}
 
-	public void StartShader()
+	public void StartShaderWithoutApproval()
     {
 		_scanning = true;
 		ScanDistance = 0;
+		effectBegun = true;
 	}
 
 	void Update()
 	{
-		if (_scanning) {
-			ScanDistance += Time.deltaTime * speed;
-			speed += Time.deltaTime/5;
-			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
-		}
 
-		// if (_unscanning && tapToPlace) {//
-		if (_unscanning) {
-			ScanDistance -= Time.deltaTime * speed;
-			speed += Time.deltaTime/2;
-			// ScanDistance -= Time.deltaTime * speed;
-			// speed += Time.deltaTime/1f;
-			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
-		}
+		if (effectBegun)
+        {
+			if (_scanning) {
 
-		if (Input.GetKeyDown(KeyCode.C) && mainCam){
-			_scanning = true;
-			ScanDistance = 0;
+				ScanDistance += Time.deltaTime * speed;
+				speed += Time.deltaTime / 5;
+				if(freeze)
+                {
+					ScanDistance = 0;
+					speed = 0;
+                }
+				EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
+			}
+
+			if (_unscanning) 
+			{
+				ScanDistance -= Time.deltaTime * speed;
+				speed += Time.deltaTime/2;
+				// ScanDistance -= Time.deltaTime * speed;
+				// speed += Time.deltaTime/1f;
+				EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
+			}
+        }
+
+
+
+		if (Input.GetKeyDown(KeyCode.C) && mainCam)
+		{
+			TaptoPlace.instance.ManualStart();
 		}
 	}
 
@@ -77,7 +92,9 @@ public class ScannerEffectDemo : MonoBehaviour
 		ScanDistance =scanDistanceStart;
 		EffectMaterial.SetInt("_rev", 0);
 		Debug.Log("debugging --- startPainting00");
+		effectBegun = true;
 		_scanning = true;
+		//StartShader();
 		speed=startSpeed+0.25f;
 		Debug.Log("debugging --- startPainting01");
 		StartCoroutine(turnOffCam02());
@@ -94,15 +111,15 @@ public class ScannerEffectDemo : MonoBehaviour
 	// End Demo Code
 
 	IEnumerator turnOffCam02(){
-		yield return new WaitForSeconds (60f);
-		// EffectMaterial.SetInt("_rev", 1);
-		_scanning = false;
-		// ScanDistance = 100;
-		// speed = 0;
-		//dbScript.addToString("camera off");
-		// // cam02.SetActive(false);
+		yield return new WaitForSeconds (30f);
+		EffectMaterial.SetInt("_rev", 1); //
+		effectBegun = false; // _scanning = false
+		ScanDistance = 100;//
+		// speed = 0;//
+		//dbScript.addToString("camera off");//
+		cam02.SetActive(false);//
 		Debug.Log("debugging --- cam02 off");
-		// menuScript.boundariesOn();
+		// menuScript.boundariesOn();//
 	}
 
 	void OnEnable()

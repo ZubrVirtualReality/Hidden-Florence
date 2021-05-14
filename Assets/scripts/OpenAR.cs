@@ -15,6 +15,7 @@ public class OpenAR : MonoBehaviour
 
     public void MoveScene()
     {
+        AppManager.Instance.ChangeExperience(PanelHandler.instance.futurePanelName);
         SceneManager.LoadScene(PanelHandler.instance.futurePanelName);
     }
 

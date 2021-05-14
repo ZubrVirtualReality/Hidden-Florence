@@ -5,7 +5,6 @@ using System.Collections;
 
 public class SceneChanger : MonoBehaviour
 {
-
     public GameObject background;
 	public Animator animator;
 
@@ -50,21 +49,7 @@ public class SceneChanger : MonoBehaviour
     public void SelectExperience(string experienceName)
 	{
         Debug.Log(experienceName);
-        switch(experienceName)
-        {
-            case "NATIONAL_GALLERY":
-                AppManager.Instance.SelectedExperience = ExperienceType.NATIONAL_GALLERY;
-                break;
-            case "FLORENCE":
-                AppManager.Instance.SelectedExperience = ExperienceType.FLORENCE;
-                break;
-            case "ELSEWHERE":
-                AppManager.Instance.SelectedExperience = ExperienceType.ELSEWHERE;
-                break;
-            default:
-                AppManager.Instance.SelectedExperience = ExperienceType.NONE;
-                break;
-        }
+		AppManager.Instance.ChangeExperience(experienceName);
 	}
 
     public void OpenURL(string url)

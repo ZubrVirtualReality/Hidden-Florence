@@ -33,7 +33,7 @@ public class ExperienceInstructionsManager : MonoBehaviour
 
     void Awake()
     {
-        selectedExperience = AppManager.Instance.SelectedExperience;
+        selectedExperience = AppManager.Instance.GetExperienceType();
 
         Initialize();
     }
