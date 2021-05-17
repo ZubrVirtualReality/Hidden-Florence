@@ -139,7 +139,7 @@ public class TaptoPlace : MonoBehaviour
                 once = true;
             }
         }
-        if(Input.touchCount > 0 && once)
+        else if(Input.touchCount > 0 && once)
         {
 
             shaderScript.StartShader();
