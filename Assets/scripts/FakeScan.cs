@@ -5,6 +5,7 @@ using UnityEngine;
 public class FakeScan : MonoBehaviour
 {
     [SerializeField] private GameObject painting;
+    [SerializeField] private GameObject paintingToSpawn;
     [SerializeField] private ScannerEffectDemo shaderScript;
 
     bool once = false;
@@ -25,7 +26,7 @@ public class FakeScan : MonoBehaviour
         //painting.SetActive(true);
         shaderScript.StartShaderWithoutApproval();
         shaderScript.StartShader();
-        painting.transform.position = Vector3.zero;
+        //painting.transform.position = Vector3.zero;
         once = true;
     }
 
@@ -35,10 +36,12 @@ public class FakeScan : MonoBehaviour
         {
             if (!once)
             {
-                painting.SetActive(true);
+                //painting.SetActive(true);
+                Instantiate(paintingToSpawn);
+                paintingToSpawn.transform.Rotate(90, 0, 0);
                 shaderScript.StartShaderWithoutApproval();
                 shaderScript.StartShader();
-                painting.transform.position = Vector3.zero;
+                //painting.transform.position = Vector3.zero;
                 once = true;
             }
            //else

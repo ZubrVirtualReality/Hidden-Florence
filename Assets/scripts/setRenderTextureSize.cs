@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using TMPro;
 
 public class setRenderTextureSize : MonoBehaviour {
 
 	public Camera cam;
 	public Material mat;
 	public string texture;
-	[SerializeField] ARCameraBackground main;
-
+	[SerializeField] public ARCameraBackground main;
+	public TextMeshProUGUI debugText;
 	// Use this for initialization
 	void Start () 
 	{
@@ -22,7 +23,9 @@ public class setRenderTextureSize : MonoBehaviour {
 		mat.SetTexture(texture, cam.targetTexture);
 	}
 	
-	void Update () {
+	void Update () 
+	{
+		//debugText.SetText(main.material.name);
 		Graphics.Blit(null, cam.targetTexture, main.material);
 	}
 }
