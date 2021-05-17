@@ -138,11 +138,12 @@ public class TaptoPlace : MonoBehaviour
                 objectToEnable.transform.position = hitPose.position;
                 once = true;
             }
-            else
-            {
-                shaderScript.StartShader();
-                churchManager.StartAltarAnim();
-            }
+        }
+        if(Input.touchCount > 0 && once)
+        {
+
+            shaderScript.StartShader();
+            churchManager.StartAltarAnim();     
         }
 
     }

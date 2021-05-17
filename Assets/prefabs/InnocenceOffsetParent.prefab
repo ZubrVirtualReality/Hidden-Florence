@@ -414,7 +414,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -611,7 +611,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1047,8 +1047,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c56781b31aebc9b4b9aa4c7a89ddb9d2, type: 2}
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: 518877e30cdfc89408fb888cd2109425, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1291,7 +1291,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1372,8 +1372,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aca3a09edb35eb948a87ad110fb4fc06, type: 2}
-  - {fileID: 2100000, guid: aca3a09edb35eb948a87ad110fb4fc06, type: 2}
+  - {fileID: 2100000, guid: cd31545df25e33047815bce88b774d79, type: 2}
+  - {fileID: 2100000, guid: cd31545df25e33047815bce88b774d79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1616,7 +1616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aca3a09edb35eb948a87ad110fb4fc06, type: 2}
+  - {fileID: 2100000, guid: cd31545df25e33047815bce88b774d79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1764,7 +1764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3035489332631529499}
   - component: {fileID: 1208288250474639218}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,7 +3857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4625330540763059838}
   - component: {fileID: 7399371355858320184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4500,7 +4500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7833289553372282183}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4950,7 +4950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4421286456162772184}
   - component: {fileID: 934922494105928138}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5073,13 +5073,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7812716116431611138}
-  m_Layer: 0
+  - component: {fileID: 723688503}
+  m_Layer: 9
   m_Name: InnocenceOffsetParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7812716116431611138
 Transform:
   m_ObjectHideFlags: 0
@@ -5095,6 +5096,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723688503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469226938758678566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03461e2a0335d484b8c6059d319a0979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1478700336344025523
 GameObject:
   m_ObjectHideFlags: 0
@@ -5154,7 +5167,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5316,7 +5329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 29335a7072128164f9218909f39fa819, type: 2}
+  - {fileID: 2100000, guid: f255cf3fe9823e34d9e5fe0372fe82ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6650,7 +6663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6731,7 +6744,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8586146fdca4e2f4bb018aebb6d487b0, type: 2}
+  - {fileID: 2100000, guid: bc8bdb9f50c5b5f4189303e42c17636a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7510,7 +7523,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7706,7 +7719,7 @@ GameObject:
   - component: {fileID: 8300896873887453388}
   - component: {fileID: 9094524144793654891}
   - component: {fileID: 1403540109052733883}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Orientationmarker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8514,7 +8527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4366148285189857761}
   - component: {fileID: 8659181850844702738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8656,7 +8669,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8818,7 +8831,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8931,7 +8944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4764454888167029344}
   - component: {fileID: 8142349719181354885}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9154,8 +9167,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e144105b05603344c9235da5ea804648, type: 2}
-  - {fileID: 2100000, guid: e144105b05603344c9235da5ea804648, type: 2}
+  - {fileID: 2100000, guid: 584cfdacb5d266144b3db36eea65dc63, type: 2}
+  - {fileID: 2100000, guid: 584cfdacb5d266144b3db36eea65dc63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9187,7 +9200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2478093386576908582}
   - component: {fileID: 4977088089001833619}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9815,7 +9828,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9896,7 +9909,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd077e55bcffd8f4f8e5db5e937cfb7e, type: 2}
+  - {fileID: 2100000, guid: 6e8f509b80f954d4d9f359b5230138df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10220,7 +10233,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10287,7 +10300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6988489600479785313}
   - component: {fileID: 4097179185412415741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11994,7 +12007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540979574651573373}
   - component: {fileID: 1972974024115196215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12199,7 +12212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233537247965}
   - component: {fileID: 3121267233537247964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12292,7 +12305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233673440026}
   - component: {fileID: 3121267233673440025}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12385,7 +12398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233755806536}
   - component: {fileID: 3121267233755806391}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12478,7 +12491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233774409573}
   - component: {fileID: 3121267233774409572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12571,7 +12584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233800886079}
   - component: {fileID: 3121267233800886078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12664,7 +12677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233816028346}
   - component: {fileID: 3121267233816028345}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12757,7 +12770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267233908995497}
   - component: {fileID: 3121267233908995496}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12850,7 +12863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234192621719}
   - component: {fileID: 3121267234192621718}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12943,7 +12956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234418245694}
   - component: {fileID: 3121267234418245693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13036,7 +13049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234485016584}
   - component: {fileID: 3121267234485016695}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13129,7 +13142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234537167243}
   - component: {fileID: 3121267234537167242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13222,7 +13235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234566949862}
   - component: {fileID: 3121267234566949861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13286,7 +13299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234607078142}
   - component: {fileID: 3121267234607078141}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13379,7 +13392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234867387024}
   - component: {fileID: 3121267234867387039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13472,7 +13485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234870765291}
   - component: {fileID: 3121267234870765290}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13565,7 +13578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234892895218}
   - component: {fileID: 3121267234892895217}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13658,7 +13671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267234954514103}
   - component: {fileID: 3121267234954514102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13751,7 +13764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267235247108001}
   - component: {fileID: 3121267235247108000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13844,7 +13857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267235247281425}
   - component: {fileID: 3121267235247281424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13937,7 +13950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267235584176787}
   - component: {fileID: 3121267235584176786}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14030,7 +14043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3121267235623781624}
   - component: {fileID: 3121267235623781607}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14527,7 +14540,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15786,7 +15799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6067958610237429883}
   - component: {fileID: 8107289790630444788}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16158,7 +16171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16648,7 +16661,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -16718,7 +16731,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17104,7 +17117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1257944610910327350}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ChapelInnoce nti 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17720,7 +17733,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17833,7 +17846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705315648091652182}
   - component: {fileID: 6878700402240664974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18211,7 +18224,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18292,7 +18305,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18373,7 +18386,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd077e55bcffd8f4f8e5db5e937cfb7e, type: 2}
+  - {fileID: 2100000, guid: 6e8f509b80f954d4d9f359b5230138df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18524,7 +18537,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19285,7 +19298,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19316,7 +19329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226607998852702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Window Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19354,7 +19367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608169409661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: High Altar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19390,7 +19403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608358147343}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lights (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19423,7 +19436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608366671983}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -19453,7 +19466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608496281265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -19483,7 +19496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608559556768}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Extra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19518,7 +19531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314226608676531915}
   - component: {fileID: 4314226608676531914}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light Probe Group (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19822,7 +19835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608716478302}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -19916,7 +19929,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226608852035839}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Interior Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19950,7 +19963,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609004732149}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -19981,7 +19994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314226609093629637}
   - component: {fileID: 4314226609093629636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20073,7 +20086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609185253627}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -20103,7 +20116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609408662213}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pugliese Altar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20135,7 +20148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609444215885}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Innocenti Hotspots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20173,7 +20186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609514979781}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -20204,7 +20217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314226609561838657}
   - component: {fileID: 4314226609561838656}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20296,7 +20309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609697178071}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -20326,7 +20339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609809523643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -20357,7 +20370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314226609921007338}
   - component: {fileID: 4314226609921007337}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20449,7 +20462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4314226609982815747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bicci Altar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21227,7 +21240,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21409,7 +21422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6980353039746061702}
   - component: {fileID: 2583025304278030569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22069,7 +22082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22474,7 +22487,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22555,7 +22568,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22636,7 +22649,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f1a41d6360e41c84b8c2a28cc8a5e337, type: 2}
+  - {fileID: 2100000, guid: 034ba8abf1c00df41ae17174a9360722, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23379,7 +23392,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23460,7 +23473,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24083,7 +24096,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24245,7 +24258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24326,7 +24339,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24650,7 +24663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24846,7 +24859,7 @@ GameObject:
   - component: {fileID: 3488738535324729859}
   - component: {fileID: 2525637134189799116}
   m_Layer: 9
-  m_Name: Main Altar|msh_sfm_painting-03_000_low|Dupli|21
+  m_Name: Actual Painting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24893,7 +24906,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 32175b49656db0f4fb184549b5f1b4b5, type: 2}
+  - {fileID: 2100000, guid: aec4a82900d583543882acdcb352456c, type: 2}
   - {fileID: 2100000, guid: 5b6a8cd83fe51a74996d5bfef8a7bc60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -25423,7 +25436,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25697,7 +25710,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28265,7 +28278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28763,7 +28776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8586146fdca4e2f4bb018aebb6d487b0, type: 2}
+  - {fileID: 2100000, guid: bc8bdb9f50c5b5f4189303e42c17636a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29789,7 +29802,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29870,7 +29883,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30567,7 +30580,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd077e55bcffd8f4f8e5db5e937cfb7e, type: 2}
+  - {fileID: 2100000, guid: 6e8f509b80f954d4d9f359b5230138df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31134,7 +31147,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31215,7 +31228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32552,7 +32565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5056799684780618427}
   - component: {fileID: 5599679034860337902}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32887,7 +32900,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32968,7 +32981,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34000,7 +34013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5238834834008354783}
   - component: {fileID: 5151380107235016729}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34335,7 +34348,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34828,7 +34841,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36606,7 +36619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36811,7 +36824,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37537,7 +37550,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37699,7 +37712,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd077e55bcffd8f4f8e5db5e937cfb7e, type: 2}
+  - {fileID: 2100000, guid: 6e8f509b80f954d4d9f359b5230138df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38035,7 +38048,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fd33e52e69792194f9941884f2b90c74, type: 2}
+  - {fileID: 2100000, guid: c067e369f55261942a9fb889cae11236, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38181,7 +38194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9106062994614813830}
   - component: {fileID: 7061297188635930433}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39176,7 +39189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d42baf06914c4a8e6fe8ddf3dffaf, type: 2}
+  - {fileID: 2100000, guid: eea05ce49acee9e42ac9ac34923fdba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39774,7 +39787,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40074,7 +40087,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c33147b96abb93489b6cd08a59059e3, type: 2}
+  - {fileID: 2100000, guid: ddb73ec42acb1f84592e386d0248bf97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

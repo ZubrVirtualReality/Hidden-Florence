@@ -3572,7 +3572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 4c32a01df04337e4aa5fd88722887632,
+  m_SerializedLibrary: {fileID: 11400000, guid: f52f5aaafc8f73b40bf459d4d1d077b2,
     type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
@@ -13906,6 +13906,8 @@ MonoBehaviour:
   _scanning: 0
   _unscanning: 0
   tapToPlace: 0
+  effectBegun: 0
+  freeze: 1
   cam02: {fileID: 1097729748}
   fadeInPainting: {fileID: 0}
   camTran: {fileID: 0}
@@ -13913,8 +13915,6 @@ MonoBehaviour:
   particleMat: {fileID: 2100000, guid: f7cffc03fadd142ea81401e16399833e, type: 2}
   _particlesStart: {r: 0.6981132, g: 0.67178917, b: 0.26014596, a: 0.79607844}
   _particlesOff: {r: 0.6792453, g: 0.6439739, b: 0.28515485, a: 0.6784314}
-  dbScript: {fileID: 1454626606}
-  menuScript: {fileID: 1913263623}
 --- !u!114 &1540037842
 MonoBehaviour:
   m_ObjectHideFlags: 0
