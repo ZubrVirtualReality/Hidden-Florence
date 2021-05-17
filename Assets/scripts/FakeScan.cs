@@ -22,6 +22,11 @@ public class FakeScan : MonoBehaviour
     void StartEffect()
     {
         Debug.Log("Church Enabled");
+        //painting.SetActive(true);
+        shaderScript.StartShaderWithoutApproval();
+        shaderScript.StartShader();
+        painting.transform.position = Vector3.zero;
+        once = true;
     }
 
     void Update()
@@ -36,10 +41,10 @@ public class FakeScan : MonoBehaviour
                 painting.transform.position = Vector3.zero;
                 once = true;
             }
-            else
-            {
-                shaderScript.StartShader();
-            }
+           //else
+           //{
+           //    shaderScript.StartShader();
+           //}
         }
     }
 }

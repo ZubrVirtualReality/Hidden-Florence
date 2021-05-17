@@ -21,8 +21,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10427164495375490050
       m_GuidHigh: 18073685212785208459
-    m_Size: {x: 2.43, y: 2.8765125}
-    m_SpecifySize: 0
+    m_Size: {x: 2.4076028, y: 2.85}
+    m_SpecifySize: 1
     m_Name: Adoration
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
