@@ -1276,6 +1276,7 @@ MonoBehaviour:
   mat: {fileID: 2100000, guid: 808b571f85bcac742abf820a9ea9eb90, type: 2}
   texture: _NonTex
   main: {fileID: 421761972}
+  debugText: {fileID: 0}
 --- !u!124 &1742714426
 Behaviour:
   m_ObjectHideFlags: 0
@@ -5242,17 +5243,17 @@ PrefabInstance:
     - target: {fileID: 687707681752352116, guid: 387757a9ed64746489dc2aeb3ddc359b,
         type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 0.85
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 687707681752352116, guid: 387757a9ed64746489dc2aeb3ddc359b,
         type: 3}
       propertyPath: m_ReferenceResolution.x
-      value: 2224
+      value: 1368
       objectReference: {fileID: 0}
     - target: {fileID: 687707681752352116, guid: 387757a9ed64746489dc2aeb3ddc359b,
         type: 3}
       propertyPath: m_ReferenceResolution.y
-      value: 1668
+      value: 1024
       objectReference: {fileID: 0}
     - target: {fileID: 687707681752352118, guid: 387757a9ed64746489dc2aeb3ddc359b,
         type: 3}

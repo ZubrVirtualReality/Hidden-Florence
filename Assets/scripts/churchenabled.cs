@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class churchenabled : MonoBehaviour
 {
-    public delegate void SpawnAction();
+    public delegate void SpawnAction(Vector3 _centre);
     public static event SpawnAction ChurchEnabled;
     public static churchenabled instance;
     [SerializeField] private GameObject origin;
@@ -17,12 +17,16 @@ public class churchenabled : MonoBehaviour
         {
             instance = this;
         }
-        ChurchEnabled.Invoke();
     }
 
     public Vector3 GetOrigin()
     {
         return origin.transform.position;
+    }
+
+    private void Start()
+    {
+        ChurchEnabled.Invoke(origin.transform.position);
     }
 
 }
