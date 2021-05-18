@@ -46,10 +46,10 @@ public class ScannerEffectDemo : MonoBehaviour
 		freeze = false;
 	}
 
-	public void StartShaderWithoutApproval()
+	public void StartShaderWithoutApproval(int _scanDistance)
     {
 		_scanning = true;
-		ScanDistance = 0;
+		ScanDistance = _scanDistance;
 		effectBegun = true;
 	}
 

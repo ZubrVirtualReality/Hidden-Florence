@@ -78,7 +78,7 @@ public class TaptoPlace : MonoBehaviour
         if (!once)
         {
             objectToEnable.SetActive(true);
-            shaderScript.StartShaderWithoutApproval();
+            shaderScript.StartShaderWithoutApproval(0);
             objectToEnable.transform.position = Vector3.zero;
             once = true;
         }
@@ -134,7 +134,7 @@ public class TaptoPlace : MonoBehaviour
             if(!once)
             {
                 objectToEnable.SetActive(true);
-                shaderScript.StartShaderWithoutApproval();
+                shaderScript.StartShaderWithoutApproval(0);
                 objectToEnable.transform.position = hitPose.position;
                 once = true;
             }

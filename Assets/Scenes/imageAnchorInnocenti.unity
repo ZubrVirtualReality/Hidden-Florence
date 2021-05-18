@@ -3869,6 +3869,7 @@ MonoBehaviour:
   paintingToSpawn: {fileID: 1469226938758678566, guid: 47eb5b6b3dd650d4da356acff3e975e4,
     type: 3}
   shaderScript: {fileID: 1540037841}
+  scanCentre: {fileID: 604085995}
 --- !u!114 &625030888
 MonoBehaviour:
   m_ObjectHideFlags: 0

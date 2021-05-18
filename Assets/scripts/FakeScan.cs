@@ -7,6 +7,7 @@ public class FakeScan : MonoBehaviour
     [SerializeField] private GameObject painting;
     [SerializeField] private GameObject paintingToSpawn;
     [SerializeField] private ScannerEffectDemo shaderScript;
+    [SerializeField] private GameObject scanCentre;
 
     bool once = false;
 
@@ -22,9 +23,9 @@ public class FakeScan : MonoBehaviour
 
     void StartEffect()
     {
-        Debug.Log("Church Enabled");
         //painting.SetActive(true);
-        shaderScript.StartShaderWithoutApproval();
+        scanCentre.transform.position = churchenabled.instance.GetOrigin();
+        shaderScript.StartShaderWithoutApproval(0);
         shaderScript.StartShader();
         //painting.transform.position = Vector3.zero;
         once = true;
@@ -37,9 +38,10 @@ public class FakeScan : MonoBehaviour
             if (!once)
             {
                 //painting.SetActive(true);
-                Instantiate(paintingToSpawn);
-                paintingToSpawn.transform.Rotate(90, 0, 0);
-                shaderScript.StartShaderWithoutApproval();
+                painting = Instantiate(paintingToSpawn);
+                painting.transform.Rotate(-90, 0, 0);
+                scanCentre.transform.position = paintingToSpawn.GetComponent<churchenabled>().GetOrigin();
+                shaderScript.StartShaderWithoutApproval(0);
                 shaderScript.StartShader();
                 //painting.transform.position = Vector3.zero;
                 once = true;
