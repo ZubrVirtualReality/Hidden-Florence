@@ -27,7 +27,6 @@ public class FakeScan : MonoBehaviour
     {
         //painting.SetActive(true);
         scanCentre.transform.position = _centrePosition;
-        debugText.SetText((_centrePosition).ToString());
         shaderScript.StartShaderWithoutApproval(0);
         StartCoroutine(WaitFor(0.1f));
         //painting.transform.position = Vector3.zero;

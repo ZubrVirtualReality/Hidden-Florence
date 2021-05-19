@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum ExperienceType{ FLORENCE, ELSEWHERE, NATIONAL_GALLERY, NONE };
+public enum ExperienceType{ FLORENCE, ELSEWHERE, INNOCENTI_ELSEWHERE, NATIONAL_GALLERY, NONE };
 
 public class AppManager : MonoBehaviour {
 

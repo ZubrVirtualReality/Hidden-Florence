@@ -9,8 +9,8 @@ using DG.Tweening;
 
 public class SceneManager_TapToPlace : MonoBehaviour
 {
-    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
-    public TapToPlace_State state = TapToPlace_State.SCANNING;
+    [System.Serializable]public enum TapToPlace_StateInno { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
+    public TapToPlace_StateInno state = TapToPlace_StateInno.SCANNING;
     private ExperienceType selectedExperience;
 
     [Header("Church")]
@@ -53,6 +53,14 @@ public class SceneManager_TapToPlace : MonoBehaviour
     public string gettingReadyAlert_Elsewhere;
     public string gettingReadyInstruction_Elsewhere;
 
+    //[Header("UI Strings - Innocenti")]
+    //public string scanningAlert_Innocenti;
+    //public string scanningInstruction_Elsewhere;
+    //public string placingAlert_Elsewhere;
+    //public string placingInstruction_Elsewhere;
+    //public string gettingReadyAlert_Elsewhere;
+    //public string gettingReadyInstruction_Elsewhere;
+
     [Header("AR Object")]
     public GameObject focusSquare;
     public GameObject focusSquareFocused;
@@ -68,7 +76,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
         alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
         selectedExperience = AppManager.Instance.GetExperienceType();
         churchAnimator.SetTrigger("go");
-        setExperienceState(TapToPlace_State.SCANNING);
+        setExperienceState(TapToPlace_StateInno.SCANNING);
     }
 
     private void Update()
@@ -78,16 +86,16 @@ public class SceneManager_TapToPlace : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && !isPointerOverUIObject())
         {
-            if (state == TapToPlace_State.PLACING)
+            if (state == TapToPlace_StateInno.PLACING)
             {
-                setExperienceState(TapToPlace_State.GETTING_READY);
-            } else if (state == TapToPlace_State.GETTING_READY)
+                setExperienceState(TapToPlace_StateInno.GETTING_READY);
+            } else if (state == TapToPlace_StateInno.GETTING_READY)
             {
-                setExperienceState(TapToPlace_State.EXPERIENCING);
+                setExperienceState(TapToPlace_StateInno.EXPERIENCING);
             }
-        } else if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0)// generatePlaneScrip.hasGeneratedPlanes())
+        } else if (state == TapToPlace_StateInno.SCANNING && planeManager.trackables.count>0)// generatePlaneScrip.hasGeneratedPlanes())
         {
-            setExperienceState(TapToPlace_State.PLACING);
+            setExperienceState(TapToPlace_StateInno.PLACING);
         }
 
         // Update scanner effect origin position
@@ -97,14 +105,14 @@ public class SceneManager_TapToPlace : MonoBehaviour
         }
     }
 
-    public void setExperienceState(TapToPlace_State newState)
+    public void setExperienceState(TapToPlace_StateInno newState)
     {
         Text alert = alertText.GetComponent<UnityEngine.UI.Text>();
         Text instructions = instructionsText.GetComponent<UnityEngine.UI.Text>();
         bool isFlorence = selectedExperience == ExperienceType.FLORENCE;
         switch (newState)
         {
-            case TapToPlace_State.SCANNING:
+            case TapToPlace_StateInno.SCANNING:
 				this.state = newState;
                 alert.text = isFlorence ? scanningAlert_Florence : scanningAlert_Elsewhere;
                 instructions.text = isFlorence ? scanningInstruction_Florence : scanningInstruction_Elsewhere;
@@ -117,7 +125,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 focusSquare.SetActive(true);
                 break;
 
-            case TapToPlace_State.PLACING:
+            case TapToPlace_StateInno.PLACING:
 				this.state = newState;
                 alert.text = isFlorence ? placingAlert_Florence : placingAlert_Elsewhere;
                 instructions.text = isFlorence ? placingInstruction_Florence : placingInstruction_Elsewhere;
@@ -127,7 +135,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
 
-            case TapToPlace_State.GETTING_READY:
+            case TapToPlace_StateInno.GETTING_READY:
                 if (!placeAltarPiece()) break;
                 this.state = newState;
                 alert.text = isFlorence ? gettingReadyAlert_Florence : gettingReadyAlert_Elsewhere;
@@ -146,7 +154,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 focusSquare.SetActive(false);
                 break;
 
-            case TapToPlace_State.EXPERIENCING:
+            case TapToPlace_StateInno.EXPERIENCING:
 				StartCoroutine(fadeOut(instructionsCanvas, 0f));
                 hotspots.SetActive(true);
 				this.state = newState;
