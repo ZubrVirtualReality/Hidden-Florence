@@ -8,6 +8,7 @@ public class OutlinePlacement : MonoBehaviour
     bool placed = false;
     [SerializeField] GameObject outline;
     [SerializeField] GameObject arObject;
+    [SerializeField] GameObject arMarkers;
     [SerializeField] Animator ani;
 
     private void OnEnable()
@@ -30,7 +31,9 @@ public class OutlinePlacement : MonoBehaviour
             arObject.AddComponent<ARAnchor>();
 
             arObject.SetActive(true);
+            arMarkers.SetActive(true);
             ani.SetTrigger("Open");
+            
 
             placed = true;
         }
