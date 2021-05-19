@@ -29,8 +29,7 @@ public class FakeScan : MonoBehaviour
         scanCentre.transform.position = _centrePosition;
         debugText.SetText((_centrePosition).ToString());
         shaderScript.StartShaderWithoutApproval(0);
-        shaderScript.StartShader();
-        scanCentre.transform.position = _centrePosition;
+        StartCoroutine(WaitFor(0.1f));
         //painting.transform.position = Vector3.zero;
         once = true;
         //StartCoroutine(WaitFor(0.08f));
@@ -38,8 +37,9 @@ public class FakeScan : MonoBehaviour
 
     IEnumerator WaitFor(float _waitTime)
     {
-        yield return new WaitForEndOfFrame();
-
+        yield return new WaitForSeconds(_waitTime);
+        scanCentre.transform.position = churchenabled.instance.GetOrigin();
+        shaderScript.StartShader();
         yield return null;
     }
 
