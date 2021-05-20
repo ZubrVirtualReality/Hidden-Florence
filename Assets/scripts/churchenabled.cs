@@ -9,8 +9,6 @@ public class churchenabled : MonoBehaviour
     public static event SpawnAction ChurchEnabled;
     public static churchenabled instance;
     [SerializeField] private GameObject origin;
-    [SerializeField] private GameObject effectOrigin;
-
 
     private void OnEnable()
     {

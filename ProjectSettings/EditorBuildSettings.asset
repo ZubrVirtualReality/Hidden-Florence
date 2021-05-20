@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Extras/Test.unity
     guid: bb80488723061ba4aa6b51066bea9035
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/IntroScene.unity
     guid: cd69e2127ae73c64f8c2db1921892582
   - enabled: 0
@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ExperiencesMenu/ExperienceLoader.unity
     guid: dc2b2a64514fa4d4994babf26a3b4e4e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/imageAnchorInnocenti.unity
     guid: 4c6df3e5257ec0c40ad01bacbfb5de89
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/imageAnchor.unity
     guid: b3b84c8362dcfb94592e98fa227927bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/tapToPlace.unity
     guid: 6eea48fabbf240e46b0c574f4d37583c
   - enabled: 1
@@ -56,25 +56,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Extras/Extras.unity
     guid: de5d07994bbf442e698f50fd876cb4a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: 1545694e7c48648e4a328af7afcddaf2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SanPierWhereAreYou.unity
     guid: 27f8c60433b344644af9953e36c16ded
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MariaWhereAreYou.unity
     guid: 1e49005883d1ec8459f24811ad578dfa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AboutPage.unity
     guid: 07cf772145d0d174d9b5fd34dbd44bbf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SantaMaria.unity
     guid: e4dacdf4e78b41a4dae5391d486084c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SanPier.unity
     guid: 6ffc9e265a737d443baa8dd438f017bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RelatedArtwork.unity
     guid: c8fcb173551881e41acc0422cff9f921
   - enabled: 0
@@ -83,10 +83,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Extras/Extras_HF.unity
     guid: 7c4621d3fb7d14dfdb869f68b901b8e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChapelDoor.unity
     guid: 7f8a942a20babae449c67e36a5f2b334
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChapelStatues.unity
     guid: 63037acd5bd46a14481ff2cd439d2976
   m_configObjects:

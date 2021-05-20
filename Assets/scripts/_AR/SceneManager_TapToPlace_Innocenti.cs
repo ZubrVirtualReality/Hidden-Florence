@@ -10,9 +10,13 @@ using DG.Tweening;
 public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
 {
     public static SceneManager_TapToPlace_Innocenti instance;
-    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, EXPERIENCING };
+    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
     public TapToPlace_State state = TapToPlace_State.SCANNING;
     private ExperienceType selectedExperience;
+
+    [Header("Church")]
+    public GameObject churchContainer;
+    public Animator churchAnimator;
 
     [Header("UI Objects")]
     public Text alertText;
@@ -41,7 +45,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
     public GameObject focusSquareFocused;
     [SerializeField] ARPlaneManager planeManager;
 
-    [SerializeField] GameObject hotspots;
+    //[SerializeField] GameObject hotspots;
     [SerializeField] private ScannerEffectDemo shader;
     private bool transitioned = false;
 
@@ -92,9 +96,21 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
 
+            case TapToPlace_State.GETTING_READY:
+                if (!placeAltarPiece()) break;
+                this.state = newState;
+                StartCoroutine(fadeOut(scanGifCanvas, 0f));
+
+                planeManager.subsystem.Stop();
+                focusSquare.SetActive(false);
+                StartCoroutine(fadeOut(instructionsCanvas, 0f));
+                //setExperienceState(TapToPlace_State.EXPERIENCING);
+                break;
+
             case TapToPlace_State.EXPERIENCING:
-				StartCoroutine(fadeOut(instructionsCanvas, 0f));
-                hotspots.SetActive(true);
+
+                StartCoroutine(fadeOut(instructionsCanvas, 0f));
+                //hotspots.SetActive(true);
 				this.state = newState;
                 startExperience();
                 break;
@@ -112,6 +128,33 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
     private void startExperience()
     {
         StartCoroutine(startScannerEffect());
+    }
+
+    private bool placeAltarPiece()
+    {
+        if (!focusSquareFocused.activeSelf)
+        {
+            return false;
+        }
+
+        // Move church to focusSquare position
+        churchContainer.transform.position = new Vector3(
+            focusSquareFocused.transform.position.x,
+            focusSquareFocused.transform.position.y + 0.15f,
+            focusSquareFocused.transform.position.z);
+        // Rotate church to face Camera
+        churchContainer.transform.eulerAngles = new Vector3(
+            churchContainer.transform.eulerAngles.x,
+            Camera.main.transform.eulerAngles.y,
+            churchContainer.transform.eulerAngles.z);
+
+        // IDK ??
+        if (paintingNum <= -0.2)
+        {
+            Debug.Log("debugging -- error starting showPainting because paintingNum <= -0.2");
+        }
+
+        return true;
     }
 
     // UI

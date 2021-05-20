@@ -42,6 +42,20 @@ public class TaptoPlace : MonoBehaviour
     void MoveOrigin(Vector3 _origin)
     {
         shaderOrigin.transform.position = _origin;
+        shaderScript.StartShaderWithoutApproval(0);
+        shaderScript.StartShader();
+
+        shaderOrigin.transform.position = _origin;
+        shaderScript.StartShaderWithoutApproval(0);
+        StartCoroutine(WaitFor(0.1f));
+    }
+
+    IEnumerator WaitFor(float _waitTime)
+    {
+        yield return new WaitForSeconds(_waitTime);
+        shaderOrigin.transform.position = churchenabled.instance.GetOrigin();
+        shaderScript.StartShader();
+        yield return null;
     }
 
     void Awake()
@@ -140,16 +154,14 @@ public class TaptoPlace : MonoBehaviour
                 if (!once)
                 {
                     objectToEnable.SetActive(true);
-                    objectToEnable.transform.position = hitPose.position;
-                    SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.EXPERIENCING);
-                    shaderScript.StartShaderWithoutApproval(0);
-                    shaderScript.StartShader();
+                    SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.GETTING_READY);
+                    objectToEnable.transform.position = hitPose.position + new Vector3(0,4,15);
 
-                    foreach (var trackable in planeManager.trackables)
-                    {
-                        trackable.gameObject.SetActive(false);
-                    }
-                    planeManager.enabled = false;
+                    //foreach (var trackable in planeManager.trackables)
+                    //{
+                    //    trackable.gameObject.SetActive(false);
+                    //}
+                    //planeManager.enabled = false;
                     once = true;
                     objectSpawned = true;
                 }
