@@ -17119,6 +17119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1257944610910327350}
+  - component: {fileID: 15914151}
   m_Layer: 9
   m_Name: ChapelInnoce nti 1
   m_TagString: Untagged
@@ -17147,6 +17148,25 @@ Transform:
   m_Father: {fileID: 7812716116431611138}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!95 &15914151
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3904778719366090992}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 585f78f96b9628f4fbb32b7e5c1772e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3928697588331805704
 GameObject:
   m_ObjectHideFlags: 0

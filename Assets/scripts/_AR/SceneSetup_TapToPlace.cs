@@ -8,6 +8,7 @@ public class SceneSetup_TapToPlace : MonoBehaviour
     public Text helpStepsText;
     [TextArea] public string helpSteps_Florence;
     [TextArea] public string helpSteps_Elsewhere;
+    [TextArea] public string helpSteps_Innocenti;
 
     private ExperienceType selectedExperience;
 
@@ -40,11 +41,11 @@ public class SceneSetup_TapToPlace : MonoBehaviour
             helpTitleText.text = "How to use the app - Elsewhere";
             helpStepsText.text = helpSteps_Elsewhere;
         }
-        //else if (selectedExperience == ExperienceType.INNOCENTI_ELSEWHERE)
-        //{
-        //    helpTitleText.text = "How to use the app - Elsewhere";
-        //    helpStepsText.text = helpSteps_Innocenti;
-        //}
+        else if (selectedExperience == ExperienceType.INNOCENTI_ELSEWHERE)
+        {
+            helpTitleText.text = "How to use the app - Elsewhere";
+            helpStepsText.text = helpSteps_Innocenti;
+        }
 
         churchTransform.position = newPosition;
         churchAnimator.runtimeAnimatorController = newAnimator;

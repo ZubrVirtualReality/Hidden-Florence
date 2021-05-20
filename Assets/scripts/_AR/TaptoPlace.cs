@@ -26,7 +26,23 @@ public class TaptoPlace : MonoBehaviour
 
     // Test for Baking Issues
     [SerializeField] private GameObject objectToEnable;
+    [SerializeField] private GameObject shaderOrigin;
     [SerializeField] private SceneManager_TapToPlace churchManager;
+
+    private void OnEnable()
+    {
+        churchenabled.ChurchEnabled += MoveOrigin;
+    }
+
+    private void OnDisable()
+    {
+        churchenabled.ChurchEnabled -= MoveOrigin;
+    }
+
+    void MoveOrigin(Vector3 _origin)
+    {
+        shaderOrigin.transform.position = _origin;
+    }
 
     void Awake()
     {
@@ -61,19 +77,7 @@ public class TaptoPlace : MonoBehaviour
     }
 
     public void ManualStart()
-    {
-
-        //if (!objectToEnable.activeInHierarchy)
-        //{
-        //    objectToEnable.SetActive(true);
-        //    objectToEnable.transform.position = Vector3.zero;
-        //    foreach (var trackable in planeManager.trackables)
-        //    {
-        //        trackable.gameObject.SetActive(false);
-        //    }
-        //    planeManager.enabled = false;
-        //    shaderScript.StartShader();
-        //}
+    { 
 
         if (!once)
         {
@@ -85,7 +89,7 @@ public class TaptoPlace : MonoBehaviour
         else
         {
             shaderScript.StartShader();
-            churchManager.StartAltarAnim();
+            //churchManager.StartAltarAnim();
         }
     }
 
@@ -105,45 +109,51 @@ public class TaptoPlace : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         RaycastHit hit;
 
-        if (raycastManager.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon) && objectSpawned == false && !done)
+        if (AppManager.Instance.GetExperienceType() == ExperienceType.FLORENCE ||
+            AppManager.Instance.GetExperienceType() == ExperienceType.ELSEWHERE)
         {
-            var hitPose = hits[0].pose;
-
-            //if (once)
-            //{
-            //    objectToEnable.SetActive(true);
-            //    shaderScript.StartShader();
-            //    objectToEnable.transform.position = hitPose.position;
-            //    foreach (var trackable in planeManager.trackables)
-            //    {
-            //        trackable.gameObject.SetActive(false);
-            //    }
-            //    planeManager.enabled = false;
-            //}
-            //
-            //if (churchManager.state == SceneManager_TapToPlace.TapToPlace_State.GETTING_READY && once)
-            //{
-            //    churchManager.setExperienceState(SceneManager_TapToPlace.TapToPlace_State.EXPERIENCING);
-            //    done = true;
-            //    //shaderScript.StartShader();
-            //    return;
-            //}
-            //churchManager.setExperienceState(SceneManager_TapToPlace.TapToPlace_State.GETTING_READY);
-            //once = true;
-
-            if(!once)
+            if (raycastManager.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon) && objectSpawned == false && !done)
             {
-                objectToEnable.SetActive(true);
-                shaderScript.StartShaderWithoutApproval(0);
-                objectToEnable.transform.position = hitPose.position;
-                once = true;
+                var hitPose = hits[0].pose;
+
+                if (!once)
+                {
+                    objectToEnable.SetActive(true);
+                    shaderScript.StartShaderWithoutApproval(0);
+                    objectToEnable.transform.position = hitPose.position;
+                    once = true;
+                }
+            }
+            else if (Input.touchCount > 0 && once)
+            {
+
+                shaderScript.StartShader();
+                churchManager.StartAltarAnim();
             }
         }
-        else if(Input.touchCount > 0 && once)
+        else if (AppManager.Instance.GetExperienceType() == ExperienceType.INNOCENTI_ELSEWHERE)
         {
+            if (raycastManager.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon) && objectSpawned == false)
+            {
+                var hitPose = hits[0].pose;
 
-            shaderScript.StartShader();
-            churchManager.StartAltarAnim();     
+                if (!once)
+                {
+                    objectToEnable.SetActive(true);
+                    objectToEnable.transform.position = hitPose.position;
+                    SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.EXPERIENCING);
+                    shaderScript.StartShaderWithoutApproval(0);
+                    shaderScript.StartShader();
+
+                    foreach (var trackable in planeManager.trackables)
+                    {
+                        trackable.gameObject.SetActive(false);
+                    }
+                    planeManager.enabled = false;
+                    once = true;
+                    objectSpawned = true;
+                }
+            }
         }
 
     }

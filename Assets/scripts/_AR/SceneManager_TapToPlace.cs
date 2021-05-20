@@ -53,13 +53,6 @@ public class SceneManager_TapToPlace : MonoBehaviour
     public string gettingReadyAlert_Elsewhere;
     public string gettingReadyInstruction_Elsewhere;
 
-    //[Header("UI Strings - Innocenti")]
-    //public string scanningAlert_Innocenti;
-    //public string scanningInstruction_Elsewhere;
-    //public string placingAlert_Elsewhere;
-    //public string placingInstruction_Elsewhere;
-    //public string gettingReadyAlert_Elsewhere;
-    //public string gettingReadyInstruction_Elsewhere;
 
     [Header("AR Object")]
     public GameObject focusSquare;

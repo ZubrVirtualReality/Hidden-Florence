@@ -9,11 +9,10 @@ using DG.Tweening;
 
 public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
 {
-    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
+    public static SceneManager_TapToPlace_Innocenti instance;
+    [System.Serializable]public enum TapToPlace_State { SCANNING, PLACING, EXPERIENCING };
     public TapToPlace_State state = TapToPlace_State.SCANNING;
     private ExperienceType selectedExperience;
-
-
 
     [Header("UI Objects")]
     public Text alertText;
@@ -31,16 +30,25 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
     public string gettingReadyAlert_Elsewhere;
     public string gettingReadyInstruction_Elsewhere;
 
+    [Header("ScannerEffect")]
+    public Transform scannerEffectOrigin;
+    [SerializeField] private ScannerEffectDemo scannerEffectScrip;
+    [SerializeField] private Material paintingMat;
+    [SerializeField] private float paintingNum = 1.2f;
+
     [Header("AR Object")]
     public GameObject focusSquare;
     public GameObject focusSquareFocused;
     [SerializeField] ARPlaneManager planeManager;
 
     [SerializeField] GameObject hotspots;
+    [SerializeField] private ScannerEffectDemo shader;
+    private bool transitioned = false;
 
 
     private void Start()
     {
+        instance = this;
         alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
         selectedExperience = AppManager.Instance.GetExperienceType();
         setExperienceState(TapToPlace_State.SCANNING);
@@ -48,19 +56,13 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isPointerOverUIObject())
+        paintingMat.SetFloat("_Level", paintingNum);
+
+        if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0 && !transitioned)// generatePlaneScrip.hasGeneratedPlanes())
         {
-            if (state == TapToPlace_State.PLACING)
-            {
-                setExperienceState(TapToPlace_State.GETTING_READY);
-            } else if (state == TapToPlace_State.GETTING_READY)
-            {
-                setExperienceState(TapToPlace_State.EXPERIENCING);
-            }
-        } else if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0)// generatePlaneScrip.hasGeneratedPlanes())
-        {
+            transitioned = true;
             setExperienceState(TapToPlace_State.PLACING);
-        }
+        }      
     }
 
     public void setExperienceState(TapToPlace_State newState)
@@ -90,21 +92,11 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
 
-            case TapToPlace_State.GETTING_READY:
-                this.state = newState;
-                alert.text = gettingReadyAlert_Elsewhere;
-                instructions.text = gettingReadyInstruction_Elsewhere; ;
-                StartCoroutine(fadeOut(scanGifCanvas, 0f));
-                StartCoroutine(fadeIn(alertCanvas, 0f));
-                StartCoroutine(fadeOut(alertCanvas, 6f));
-                planeManager.subsystem.Stop();
-                focusSquare.SetActive(false);
-                break;
-
             case TapToPlace_State.EXPERIENCING:
 				StartCoroutine(fadeOut(instructionsCanvas, 0f));
                 hotspots.SetActive(true);
 				this.state = newState;
+                startExperience();
                 break;
         }
     }
@@ -117,7 +109,10 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
     {
         StartCoroutine(fadeOut(helpCanvas, 0));
     }
-
+    private void startExperience()
+    {
+        StartCoroutine(startScannerEffect());
+    }
 
     // UI
     private bool isPointerOverUIObject()
@@ -128,6 +123,16 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
         EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
         return results.Count > 0;
     }
+    IEnumerator startScannerEffect()
+    {
+        Debug.Log("debugging --- go");
+        scannerEffectScrip.startPainting();
+        yield return new WaitForSeconds(0.1f);
+        shader.StartShader();
+        scannerEffectScrip.startPainting();
+        Debug.Log("debugging --- go end");
+    }
+
     IEnumerator fadeIn(CanvasGroup c, float delay = 0.5f)
     {
         yield return new WaitForSeconds(delay);

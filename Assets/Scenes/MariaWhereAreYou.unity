@@ -659,6 +659,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 228987749}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &231700433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1373,7 @@ MonoBehaviour:
   panelToOpen: Elsewhere
   canvasGroup: {fileID: 1295638613}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &673512925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,6 +1728,7 @@ MonoBehaviour:
   panelToOpen: V&A
   canvasGroup: {fileID: 1295638613}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &753774065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2042,7 @@ MonoBehaviour:
   panelToOpen: Santa
   canvasGroup: {fileID: 1295638613}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &838209727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2426,7 +2430,8 @@ MonoBehaviour:
   button: {fileID: 1016779044}
   panelToOpen: Final
   canvasGroup: {fileID: 946903036}
-  sceneToMoveTo: 
+  sceneToMoveTo: tapToPlaceInnocenti
+  location: 
 --- !u!1 &958610476
 GameObject:
   m_ObjectHideFlags: 0
@@ -3611,6 +3616,7 @@ MonoBehaviour:
   panelToOpen: Museo
   canvasGroup: {fileID: 1295638613}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &1428426685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4659,6 +4665,7 @@ MonoBehaviour:
   currentPanel: {fileID: 0}
   previousPanelName: 
   futurePanelName: 
+  sceneName: 
 --- !u!4 &1858837940
 Transform:
   m_ObjectHideFlags: 0
@@ -7144,6 +7151,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 3248142933723952985}
   sceneToMoveTo: ChapelDoor
+  location: 
 --- !u!114 &3248142933723952990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7687,6 +7695,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 5057706371604619654}
   sceneToMoveTo: imageAnchorInnocenti
+  location: 
 --- !u!114 &6892610026980395272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8499,6 +8508,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 8921670519947603857}
   sceneToMoveTo: ChapelStatues
+  location: 
 --- !u!114 &8921670519947603862
 MonoBehaviour:
   m_ObjectHideFlags: 0
