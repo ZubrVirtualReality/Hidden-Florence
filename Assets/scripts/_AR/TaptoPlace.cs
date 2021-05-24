@@ -47,6 +47,7 @@ public class TaptoPlace : MonoBehaviour
 
         shaderOrigin.transform.position = _origin;
         shaderScript.StartShaderWithoutApproval(0);
+        objectToEnable.transform.GetChild(0).transform.localPosition = new Vector3(0, -18, 2);
         StartCoroutine(WaitFor(0.1f));
     }
 
@@ -155,7 +156,7 @@ public class TaptoPlace : MonoBehaviour
                 {
                     objectToEnable.SetActive(true);
                     SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.GETTING_READY);
-                    objectToEnable.transform.position = hitPose.position + new Vector3(0,4,15);
+                    objectToEnable.transform.position = hitPose.position;
 
                     //foreach (var trackable in planeManager.trackables)
                     //{

@@ -5109,7 +5109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 5428333910793737786}
-  effectOrigin: {fileID: 0}
 --- !u!1 &1478700336344025523
 GameObject:
   m_ObjectHideFlags: 0
