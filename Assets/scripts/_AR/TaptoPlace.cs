@@ -6,6 +6,7 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TaptoPlace : MonoBehaviour
 {
@@ -27,11 +28,13 @@ public class TaptoPlace : MonoBehaviour
     // Test for Baking Issues
     [SerializeField] private GameObject objectToEnable;
     [SerializeField] private GameObject shaderOrigin;
+    [SerializeField] private GameObject hotspots;
     [SerializeField] private SceneManager_TapToPlace churchManager;
 
     private void OnEnable()
     {
         churchenabled.ChurchEnabled += MoveOrigin;
+
     }
 
     private void OnDisable()
@@ -47,7 +50,10 @@ public class TaptoPlace : MonoBehaviour
 
         shaderOrigin.transform.position = _origin;
         shaderScript.StartShaderWithoutApproval(0);
-        objectToEnable.transform.GetChild(0).transform.localPosition = new Vector3(0, -18, 2);
+        if(SceneManager.GetActiveScene().name == "tapToPlaceInnocenti")
+        {
+            objectToEnable.transform.GetChild(0).transform.localPosition = new Vector3(0, -18, 2);
+        }    
         StartCoroutine(WaitFor(0.1f));
     }
 
@@ -154,10 +160,16 @@ public class TaptoPlace : MonoBehaviour
                 if (!once)
                 {
                     objectToEnable.SetActive(true);
-                    SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.GETTING_READY);
+                    if (SceneManager.GetActiveScene().name == "tapToPlaceInnocenti")
+                    {
+                        SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.GETTING_READY);
+                    }
                     objectToEnable.transform.position = hitPose.position;
-
-                    objectToEnable.transform.position = hitPose.position + new Vector3(0,4,15); // Commented to check rotation isnt disturbed by this
+                    if(hotspots != null)
+                    {
+                        hotspots.SetActive(true);
+                    }
+                    //objectToEnable.transform.position = hitPose.position + new Vector3(0,4,15); // Commented to check rotation isnt disturbed by this
 
                     once = true;
                     objectSpawned = true;

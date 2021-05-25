@@ -643,6 +643,7 @@ MonoBehaviour:
     the screen to watch the altar move into place and for the experience to build.\n6.
     Walk around to explore the church of San Pier Maggiore and its main altar and
     chapels in its original site, being very careful of your surroundings."
+  helpSteps_Innocenti: 
 --- !u!114 &818695186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +805,8 @@ MonoBehaviour:
   planeManager: {fileID: 1050009679}
   shaderScript: {fileID: 421761976}
   objectToEnable: {fileID: 1426705183}
+  shaderOrigin: {fileID: 0}
+  hotspots: {fileID: 1275164959}
   churchManager: {fileID: 818695186}
 --- !u!114 &1050009683
 MonoBehaviour:
@@ -1303,8 +1306,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 173796311356754710, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796311356754710, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796311356754710, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796311356754710, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 684
       objectReference: {fileID: 0}
     - target: {fileID: 173796311804512791, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}
@@ -1428,12 +1446,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 684
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312754660316, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312778717319, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312778717319, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312778717319, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312778717319, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173796312778717319, guid: dc3f1f95ec2812041b4a473b9346fad7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 173796313125873662, guid: dc3f1f95ec2812041b4a473b9346fad7,
@@ -1584,7 +1647,7 @@ PrefabInstance:
     - target: {fileID: 3447425097347685044, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6179318038518544817, guid: dc3f1f95ec2812041b4a473b9346fad7,
         type: 3}

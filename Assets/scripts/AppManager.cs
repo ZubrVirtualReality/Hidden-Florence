@@ -45,6 +45,11 @@ public class AppManager : MonoBehaviour {
                     SelectedExperience = ExperienceType.ELSEWHERE;
                     break;
                 }
+            case "INNOCENTI_ELSEWHERE":
+                {
+                    SelectedExperience = ExperienceType.INNOCENTI_ELSEWHERE;
+                    break;
+                }
         }
     }
 

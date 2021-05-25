@@ -794,6 +794,7 @@ MonoBehaviour:
   shaderScript: {fileID: 421761976}
   objectToEnable: {fileID: 1094270569}
   shaderOrigin: {fileID: 604085995}
+  hotspots: {fileID: 0}
   churchManager: {fileID: 0}
 --- !u!1001 &1094270568
 PrefabInstance:

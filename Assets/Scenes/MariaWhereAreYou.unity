@@ -2431,7 +2431,7 @@ MonoBehaviour:
   panelToOpen: Final
   canvasGroup: {fileID: 946903036}
   sceneToMoveTo: tapToPlaceInnocenti
-  location: 
+  location: INNOCENTI_ELSEWHERE
 --- !u!1 &958610476
 GameObject:
   m_ObjectHideFlags: 0
