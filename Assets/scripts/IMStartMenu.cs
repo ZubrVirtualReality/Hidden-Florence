@@ -20,23 +20,36 @@ public class IMStartMenu : MonoBehaviour {
     public Button startButton;
     public ScannerEffectDemo scannerEffectDemo;
 	public Animator churchMove;
+	public static IMStartMenu instance;
+	private bool innocenti = true;
 	
 
     // Use this for initialization
-    void Start () {
-		titleTextBox.text = texts[0];
+    void Start () 
+	{
+		instance = this;
+		if (SceneManager.GetActiveScene().name != "imageAnchorInnocenti")
+		{
+			titleTextBox.text = texts[0];
+		}
+		else
+		{
+			innocenti = true;
+			titleTextBox.text = texts[4];
+		}
 		instructionsTextBox.text = "";
-		titleBox.alpha=subtitleBox.alpha=helpCanvas.alpha=startButtonCanvas.alpha=0;
-        startButton.interactable = false;
+		titleBox.alpha = subtitleBox.alpha = helpCanvas.alpha = startButtonCanvas.alpha = 0;
+		startButton.interactable = false;
 		foundPlanes = true;
 		StartCoroutine(fadeOut(startBackground, 1f));
 		StartCoroutine(fadeIn(titleBox));
 		StartCoroutine(beginning());
 		paintingCol.SetActive(false);
+		innocenti = true;	
 	}
 	
-	IEnumerator beginning(){ //Setting first text when you start
-		titleTextBox.text = texts[0];
+	IEnumerator beginning()
+	{ //Setting first text when you start
 		yield return new WaitForSeconds(3f);
 		StartCoroutine(fadeOut(titleBox));
 		StartCoroutine(fadeIn(subtitleBox));
@@ -45,11 +58,13 @@ public class IMStartMenu : MonoBehaviour {
 	}
 
 
-	public void callSetText(int txt){
+	public void callSetText(int txt)
+	{
 		StartCoroutine(setText(txt));
 
 	}
-	IEnumerator setText(int txt){
+	IEnumerator setText(int txt)
+	{
 		Debug.Log("debugging --- " + txt);
 		switch (txt){
 			case 1:
@@ -111,7 +126,8 @@ public class IMStartMenu : MonoBehaviour {
         StartCoroutine(fadeOut(helpCanvas, 1f));
     }
 
-    IEnumerator fadeIn(CanvasGroup c, float maxAlpha = 0.7f){
+    IEnumerator fadeIn(CanvasGroup c, float maxAlpha = 0.7f)
+	{
 		float temp = c.alpha = 0;
 		yield return new WaitForSeconds(0.5f);
 		while(temp<maxAlpha){
@@ -130,7 +146,8 @@ public class IMStartMenu : MonoBehaviour {
 			yield return null;
 		}
 	}
-	public void callBackButton(){
+	public void callBackButton()
+	{
 		StartCoroutine(back());
 	}
 	IEnumerator back(){

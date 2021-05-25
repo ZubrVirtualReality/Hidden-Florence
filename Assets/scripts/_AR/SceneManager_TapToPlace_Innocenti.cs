@@ -62,7 +62,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
     {
         paintingMat.SetFloat("_Level", paintingNum);
 
-        if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0 && !transitioned)// generatePlaneScrip.hasGeneratedPlanes())
+        if (state == TapToPlace_State.SCANNING && planeManager.trackables.count>0 && !transitioned)
         {
             transitioned = true;
             setExperienceState(TapToPlace_State.PLACING);

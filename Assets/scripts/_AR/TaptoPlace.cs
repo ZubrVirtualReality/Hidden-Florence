@@ -115,7 +115,6 @@ public class TaptoPlace : MonoBehaviour
             ManualStart();
         }
 
-
         if (!GetTouchPosition(out Vector2 touchPosition))
         {
             return;
@@ -158,11 +157,8 @@ public class TaptoPlace : MonoBehaviour
                     SceneManager_TapToPlace_Innocenti.instance.setExperienceState(SceneManager_TapToPlace_Innocenti.TapToPlace_State.GETTING_READY);
                     objectToEnable.transform.position = hitPose.position;
 
-                    //foreach (var trackable in planeManager.trackables)
-                    //{
-                    //    trackable.gameObject.SetActive(false);
-                    //}
-                    //planeManager.enabled = false;
+                    objectToEnable.transform.position = hitPose.position + new Vector3(0,4,15); // Commented to check rotation isnt disturbed by this
+
                     once = true;
                     objectSpawned = true;
                 }
