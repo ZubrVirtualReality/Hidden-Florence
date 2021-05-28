@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Hotspot : MonoBehaviour
 {
-    [SerializeField] Transform anchor;
+    [SerializeField] public Transform anchor;
     [SerializeField] RectTransform rect;
     [SerializeField] Button click;
     [SerializeField] string title;

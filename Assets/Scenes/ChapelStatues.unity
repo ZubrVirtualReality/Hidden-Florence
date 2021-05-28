@@ -1415,6 +1415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outline: {fileID: 0}
   arObject: {fileID: 0}
+  arMarkers: {fileID: 0}
   ani: {fileID: 0}
 --- !u!114 &2099737157
 MonoBehaviour:
@@ -31577,101 +31578,11 @@ PrefabInstance:
       propertyPath: anchor
       value: 
       objectReference: {fileID: 2079567697}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012494990167040, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5056012495029613592, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: anchor
       value: 
       objectReference: {fileID: 2048189245}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495852814651, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5056012495857535924, guid: e5c092463db13462ba647626ea688ccb,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5056012495987165428, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: m_Pivot.x

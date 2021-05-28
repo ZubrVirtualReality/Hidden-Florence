@@ -59,6 +59,14 @@ public class HotspotManager : MonoBehaviour
         Show();
     }
 
+    public void SetUp(List<Transform> _transforms)
+    {
+        for (int i = 0; i < hotspots.Count; i++)
+        {
+            hotspots[i].anchor = _transforms[i];
+        }
+    }
+
     public void Show()
     {
         s?.Kill(true);
