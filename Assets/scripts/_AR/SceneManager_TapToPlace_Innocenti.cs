@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Tweaked and expanded SceneManager_TapToPlace for the innocenti scene
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -58,7 +61,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
         setExperienceState(TapToPlace_State.SCANNING);
     }
 
-    private void Update()
+    private void Update() // When the ground is scanned move to tapping functionality
     {
         paintingMat.SetFloat("_Level", paintingNum);
 
@@ -69,7 +72,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
         }      
     }
 
-    public void setExperienceState(TapToPlace_State newState)
+    public void setExperienceState(TapToPlace_State newState) // Called to change the current state, Fades in and out relevant instructions
     {
         Text alert = alertText.GetComponent<UnityEngine.UI.Text>();
         Text instructions = instructionsText.GetComponent<UnityEngine.UI.Text>();
@@ -130,7 +133,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
         StartCoroutine(startScannerEffect());
     }
 
-    private bool placeAltarPiece()
+    private bool placeAltarPiece() // Places the small altar on the ground before the reveal
     {
         if (!focusSquareFocused.activeSelf)
         {

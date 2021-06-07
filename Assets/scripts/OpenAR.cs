@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: script that informs the final page of a "where are you" which AR experience to open
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Listener for ARPlacementLock and places the door
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,21 +45,6 @@ public class OutlinePlacement : MonoBehaviour
     private void Update()
     {
 
-        //if (Input.touchCount > 0||Input.GetMouseButtonUp(0))
-        //{
-        //    if (!placed)
-        //    {
-        //        outline.SetActive(false);
-        //        arObject.transform.parent = null;
-        //        
-        //        arObject.AddComponent<ARAnchor>();
-        //        
-        //        arObject.SetActive(true);
-        //        ani.SetTrigger("Open");
-        //        
-        //        placed = true;
-        //    }
-        //}
     }
 }
 

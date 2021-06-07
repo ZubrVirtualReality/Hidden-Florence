@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Container for flow of scenes in the app. Informs the manager to open this page when clicked
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Script to handle tap to place scenes. including single taps and two altar tap scenes
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,7 +45,7 @@ public class TaptoPlace : MonoBehaviour
         churchenabled.ChurchEnabled -= MoveOrigin;
     }
 
-    void MoveOrigin(Vector3 _origin)
+    void MoveOrigin(Vector3 _origin) // Moves the origin of the church if innocenti to the correct position
     {
         shaderOrigin.transform.position = _origin;
         shaderScript.StartShaderWithoutApproval(0);
@@ -88,7 +91,7 @@ public class TaptoPlace : MonoBehaviour
         return false;
     }
 
-    public bool CheckTrackables()
+    public bool CheckTrackables() // Checks if the ground or walls are being tracked
     {
         if (planeManager.trackables.count > 0)
         {
@@ -97,7 +100,7 @@ public class TaptoPlace : MonoBehaviour
         return false;
     }
 
-    public void ManualStart()
+    public void ManualStart() // For debug purposes to check if the scene functions
     { 
 
         if (!once)
@@ -114,7 +117,7 @@ public class TaptoPlace : MonoBehaviour
         }
     }
 
-    void Update()
+    void Update() // All touch functionality including UI and Physics based raycasts
     {
         if(Input.GetKeyDown(KeyCode.T))
         {

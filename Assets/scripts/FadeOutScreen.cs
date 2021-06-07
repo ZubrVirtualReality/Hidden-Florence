@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Fades out attached canvas group on start
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

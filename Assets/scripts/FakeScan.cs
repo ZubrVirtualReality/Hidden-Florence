@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Listener for the church so when it is enabled the shader effect begins
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +26,7 @@ public class FakeScan : MonoBehaviour
         churchenabled.ChurchEnabled -= StartEffect;
     }
 
-    void StartEffect(Vector3 _centrePosition)
+    void StartEffect(Vector3 _centrePosition) // Takes the origin and beings the effect
     {
         //painting.SetActive(true);
         scanCentre.transform.position = _centrePosition;
@@ -44,7 +47,7 @@ public class FakeScan : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space)) // For testing purposes in editor
         {
             if (!once)
             {

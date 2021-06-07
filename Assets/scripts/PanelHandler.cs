@@ -1,8 +1,10 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Controls which panel is active and controls jumping back functionality
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 
 public class PanelHandler : MonoBehaviour
 {
@@ -26,7 +28,7 @@ public class PanelHandler : MonoBehaviour
         currentPanel = panels[0];
     }
 
-    public void SetOpenPanel(Panel _panel)
+    public void SetOpenPanel(Panel _panel) // When queried closes all other panels but the one specified
     {
         foreach (Panel panel in panels)
         {
@@ -57,7 +59,7 @@ public class PanelHandler : MonoBehaviour
         }
     }
 
-    public void ReturnToMain()
+    public void ReturnToMain() // Jumps back to the central panel of a flow
     {
         foreach (Panel panel in panels)
         {

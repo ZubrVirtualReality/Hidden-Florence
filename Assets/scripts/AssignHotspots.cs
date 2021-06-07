@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Informs the hotspot manager that the hotspots are ready to be assigned and placed in the scene
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

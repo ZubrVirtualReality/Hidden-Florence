@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Small script to hold the origin of the church
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

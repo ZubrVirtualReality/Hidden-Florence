@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: A hold functionality sending an action on completion
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +25,7 @@ public class ARPlacementLock : MonoBehaviour
         fillImage.fillAmount = 0;
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() // Hold timer to inform listeners on completetion
     {
 #if UNITY_EDITOR
         if (Input.GetMouseButton(0) && !holdComplete)
@@ -85,7 +88,7 @@ public class ARPlacementLock : MonoBehaviour
 
     }
 
-    void UpdateFill(float _currentHoldTime)
+    void UpdateFill(float _currentHoldTime) // Updates the sprite to fill in timer with hold duration
     {
         float currentPercentage = _currentHoldTime / holdTime;
         fillImage.fillAmount = currentPercentage;

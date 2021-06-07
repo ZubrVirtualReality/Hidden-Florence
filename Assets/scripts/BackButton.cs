@@ -1,3 +1,6 @@
+// Written By : Thomas Harrison
+// Date : 07/06/2021
+// Description: Back button to load a previous scene
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +18,7 @@ public class BackButton : MonoBehaviour
         button.onClick.AddListener(Back);
     }
 
-    private void Back() // Previous Scene must be above in the settings
+    private void Back() // If the user is at the start of the flow load previous scene otherwise jump back to start
     {
         if(PanelHandler.instance.currentPanel.panelName != "MainPanel")
         {
