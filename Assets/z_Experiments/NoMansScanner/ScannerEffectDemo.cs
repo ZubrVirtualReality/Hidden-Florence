@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 [ExecuteInEditMode]
 public class ScannerEffectDemo : MonoBehaviour
@@ -41,6 +42,8 @@ public class ScannerEffectDemo : MonoBehaviour
 	//[SerializeField] private debugLogTextScript dbScript;
 	//[SerializeField] private IMStartMenu menuScript;
 
+
+	public static event Action ScanFinished;
 	public void StartShader()
     {
 		freeze = false;
@@ -48,28 +51,45 @@ public class ScannerEffectDemo : MonoBehaviour
 
 	public void StartShaderWithoutApproval(int _scanDistance)
     {
+		cam02.GetComponent<Camera>().fieldOfView = Camera.main.fieldOfView;
 		_scanning = true;
 		ScanDistance = _scanDistance;
 		effectBegun = true;
 	}
-
+	bool finished = false;
 	void Update()
 	{
 
+		
 		if (effectBegun)
         {
-			if (_scanning) {
+
+			if (_scanning)
+			{
 
 				ScanDistance += Time.deltaTime * speed;
 				speed += Time.deltaTime / 5;
-				if(freeze)
-                {
+				if (freeze)
+				{
 					ScanDistance = 0;
 					speed = 0;
-                }
+				}
 				EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
-			}
+				if (ScanDistance >= 5)
+				{
+					if (!finished)
+					{
+						ScanFinished?.Invoke();
+						finished = true;
+					}
 
+				}
+				else if (ScanDistance>=100)
+                {
+					_scanning = false;
+					cam02.SetActive(false);
+				}
+			}
 			if (_unscanning) 
 			{
 				ScanDistance -= Time.deltaTime * speed;
@@ -98,8 +118,16 @@ public class ScannerEffectDemo : MonoBehaviour
 		speed=startSpeed+0.25f;
 		Debug.Log("debugging --- startPainting01");
 		StartCoroutine(turnOffCam02());
+		started = true;
+	
+
 	}
 
+
+	void SetFinished()
+    {
+		
+	}
 	public void reversePainting(){
 		// EffectMaterial.SetInt("_rev", 1);
 		Debug.Log("debugging --- reversePainting00");
@@ -110,15 +138,27 @@ public class ScannerEffectDemo : MonoBehaviour
 	}
 	// End Demo Code
 
-	IEnumerator turnOffCam02(){
-		yield return new WaitForSeconds (30f);
-		EffectMaterial.SetInt("_rev", 1); //
-		effectBegun = false; // _scanning = false
-		ScanDistance = 100;//
+	IEnumerator turnOffCam02()
+	{
+		
+		yield return new WaitForSeconds (5f);
+	
+		freeze = false;
+		//EffectMaterial.SetInt("_rev", 1); //
+		//effectBegun = false; // _scanning = false
+		//ScanDistance = 100;//
+		//freeze = false;
 		// speed = 0;//
 		//dbScript.addToString("camera off");//
+		
+		while (ScanDistance<100)
+        {
+			yield return null;
+        }
+		_scanning = false;
 		cam02.SetActive(false);//
 		Debug.Log("debugging --- cam02 off");
+		
 		// menuScript.boundariesOn();//
 	}
 
@@ -131,6 +171,13 @@ public class ScannerEffectDemo : MonoBehaviour
 	[ImageEffectOpaque]
 	void OnRenderImage(RenderTexture src, RenderTexture dst)
 	{
+		if(ScannerOrigin==null)
+        {
+			GameObject go = new GameObject("Origin");
+			go.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2;
+
+			ScannerOrigin = go.transform;
+        }
 		EffectMaterial.SetVector("_WorldSpaceScannerPos", ScannerOrigin.position);
 		EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
 		RaycastCornerBlit(src, dst, EffectMaterial);

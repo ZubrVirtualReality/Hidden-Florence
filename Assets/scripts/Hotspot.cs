@@ -32,7 +32,7 @@ public class Hotspot : MonoBehaviour
        return  _screen.z>0&&_screen.x > 0 && _screen.x < 1 && _screen.y > 0 && _screen.y < 1;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector2 pos = Camera.main.WorldToScreenPoint(anchor.position);
         Vector3 screen = Camera.main.WorldToViewportPoint(anchor.position);

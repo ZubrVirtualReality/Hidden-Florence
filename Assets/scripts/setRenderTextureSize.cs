@@ -19,7 +19,7 @@ public class setRenderTextureSize : MonoBehaviour {
 		if ( cam.targetTexture != null ) {
          	cam.targetTexture.Release( );
      	}
-     	cam.targetTexture = new RenderTexture( Screen.width, Screen.height, 24 );
+     	cam.targetTexture = new RenderTexture( Screen.width, Screen.height, 0 );
 		mat.SetTexture(texture, cam.targetTexture);
 	}
 	

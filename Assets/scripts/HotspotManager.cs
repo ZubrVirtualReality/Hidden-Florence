@@ -27,6 +27,7 @@ public class HotspotManager : MonoBehaviour
             Destroy(gameObject);
         }
         s = DOTween.Sequence();
+        //gameObject.SetActive(false);
     }
 
     private void Start()
@@ -40,6 +41,15 @@ public class HotspotManager : MonoBehaviour
             }
         }
         close.onClick.AddListener(Hide);
+    }
+
+
+    public void TurnOn()
+    {
+        foreach(Hotspot h in hotspots)
+        {
+            h.gameObject.SetActive(true);
+        }
     }
 
     public void ShowInfo(string _title, string _info, Sprite _image = null)

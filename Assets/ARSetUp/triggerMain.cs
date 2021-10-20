@@ -64,8 +64,9 @@ public class triggerMain : MonoBehaviour {
 			church.transform.position = position;
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
-		hotspots.SetActive(true);
+			hotspots.SetActive(true);
 	}
+
 	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
 	{
 		if (arImageAnchor.referenceImage.name != (isInnocenti ? innocenti : sanPierMaggiore))

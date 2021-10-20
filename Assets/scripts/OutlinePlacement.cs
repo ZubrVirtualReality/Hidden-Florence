@@ -1,6 +1,3 @@
-// Written By : Thomas Harrison
-// Date : 07/06/2021
-// Description: Listener for ARPlacementLock and places the door
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -40,11 +37,6 @@ public class OutlinePlacement : MonoBehaviour
 
             placed = true;
         }
-    }
-
-    private void Update()
-    {
-
-    }
+    }   
 }
 

@@ -265,6 +265,6 @@ public class SceneManager_TapToPlace : MonoBehaviour
             c.alpha = temp;
             yield return null;
         }
-        c.gameObject.SetActive(false);
+        //c.gameObject.SetActive(false);
     }
 }
