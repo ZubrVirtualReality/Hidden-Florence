@@ -33,10 +33,10 @@ RectTransform:
   m_Father: {fileID: 5056012496992450467}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -617.0762}
+  m_SizeDelta: {x: 460, y: 265.28806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5056012494990167046
 CanvasRenderer:
@@ -129,10 +129,10 @@ RectTransform:
   m_Father: {fileID: 5056012496992450467}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -365.59375}
+  m_SizeDelta: {x: 460, y: 237.67606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5056012495852814649
 CanvasRenderer:
@@ -285,10 +285,10 @@ RectTransform:
   m_Father: {fileID: 5056012496992450467}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -123.37793}
+  m_SizeDelta: {x: 460, y: 246.75606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5056012495857535882
 CanvasRenderer:
@@ -425,7 +425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5056012495987165428
 RectTransform:
   m_ObjectHideFlags: 0
@@ -860,7 +860,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: 
+      value: The church was built in the years after 1420 to serve the new foundling
+        hospital designed by Filippo Brunelleschi. Its architecture was very simple
+        with a wooden roof rather than vaults. You see the church around the year
+        1500, after the hospital prior Francesco Tesori had renewed the three altars
+        in the space with new paintings and frames.
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -884,24 +888,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e764f70bcfe4834dad15988a8c686f2, type: 3}
---- !u!224 &5056012495029613593 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8085661090159369676, guid: 7e764f70bcfe4834dad15988a8c686f2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3899160120068188629}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5056012495029613592 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3899160120068188629}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04067f9d84d9fcb42882eb56f7b75ef3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5056012497001628749 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8085661088206515608, guid: 7e764f70bcfe4834dad15988a8c686f2,
@@ -914,6 +900,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5056012495029613592 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3899160120068188629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04067f9d84d9fcb42882eb56f7b75ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &5056012495029613593 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8085661090159369676, guid: 7e764f70bcfe4834dad15988a8c686f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3899160120068188629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5056012495122920289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1039,7 +1043,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: 
+      value: 'As prior of the hospital, Francesco Tesori (d. 1497) coordinated the
+        renewal of the altars in the church. He was buried in a tomb in the most
+        prestigious location, directly in front of the high altar. The tomb slab
+        is decorated with elaborate inlay designs, a full-length relief of the deceased,
+        and an elegant commemorative inscription. '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1206,12 +1214,15 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: della Robbia Annunciation
+      value: "This glazed terracotta lunette, now installed above the side door leading
+        into the church from the courtyard, was originally part of the Pugliese altar\u2019s
+        decoration. The combination of painting and sculpture within an architectural
+        frame is characteristic of Florentine altar design in the late 1400s."
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: title
-      value: del Pugliese altar
+      value: 'Andrea della Robbia lunette '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1368,12 +1379,16 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: della Robbia angels
+      value: "Two kneeling angels attributed to Andrea della Robbia, now in the Victoria
+        and Albert Museum (London), have also been associated with the Del Pugliese
+        altar ensemble. They evoke the kneeling saints in Piero di Cosimo's iconographical
+        design, and were likely positioned at the top of the architectural frame,
+        like the angels standing on the Virgin\u2019s throne in the painting. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: title
-      value: del Pugliese altar
+      value: 'Andrea della Robbia angels '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1530,12 +1545,17 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: 
+      value: "This altarpiece by Neri di Bicci was commissioned by the Lenzi family
+        for their side altar in 1460, shortly after the church was consecrated in
+        1451. In 1489 the hospital prior Tesori commissioned a new stone outer frame
+        from the sculptor Simone Ferrucci so that the Lenzi altar would match the
+        new Pugliese altar opposite, preserving Neri\u2019s older altarpiece within
+        a new, symmetrical scheme. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: title
-      value: Neri di Bicci
+      value: 'Neri di Bicci altarpiece '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1692,7 +1712,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: 
+      value: "Francesco Tesori commissioned the high altarpiece from Domenico Ghirlandaio,
+        one of the city\u2019s leading artists, in 1485. The predella scenes were
+        completed soon afterwards by Bartolommeo di Giovanni. Documents allow us
+        to construct its elaborate architectural frame of gilded wood created by
+        the Sangallo brothers, topped by a tabernacle for the Eucharist. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1859,12 +1883,16 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: Piero di Cosimo
+      value: 'This altarpiece was commissioned in 1491 by Piero del Pugliese, a friend
+        of the Innocenti prior Tesori, and a wealthy merchant and member of the Silkweavers
+        Guild. In this lavish painting, the patron of the Guild, Saint John Evangelist,
+        introduces Saint Catherine of Alexandria to Jesus, who holds out a wedding
+        ring to contract the mystical union with her. '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: title
-      value: del Pugliese altar
+      value: 'Piero di Cosimo altarpiece '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -1883,6 +1911,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e764f70bcfe4834dad15988a8c686f2, type: 3}
+--- !u!224 &3899160118899621775 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8085661090159369676, guid: 7e764f70bcfe4834dad15988a8c686f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5056012496138412611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3899160118899621774 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
@@ -1895,12 +1929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04067f9d84d9fcb42882eb56f7b75ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &3899160118899621775 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8085661090159369676, guid: 7e764f70bcfe4834dad15988a8c686f2,
-    type: 3}
-  m_PrefabInstance: {fileID: 5056012496138412611}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7751913890482670354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2041,12 +2069,16 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: 
+      value: 'The church was lit with simple gothic windows which were hidden behind
+        the later baroque vaulting. They were identified during conservation work
+        in the 1960s. One of the windows has been reopened and can be seen in the
+        galleries of the museum. Through it you can glimpse the original timber roof
+        beams above the baroque ceiling. '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: title
-      value: Clerestory windows
+      value: 'Clerestory windows '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
