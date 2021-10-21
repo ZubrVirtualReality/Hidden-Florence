@@ -19,7 +19,7 @@ public class PanelHandler : MonoBehaviour
     {
         if (instance != null)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
         else
         {

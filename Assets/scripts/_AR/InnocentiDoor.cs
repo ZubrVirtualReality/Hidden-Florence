@@ -10,6 +10,7 @@ public class InnocentiDoor : MonoBehaviour
     [SerializeField] Animator ani;
     [SerializeField] RotateAndScale r;
     [SerializeField] GameObject chapel;
+    [SerializeField] GameObject arrow;
 
     private void OnEnable()
     {
@@ -18,7 +19,7 @@ public class InnocentiDoor : MonoBehaviour
 
     private void EnableHotspots()
     {
-
+        arrow.SetActive(false);
         markers.SetActive(true);
         ani.SetTrigger("Open");
     }

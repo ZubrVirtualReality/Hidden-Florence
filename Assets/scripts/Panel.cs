@@ -34,5 +34,9 @@ public class Panel : MonoBehaviour
     public void OpenPanel()
     {
         PanelHandler.instance.SetOpenPanel(this);
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+
     }
 }

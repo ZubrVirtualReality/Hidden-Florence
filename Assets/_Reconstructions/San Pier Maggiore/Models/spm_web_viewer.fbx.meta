@@ -12,6 +12,51 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelCenter_Lmb_Mat.001
+    second: {fileID: 2100000, guid: 671c38a34543a43ed9c84842e98e893b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelLeft_Lmb_Mat.001
+    second: {fileID: 2100000, guid: 636b88a2588c24f9bb4c7a1602faef46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelRight_Lmb_Mat.001
+    second: {fileID: 2100000, guid: abe652429e4274f6a8e628d29a815939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelLeft2_Lmb_Mat.001
+    second: {fileID: 2100000, guid: 7bdccea82feb54506ab5fcef180fc9ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelLeft3_Lmb_Mat.001
+    second: {fileID: 2100000, guid: c8aaaded0ef0549cd893e8c2fab69dbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelRight2_Lmb_Mat
+    second: {fileID: 2100000, guid: f7bb0c1c31d4d466eb2fefb02f2d6784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelCenter1_Lmb_Mat.001
+    second: {fileID: 2100000, guid: 9aa0301fdd6d944b99f26dde5aa8e045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelLeft1_Lmb_Mat.001
+    second: {fileID: 2100000, guid: b6abaac44a57b4f7fa15f84bd3ee0df8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelRight1_Lmb_Mat.001
+    second: {fileID: 2100000, guid: 4b3fc4e1516dc42f8809a4c2dec29765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Plaster Plain
     second: {fileID: 2100000, guid: 342815e9ed9e94248a47b7854a8fe9af, type: 2}
   - first:
@@ -32,8 +77,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ceiling_mat.001
+    second: {fileID: 2100000, guid: 357b942b157b14c38ac3728262e6ff33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: facadedoor.001
+    second: {fileID: 2100000, guid: 1cd6e87bf6b9041d193f9e72d40bfeb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_stone_tile_mat.001
+    second: {fileID: 2100000, guid: 2096da9cdfd594724aaf101350d40cd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: limestone_mat.001
     second: {fileID: 2100000, guid: 372fcad437a251442b8ae11d70026900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oculus_glass_mat.001
+    second: {fileID: 2100000, guid: ab87da7f90e674801b0ca039992f4caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1.001
+    second: {fileID: 2100000, guid: f14d48985cba543a4967255b06658b06, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -49,6 +119,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: plaster_mat
     second: {fileID: 2100000, guid: 342815e9ed9e94248a47b7854a8fe9af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step_mat.001
+    second: {fileID: 2100000, guid: fd4660965ebd944c095231f6aa09cdfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: untextured
+    second: {fileID: 2100000, guid: c3686549f20434808b7129742ecfc97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_lattice_mat.001
+    second: {fileID: 2100000, guid: 0b17748602b6f4467a3fc2a64db14ad0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -85,14 +170,14 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 1
@@ -135,7 +220,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

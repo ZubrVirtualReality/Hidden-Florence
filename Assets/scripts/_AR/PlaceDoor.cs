@@ -16,10 +16,18 @@ public class PlaceDoor : MonoBehaviour
     [SerializeField] Button b;
     [SerializeField] ScannerEffectDemo effect;
 
+    private void OnEnable()
+    {
+        ScannerEffectDemo.ScanFinished += HideButton;
+
+    }
     private void Start()
     {
         b.onClick.AddListener(Lock);
-        ScannerEffectDemo.ScanFinished += HideButton;
+      
+        HideButton();
+        placed = false;
+        locked = false;
     }
 
     private void HideButton()
@@ -93,7 +101,13 @@ public class PlaceDoor : MonoBehaviour
                 // rot.eulerAngles = Camera.main.transform.eulerAngles + new Vector3(0, 180, 0);
                 placedObject = chapel;
                 placed = true;
+                b.gameObject.SetActive(true);
             }
         }
+    }
+
+    private void OnDisable()
+    {
+        ScannerEffectDemo.ScanFinished -= HideButton;
     }
 }
