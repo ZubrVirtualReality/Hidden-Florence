@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.ARFoundation;
+using System;
 
 public class IMStartMenu : MonoBehaviour {
 	[SerializeField] TextMeshProUGUI titleTextBox, instructionsTextBox;
@@ -22,11 +24,12 @@ public class IMStartMenu : MonoBehaviour {
 	public Animator churchMove;
 	public static IMStartMenu instance;
 	private bool innocenti = true;
-	
 
+	[SerializeField] ARTrackedImageManager imageManager;
     // Use this for initialization
     void Start () 
 	{
+		imageManager.trackedImagesChanged += StopUI;
 		instance = this;
 		if (SceneManager.GetActiveScene().name != "imageAnchorInnocenti")
 		{
@@ -47,8 +50,13 @@ public class IMStartMenu : MonoBehaviour {
 		paintingCol.SetActive(false);
 		innocenti = true;	
 	}
-	
-	IEnumerator beginning()
+
+    private void StopUI(ARTrackedImagesChangedEventArgs obj)
+    {
+       
+    }
+
+    IEnumerator beginning()
 	{ //Setting first text when you start
 		yield return new WaitForSeconds(3f);
 		StartCoroutine(fadeOut(titleBox));

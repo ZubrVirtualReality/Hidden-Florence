@@ -34,8 +34,14 @@ public class Hotspot : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(anchor==null)
+        {
+            image.gameObject.SetActive(false);
+            return;
+        }
         Vector2 pos = Camera.main.WorldToScreenPoint(anchor.position);
         Vector3 screen = Camera.main.WorldToViewportPoint(anchor.position);
+        
         image.gameObject.SetActive(InViewOfCamera(screen));
         
         if (!InViewOfCamera(screen))

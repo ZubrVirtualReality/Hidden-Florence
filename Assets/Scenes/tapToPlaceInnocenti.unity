@@ -1222,6 +1222,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 591579308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &591579310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5056012495987165430, guid: e5c092463db13462ba647626ea688ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 591579308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &604085995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 684, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 788, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!4 &963247428 stripped
@@ -1699,7 +1705,7 @@ MonoBehaviour:
   shaderScript: {fileID: 421761976}
   objectToEnable: {fileID: 1094270569}
   shaderOrigin: {fileID: 604085995}
-  hotspots: {fileID: 0}
+  hotspots: {fileID: 591579310}
   churchManager: {fileID: 0}
 --- !u!1001 &1094270568
 PrefabInstance:
@@ -2097,7 +2103,12 @@ PrefabInstance:
     - target: {fileID: 1257944610910327350, guid: 47eb5b6b3dd650d4da356acff3e975e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -9.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257944610910327350, guid: 47eb5b6b3dd650d4da356acff3e975e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.07
       objectReference: {fileID: 0}
     - target: {fileID: 1259787973747344062, guid: 47eb5b6b3dd650d4da356acff3e975e4,
         type: 3}
@@ -2147,7 +2158,7 @@ PrefabInstance:
     - target: {fileID: 1469226938758678566, guid: 47eb5b6b3dd650d4da356acff3e975e4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1478700336344025523, guid: 47eb5b6b3dd650d4da356acff3e975e4,
         type: 3}
@@ -5460,7 +5471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 684, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1739368631
@@ -5842,7 +5853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832490783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -9.49, z: 4.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094270575}

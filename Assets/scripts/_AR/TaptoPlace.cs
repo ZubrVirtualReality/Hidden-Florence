@@ -151,6 +151,7 @@ public class TaptoPlace : MonoBehaviour
             {
 
                 shaderScript.StartShader();
+                if(churchManager)
                 churchManager.StartAltarAnim();
             }
         }
@@ -181,4 +182,5 @@ public class TaptoPlace : MonoBehaviour
         }
 
     }
+
 }
