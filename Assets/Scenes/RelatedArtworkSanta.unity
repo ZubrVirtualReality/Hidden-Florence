@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 38878ef74ebb99e44b7b6862dd1cc9ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5fb0041f28b41764c999968b82f3d52e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1877,27 +1877,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Francesco Botticini''s ''Assumption of the
-
-    Virgin'', now also in
-    the National Gallery, was
-
-    originally commissioned for the church of
-
-    San
-    Pier Maggiore.
-
-
-    Read about the <u><b><link="https://www.nationalgallery.org.uk/paintings/francesco-botticini-the-assumption-of-the-virgin">altarpiece</link></b></u>
-    on the National
-
-    Gallery website.
-
-
-    You can also see a <u><b><link="https://www.youtube.com/watch?v=pTkYKd4HSPk">short
-    film</link></b></u> about the
-
-    painting.'
+  m_text: "Three altarpieces survive from the fifteenth-century \nchurch and can
+    still be seen in the Museo degli \nInnocenti picture gallery by the artists Domenico
+    del \nGhirlandaio, Piero di Cosimo and Neri di Bicci. You\u2019ll \nfind some
+    information in the hotspots in the app.\n\n <u><b><link=\"https://www.museodeglinnocenti.it/en/the-museum/art-path/\">Read
+    more.</link></b></u>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -2149,7 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b613e9ad741e841934ab3666a5a74d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousSceneName: SanPier
+  previousSceneName: SantaMaria
 --- !u!114 &1980294541
 MonoBehaviour:
   m_ObjectHideFlags: 0

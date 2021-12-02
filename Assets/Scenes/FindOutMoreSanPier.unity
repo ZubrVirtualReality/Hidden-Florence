@@ -253,10 +253,10 @@ RectTransform:
   m_Father: {fileID: 490538169}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 403.3757, y: -7}
+  m_SizeDelta: {x: 388.3757, y: 75}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &12252713
 MonoBehaviour:
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 49
+    m_Top: 43
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 20
@@ -802,7 +802,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &490538169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -819,10 +819,10 @@ RectTransform:
   m_Father: {fileID: 1090472866}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 495.8757, y: -578.5893}
+  m_SizeDelta: {x: 791.7514, y: 7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490538170
 MonoBehaviour:
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -35
     m_Right: 0
-    m_Top: -121
+    m_Top: -68
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 50
@@ -929,7 +929,7 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -939,12 +939,12 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 388.3757
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -989,12 +989,12 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Related Artwork
+  m_text: Find Out More
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92219f0d09bff624f8cf4912e98e0d29, type: 2}
   m_sharedMaterial: {fileID: 21308044233802706, guid: 92219f0d09bff624f8cf4912e98e0d29,
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 38878ef74ebb99e44b7b6862dd1cc9ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4956aca0da00465ebb9f85041ece552, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: 100
-    m_Right: 50
+    m_Right: 84
     m_Top: 0
     m_Bottom: 50
   m_ChildAlignment: 0
@@ -1877,27 +1877,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Francesco Botticini''s ''Assumption of the
-
-    Virgin'', now also in
-    the National Gallery, was
-
-    originally commissioned for the church of
-
-    San
-    Pier Maggiore.
-
-
-    Read about the <u><b><link="https://www.nationalgallery.org.uk/paintings/francesco-botticini-the-assumption-of-the-virgin">altarpiece</link></b></u>
-    on the National
-
-    Gallery website.
-
-
-    You can also see a <u><b><link="https://www.youtube.com/watch?v=pTkYKd4HSPk">short
-    film</link></b></u> about the
-
-    painting.'
+  m_text: "You can hear more about the church of San Pier Maggiore by downloading
+    the Hidden Florence app (iOS and Android) \u2013 try the \u2018Saints and Sinners\u2019
+    and \u2018Neighbourhood World\u2019 trails. \n\nRead more about the building
+    and how it was used on the  <u><b><link=\"https://florence4d.org/s/florence4d/page/spmaggiore\">Florence
+    4D website</link></b></u>.\n\nDiscover more about the research project and watch
+    a <u><b><link=\"https://florence4d.org/s/florence4d/page/a-neighbourhood-story\">video</link></b></u>
+    about it.\n\nYou can find out much more information about Jacopo di Cione\u2019s
+    altarpiece on the  <u><b><link=\"https://nationalgallery.org.uk\">National Gallery
+    website</link></b></u>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -1961,7 +1949,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 11.043911, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

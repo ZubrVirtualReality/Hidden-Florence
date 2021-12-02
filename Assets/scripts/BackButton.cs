@@ -26,6 +26,7 @@ public class BackButton : MonoBehaviour
         }
         else
         {
+            Debug.Log("Going back to " + previousSceneName);
             SceneManager.LoadScene(previousSceneName);
         }
     }

@@ -123,6 +123,196 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &31499467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1313723864}
+    m_Modifications:
+    - target: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
+      propertyPath: m_Name
+      value: Primary_Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114584463113102320, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 462324518}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenAndroidPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AppDownloadButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Download Hidden Florence
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.09411766
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.47450984
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4f1d97d384ff9164e97a1acfdef929b5,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!1 &82541484
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,8 +350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 65, y: 0}
+  m_SizeDelta: {x: -130, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &82541486
 CanvasGroup:
@@ -218,6 +408,25 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 82541486}
   sceneToMoveTo: 
+  location: 
+--- !u!1 &153641211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1182099188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &153641212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153641211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e22e7e2247b4f8b977e0ac4648d438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &177309212
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,8 +512,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -339,7 +548,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -213.05928, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -411,8 +620,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: This project has been made possible thanks to research funding from the
-    Getty Foundation. We will be making new source code for the app and 3D audmentation
-    as well as our 3D model through Hithub. Watch this space!
+    Getty Foundation. We will be making new source code for the app and 3D augmentation
+    as well as our 3D model through Github. Watch this space!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -440,10 +649,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 25
   m_fontSizeMax: 33
   m_fontStyle: 0
@@ -607,7 +816,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -35
     m_Right: 0
-    m_Top: 0
+    m_Top: -102
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 50
@@ -618,6 +827,30 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &462324516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 31499467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &462324517 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 31499467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &462324518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462324516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e22e7e2247b4f8b977e0ac4648d438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &507603214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -800,6 +1033,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4f1d97d384ff9164e97a1acfdef929b5,
         type: 3}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!224 &507603215 stripped
@@ -1015,6 +1268,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4f1d97d384ff9164e97a1acfdef929b5,
         type: 3}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!224 &607716972 stripped
@@ -1256,6 +1534,7 @@ MonoBehaviour:
   panelToOpen: Download
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &637925442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -1353,8 +1632,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1588,6 +1867,7 @@ MonoBehaviour:
   panelToOpen: OpenSource
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &830031014 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -1944,7 +2224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Why AR at the \nNational Gallery?"
+  m_text: Why AR at the National Gallery?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92219f0d09bff624f8cf4912e98e0d29, type: 2}
   m_sharedMaterial: {fileID: 21308044233802706, guid: 92219f0d09bff624f8cf4912e98e0d29,
@@ -1972,8 +2252,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2008,7 +2288,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -201.22269, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2140,7 +2420,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 10}
+  m_SizeDelta: {x: 700, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914682670
 MonoBehaviour:
@@ -2157,7 +2437,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 58
+    m_Top: -35
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 20
@@ -2272,15 +2552,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Visitors to the National Gallery can enjoy Italian medieval and Renaissance
-    paintings in beautiful, purpose-built galleries. But it is difficult to appreciate
-    the original contexts, like churches or palaces, for which these artworks were
-    painted. \n\nAR can help by visualizing contexts alongside artworks, in this
-    case revealing how Jacopo di Cione\u2019s altarpiece responded to the surrounding
-    architecture of San Pier Maggiore."
+  m_text: Visitors to the National Gallery or the V&A Museum can enjoy Italian Medieval
+    and Renaissance paintings and artworks in beautiful, purpose-built galleries.
+    But it is difficult to appreciate the original contexts, like churches or palaces,
+    for which these artworks were originally created.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
-  m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
+  m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
+  m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2305,10 +2583,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.75
-  m_fontSizeBase: 33
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 25
   m_fontSizeMax: 33
   m_fontStyle: 0
@@ -2341,7 +2619,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -38.99713, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2497,7 +2775,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 791.7514, y: 436.9491}
+  m_SizeDelta: {x: 791.7514, y: 252.25}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1070713825
 MonoBehaviour:
@@ -2514,7 +2792,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 45
+    m_Top: -46
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -2570,8 +2848,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 65, y: 0}
+  m_SizeDelta: {x: -130, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1100875583
 CanvasGroup:
@@ -2628,6 +2906,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 1100875583}
   sceneToMoveTo: 
+  location: 
 --- !u!1001 &1182099188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2647,18 +2926,18 @@ PrefabInstance:
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 7604516737533408972}
+      objectReference: {fileID: 153641212}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -2667,12 +2946,17 @@ PrefabInstance:
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenURL
+      value: OpenIOSPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AppDownloadButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: https://hiddenflorence.org/hf-3d/rebuilding-a-church-in-3d/
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -2845,7 +3129,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find Out More
+  m_text: Download on IOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -3010,6 +3294,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &1313723863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3039,6 +3324,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1182099189}
+  - {fileID: 462324517}
   - {fileID: 1467035212}
   m_Father: {fileID: 1018268216}
   m_RootOrder: 1
@@ -3062,7 +3348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: -35
-    m_Right: 0
+    m_Right: -328
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
@@ -3387,7 +3673,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1313723864}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3543,7 +3829,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 10}
+  m_SizeDelta: {x: 700, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486105909
 MonoBehaviour:
@@ -3560,7 +3846,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 58
+    m_Top: -35
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 20
@@ -3608,6 +3894,7 @@ MonoBehaviour:
   currentPanel: {fileID: 0}
   previousPanelName: 
   futurePanelName: 
+  sceneName: 
 --- !u!4 &1552910111
 Transform:
   m_ObjectHideFlags: 0
@@ -3679,7 +3966,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Generic Information here.
+  m_text: 'This app offers a 3D visualisation of the church of San Pier Maggiore,
+    extending the experience of the audio-guided tour of the Renaissance urban environment
+    provided in the Hidden Florence app.
+
+
+    Among the six walks, join the wool-worker
+    Giovanni as he describes the rituals that took place on the piazza in front of
+    the church, and the widow Niccolosa as she talks about her personal connections
+    with the church and its community of nuns.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -3707,10 +4004,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 25
   m_fontSizeMax: 33
   m_fontStyle: 0
@@ -3793,7 +4090,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 791.7514, y: 436.9491}
+  m_SizeDelta: {x: 791.7514, y: 253.61}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1613260860
 MonoBehaviour:
@@ -3810,7 +4107,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 45
+    m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -3886,12 +4183,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Visitors to the National Gallery can enjoy Italian medieval and Renaissance
-    paintings in beautiful, purpose-built galleries. But it is difficult to appreciate
-    the original contexts, like churches or palaces, for which these artworks were
-    painted. \n\nAR can help by visualizing contexts alongside artworks, in this
-    case revealing how Jacopo di Cione\u2019s altarpiece responded to the surrounding
-    architecture of San Pier Maggiore."
+  m_text: "Augmented reality can help by visualising contexts alongside artworks,
+    in this case revealing how Jacopo di Cione\u2019s altarpiece in the National
+    Gallery responded to the surrounding architecture in San Pier Maggiore, or the
+    della Robbia angels in the V&A formed part of a complex altarpiece in Brunelleschi\u2019s
+    church of Santa Maria degli Innocenti. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -3919,10 +4215,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.75
-  m_fontSizeBase: 33
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 25
   m_fontSizeMax: 33
   m_fontStyle: 0
@@ -4006,8 +4302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 65, y: 0}
+  m_SizeDelta: {x: -130, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1638244926
 CanvasGroup:
@@ -4064,6 +4360,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 1638244926}
   sceneToMoveTo: 
+  location: 
 --- !u!1 &1669377309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,7 +4506,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 58
+    m_Top: -35
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 20
@@ -4656,7 +4953,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -35
     m_Right: 0
-    m_Top: 0
+    m_Top: -59
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 50
@@ -4829,6 +5126,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4f1d97d384ff9164e97a1acfdef929b5,
         type: 3}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!224 &1905056781 stripped
@@ -4860,6 +5177,7 @@ MonoBehaviour:
   panelToOpen: WhyAR
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
+  location: 
 --- !u!114 &1938784650 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -5086,7 +5404,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 791.7514, y: 436.9491}
+  m_SizeDelta: {x: 791.7514, y: 350.67}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2023286922
 MonoBehaviour:
@@ -5103,7 +5421,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 95
+    m_Top: 6
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -5275,6 +5593,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061409074}
   m_CullTransparentMesh: 0
+--- !u!1 &2118829269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816323607302960104, guid: 3250267ba7613490e819c1d58bb59af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 31499467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118829271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118829269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Download on Android
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
+  m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4287025132
+  m_fontColor: {r: 0.92549026, g: 0.8117648, b: 0.5254902, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &602677655625871920
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5423,7 +5837,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6321581193061762009}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5432,7 +5846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52, y: -52}
+  m_AnchoredPosition: {x: 52, y: -40}
   m_SizeDelta: {x: 52, y: 52}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &1158798703900310037
@@ -5581,7 +5995,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1368, y: 1024}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6124,7 +6538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 100
+    m_Left: 230
     m_Right: 50
     m_Top: 0
     m_Bottom: 50
@@ -6267,7 +6681,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 20
+    m_Top: 35
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 20
@@ -6293,8 +6707,8 @@ MonoBehaviour:
   m_Padding:
     m_Left: -30
     m_Right: 0
-    m_Top: 58
-    m_Bottom: 0
+    m_Top: -40
+    m_Bottom: 20
   m_ChildAlignment: 0
   m_Spacing: 20
   m_ChildForceExpandWidth: 0
@@ -6645,8 +7059,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

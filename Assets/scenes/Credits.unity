@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 100
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -570,8 +570,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 754790540}
   m_HandleRect: {fileID: 754790539}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.47540134
+  m_Value: 1
+  m_Size: 0.38983178
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -830,8 +830,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b4b64bbe359324067baf0aea236b4afd, type: 3}
-    m_FontSize: 33
+    m_Font: {fileID: 12800000, guid: 3b6325cad37ce4f2aa1dcfa90f24b243, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1100,8 +1100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
+    m_Left: -120
+    m_Right: 20
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
@@ -1202,6 +1202,7 @@ MonoBehaviour:
   currentPanel: {fileID: 0}
   previousPanelName: 
   futurePanelName: 
+  sceneName: 
 --- !u!1 &1179277159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,8 +1440,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
+    m_Left: -120
+    m_Right: 20
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
@@ -1566,7 +1567,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 14606c553d8434ecf89b8b4c2b28db7b, type: 3}
+    m_Font: {fileID: 12800000, guid: 04939b29ce3f14493886615eedea7b6b, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -1645,7 +1646,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 14606c553d8434ecf89b8b4c2b28db7b, type: 3}
+    m_Font: {fileID: 12800000, guid: 04939b29ce3f14493886615eedea7b6b, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -1724,8 +1725,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b4b64bbe359324067baf0aea236b4afd, type: 3}
-    m_FontSize: 33
+    m_Font: {fileID: 12800000, guid: 3b6325cad37ce4f2aa1dcfa90f24b243, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2182,10 +2183,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 04939b29ce3f14493886615eedea7b6b, type: 3}
-    m_FontSize: 60
+    m_FontSize: 54
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -2371,10 +2372,10 @@ MonoBehaviour:
     workshops (2018 and 2019), exploring the 3D San Pier Maggiore model for research
     and development testing in the app: Nicola Amico, Chiara Capulli and Cristina
     Mosconi. Subsequent research for the model was conducted by Donal Cooper with
-    Chiara Capulli, with the 3D developers at Zubr."
+    Chiara Capulli, with the 3D developers at Zubr.\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
-  m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
+  m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
+  m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2399,8 +2400,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 25
@@ -2768,8 +2769,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
+    m_Left: -120
+    m_Right: 20
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
@@ -2954,6 +2955,7 @@ MonoBehaviour:
   panelToOpen: 
   canvasGroup: {fileID: 5750874590582123357}
   sceneToMoveTo: 
+  location: 
 --- !u!225 &5750874590582123357
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3269,7 +3271,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1368, y: 1024}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3594,7 +3596,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2707073292768267256}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3603,6 +3605,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52, y: -52}
+  m_AnchoredPosition: {x: 52, y: -40}
   m_SizeDelta: {x: 52, y: 52}
   m_Pivot: {x: 0, y: 1}
