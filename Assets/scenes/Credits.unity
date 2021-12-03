@@ -571,7 +571,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 754790539}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.38983178
+  m_Size: 0.3919097
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -883,7 +883,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2355261726503581447}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1373,7 +1373,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2355261726503581447}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1737,8 +1737,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Comune di Firenze \u2013 Centro Storico Patrimonio Mondiale UNESCO office
-    \nAssociazione MUS.E.\nNational Gallery, London\n"
+  m_Text: 'National Gallery, London
+
+    V&A Museum, London
+
+    Museo degli Innocenti,
+    Florence
+
+    Comune di Firenze - Centro Storico Patrimonio Mondiale UNESCO Office
+
+    Associzione
+    MUS.E., Florence
+
+'
 --- !u!222 &1756771405
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2357,22 +2368,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hidden Florence 3D: San Pier Maggiore is the result of a collaborative
-    research project led by Fabrizio Nevola (University of Exeter), with Donal Cooper
-    (University of Cambridge). The app and project have been made possible with support
-    from the Getty Foundation, through its Digital Art History initiative; additional
-    support was provided from the University of Exeter and the Arts and Humanities
-    Research Council, UK (award: AH/R008086/1). \n\nWe are especially grateful to
-    our partners for this project, the National Gallery, London.\n\nThe original
-    San Pier Maggiore model \u2013 which forms the starting point for the 3D model
-    in the app \u2013 was created as part of a collaboration between Donal Cooper
-    and Fran\xE7ois Penz (University of Cambridge) and Jennifer Sliwka (then National
-    Gallery), and created by Miguel Santa Clara in 2015. Our thanks also go to our
-    Firenze Scomparsa team that participated in the Duke University advanced visualization
-    workshops (2018 and 2019), exploring the 3D San Pier Maggiore model for research
-    and development testing in the app: Nicola Amico, Chiara Capulli and Cristina
-    Mosconi. Subsequent research for the model was conducted by Donal Cooper with
-    Chiara Capulli, with the 3D developers at Zubr.\n\n"
+  m_text: "Hidden Florence 3D is the result of a collaborative research project led
+    by Fabrizio Novola (University of Exeter), with Donal Cooper (University of Cambridge).
+    The app and project have been made possible through the Getty Foundation through
+    its digital art history initiative. Additional support was provided from the
+    University of Exeter and the University of Cambridge (via the Arts and Humanities
+    Impact Fund), as well as the Arts and Humanities Research Council, UK (award:
+    AH/R008086/1). \n\nWe are especially grateful to our partners for this project,
+    the National Gallery and the V&A Museum in London, and the Museo degli Innocenti
+    in Florence.  \n\nThe original San Pier Maggiore model - which forms the starting
+    point for the 3D model in the app - was a collaboration between the University
+    of Cambridge  (Donal Cooper and Francois Penz) and the National Gallery (Jennifer
+    Sliwka), and created by Miguel Santa Clara in 2015. The research and 3D models
+    used in the app were produced by the Florence4D team. Find out more: <b><u><link=\"https://florence4d.org\">www.florence4d.org</link></u></b>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -2461,6 +2469,7 @@ GameObject:
   - component: {fileID: 2355261726503581447}
   - component: {fileID: 2355261726503581445}
   - component: {fileID: 2355261726503581444}
+  - component: {fileID: 2355261726503581448}
   m_Layer: 5
   m_Name: Description_Label
   m_TagString: Untagged
@@ -2489,6 +2498,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &2355261726503581448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2355261726503581446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b437a5e68ef41d9a6a17e24bd2a374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &2524436758300795307
 Animator:
   serializedVersion: 3

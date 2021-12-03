@@ -1453,7 +1453,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392083059
 MonoBehaviour:
@@ -1603,6 +1603,7 @@ GameObject:
   - component: {fileID: 570941401}
   - component: {fileID: 570941400}
   - component: {fileID: 570941399}
+  - component: {fileID: 570941402}
   m_Layer: 5
   m_Name: ContentTextTop
   m_TagString: Untagged
@@ -1636,7 +1637,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570941397}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
   m_Name: 
@@ -1675,7 +1676,8 @@ MonoBehaviour:
     eighteenth-century renovation have transformed the interior of building. But
     many of the paintings originally commissioned for the church are today preserved
     in the museum now housed in the hospital buildings, the Museo degli Innocenti.\n\nRead
-    more about the building and how it was used on the Floence4D website."
+    more about the building and how it was used on the it was used on the <u><b><link=\"https://florence4d.org/s/florence4d/page/innocenti\">Florence
+    4D website</link></u></b>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -1739,7 +1741,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -0.000014164524}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1753,6 +1755,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570941397}
   m_CullTransparentMesh: 1
+--- !u!114 &570941402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570941397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b437a5e68ef41d9a6a17e24bd2a374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &575689527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2087,6 +2101,7 @@ GameObject:
   - component: {fileID: 609051956}
   - component: {fileID: 609051955}
   - component: {fileID: 609051954}
+  - component: {fileID: 609051957}
   m_Layer: 5
   m_Name: ContentTextTop
   m_TagString: Untagged
@@ -2157,7 +2172,8 @@ MonoBehaviour:
     downloading the Hidden Florence \napp (iOS and Android) \u2013 try the \u2018City
     of Women\u2019 to discover \nmore about the life of orphans raised in the hospital.
     \n\nYou can find out much more information about \nGhirlandaio\u2019s magnificent
-    altarpiece on the Museo \ndegli Innocenti website.\n"
+    altarpiece on the \n<u><b><link=\"https://www.museodeglinnocenti.it/en/the-museum/art-path/\">Museo
+    degli Innocenti website</link></u></b>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -2235,6 +2251,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609051952}
   m_CullTransparentMesh: 1
+--- !u!114 &609051957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609051952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b437a5e68ef41d9a6a17e24bd2a374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &620931945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,7 +2346,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1947606949}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.32087496
+  m_Size: 0.2959646
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2918,7 +2946,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 475.75}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1152856607
 MonoBehaviour:
@@ -4738,7 +4766,7 @@ MonoBehaviour:
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0

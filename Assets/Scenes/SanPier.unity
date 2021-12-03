@@ -2990,6 +2990,7 @@ GameObject:
   - component: {fileID: 1857126324}
   - component: {fileID: 1857126323}
   - component: {fileID: 1857126322}
+  - component: {fileID: 1857126325}
   m_Layer: 5
   m_Name: ContentTextTop
   m_TagString: Untagged
@@ -3058,8 +3059,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You can hear more about the church of\nSan Pier Maggiore by downloading
     the\nHidden Florence app (IOS and Android) \nand read more about the building
-    and how\nit was used on the Hidden Florence website.\n\nThe National Gallery
-    also has much\nmore information about Jocopo di Cione's\naltarpiece."
+    and how\nit was used on the it was used on the \n<u><b><link=\"https://florence4d.org\">Hidden
+    Florence website</link></u></b>.\n\nYou can find out much more information about
+    \nJacopo di Cione\u2019s altarpiece on the  \n<u><b><link=\"https://nationalgallery.org.uk\">National
+    Gallery website</link></u></b>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -3137,6 +3140,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857126320}
   m_CullTransparentMesh: 1
+--- !u!114 &1857126325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857126320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b437a5e68ef41d9a6a17e24bd2a374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1884488166
 GameObject:
   m_ObjectHideFlags: 0

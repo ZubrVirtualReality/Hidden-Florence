@@ -15,6 +15,8 @@ public class Panel : MonoBehaviour
     public string sceneToMoveTo;
     public string location;
 
+    public string FinalText;
+
     void Start()
     {
         if(panelName == null)

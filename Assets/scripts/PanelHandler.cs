@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PanelHandler : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PanelHandler : MonoBehaviour
     public string previousPanelName;
     public string futurePanelName;
     public string sceneName;
+
+    public TextMeshProUGUI finalText;
 
     void Start()
     {
@@ -30,6 +33,11 @@ public class PanelHandler : MonoBehaviour
 
     public void SetOpenPanel(Panel _panel) // When queried closes all other panels but the one specified
     {
+        if (_panel.panelToOpen == "Final")
+        {
+            finalText.text = _panel.FinalText;
+        }
+
         foreach (Panel panel in panels)
         {
             CanvasGroup tempGroup = panel.canvasGroup;
@@ -52,9 +60,12 @@ public class PanelHandler : MonoBehaviour
                     AppManager.Instance.ChangeExperience(_panel.location);
 
                     
+                    
                 }
                 previousPanelName = currentPanel.panelName;
                 currentPanel = panel;
+
+                
             }
         }
     }

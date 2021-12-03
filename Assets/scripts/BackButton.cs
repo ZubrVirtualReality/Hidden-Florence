@@ -20,9 +20,17 @@ public class BackButton : MonoBehaviour
 
     private void Back() // If the user is at the start of the flow load previous scene otherwise jump back to start
     {
-        if(PanelHandler.instance.currentPanel.panelName != "MainPanel")
+        if (PanelHandler.instance != null)
         {
-            PanelHandler.instance.ReturnToMain();
+            if (PanelHandler.instance.currentPanel.panelName != "MainPanel")
+            {
+                PanelHandler.instance.ReturnToMain();
+            }
+            else
+            {
+                Debug.Log("Going back to " + previousSceneName);
+                SceneManager.LoadScene(previousSceneName);
+            }
         }
         else
         {
