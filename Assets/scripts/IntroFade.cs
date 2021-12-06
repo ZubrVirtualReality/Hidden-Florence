@@ -12,23 +12,31 @@ public class IntroFade : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*if (PlayerPrefs.GetInt("FIRSTTIMEOPENING", 1) == 1)
+        {
+            StartCoroutine(IntroSequence());
+            PlayerPrefs.SetInt("FIRSTTIMEOPENING", 0);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }*/
+
         StartCoroutine(IntroSequence());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (introRunning)
-        {
-            
-        }
     }
 
     IEnumerator IntroSequence()
     {
         //yield return new WaitForSeconds(.1f);
-
-        logo.transform.DOScale(.8f, 5);
+        if (logo != null)
+        {
+            logo.transform.DOScale(.8f, 5);
+        }
 
         yield return new WaitForSeconds(1f);
 

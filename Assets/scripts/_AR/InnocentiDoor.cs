@@ -15,13 +15,15 @@ public class InnocentiDoor : MonoBehaviour
     private void OnEnable()
     {
         ScannerEffectDemo.ScanFinished += EnableHotspots;
+        
     }
 
     private void EnableHotspots()
     {
         arrow.SetActive(false);
-        markers.SetActive(true);
+        //markers.SetActive(true);
         ani.SetTrigger("Open");
+        StartCoroutine(OpenDoor());
     }
 
     public void HideDoor()
@@ -34,5 +36,12 @@ public class InnocentiDoor : MonoBehaviour
     private void OnDisable()
     {
         ScannerEffectDemo.ScanFinished -= EnableHotspots;
+    }
+
+    IEnumerator OpenDoor()
+    {
+        yield return new WaitForSeconds(10f);
+        markers.SetActive(true);
+
     }
 }

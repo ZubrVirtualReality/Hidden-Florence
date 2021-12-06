@@ -44,6 +44,11 @@ public class PlaceDoor : MonoBehaviour
         effect.StartShader();
         placedObject.HideDoor();
         planes.subsystem.Stop();
+        foreach (ARPlane ap in planes.trackables)
+        {
+            ap.gameObject.SetActive(false);
+
+        }
     }
 
     private void Update()
