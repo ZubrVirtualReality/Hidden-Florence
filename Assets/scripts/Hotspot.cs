@@ -49,7 +49,7 @@ public class Hotspot : MonoBehaviour
             return; 
         }
         float distance = Vector3.Distance(Camera.main.transform.position, anchor.position);
-        image.transform.localScale = Vector3.one* Mathf.Clamp(Mathf.InverseLerp(100,10,distance),0.5f,1);
+        image.transform.localScale = Vector3.one* Mathf.Clamp(Mathf.InverseLerp(25,.5f,distance),0.1f,1);
         rect.position = pos;
     }
 
