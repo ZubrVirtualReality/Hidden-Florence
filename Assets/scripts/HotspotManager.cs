@@ -14,6 +14,9 @@ public class HotspotManager : MonoBehaviour
     [SerializeField] RectTransform panel;
     [SerializeField] Button close;
     [SerializeField] Image infoImage;
+
+    [SerializeField] ScrollRect infoScroll;
+
     Sequence s;
 
     private void Awake()
@@ -66,6 +69,9 @@ public class HotspotManager : MonoBehaviour
         {
             infoImage.enabled = false;
         }
+
+        infoScroll.verticalNormalizedPosition = 1f;
+
         Show();
     }
 

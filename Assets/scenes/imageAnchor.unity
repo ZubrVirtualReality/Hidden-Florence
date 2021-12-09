@@ -3566,6 +3566,11 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2880523086573206076, guid: 9d585432de2c24099a9d5cbc294e0330,
+        type: 3}
+      propertyPath: m_Horizontal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3027030468652003754, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -3645,6 +3650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8680915797842141689, guid: 9d585432de2c24099a9d5cbc294e0330,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 35.175117
       objectReference: {fileID: 0}
     - target: {fileID: 8680915797847911287, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
@@ -3840,6 +3850,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1244589632 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2880523086573206076, guid: 9d585432de2c24099a9d5cbc294e0330,
+    type: 3}
+  m_PrefabInstance: {fileID: 1244589626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1245999847
@@ -4328,6 +4350,7 @@ MonoBehaviour:
   panel: {fileID: 1244589629}
   close: {fileID: 1244589628}
   infoImage: {fileID: 1244589627}
+  infoScroll: {fileID: 1244589632}
 --- !u!1 &1539799853
 GameObject:
   m_ObjectHideFlags: 0

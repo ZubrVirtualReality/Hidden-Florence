@@ -1525,14 +1525,14 @@ MonoBehaviour:
   helpCanvas: {fileID: 1485092826}
   scanningAlert_Florence: Welcome to Florence
   scanningInstruction_Florence: Stand under the archway and scan the floor until
-    rectangle appears
+    the logo appears
   placingAlert_Florence: You have successfully scanned the floor
   placingInstruction_Florence: Facing towards the Via di S. Pier Maggiore, point
     the camera and tap the screen to position the altar on the floor
   gettingReadyAlert_Florence: Lift device vertically
   gettingReadyInstruction_Florence: Tap screen to watch
   scanningAlert_Elsewhere: Welcome
-  scanningInstruction_Elsewhere: Scan the floor until rectangle appears
+  scanningInstruction_Elsewhere: Scan the floor until the logo appears
   placingAlert_Elsewhere: You have successfully scanned the floor
   placingInstruction_Elsewhere: Point the camera and tap the screen to position the
     location of the altar on the floor
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   helpCanvas: {fileID: 1485092826}
   SCANNING_AlertText: Scanning
   SCANNING_InstructionsText: Scan the ground in front of you until you see a red
-    square
+    crest
   PLACING_AlertText: placing alert
   PLACING_InstructionsText: placing instructions
   GETTING_READY_AlertText: getting ready alert
@@ -13991,6 +13991,7 @@ MonoBehaviour:
   panel: {fileID: 3296287547527278219}
   close: {fileID: 3296287547174858148}
   infoImage: {fileID: 3296287546573641007}
+  infoScroll: {fileID: 6180639511513987564}
 --- !u!222 &3296287547722027491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14220,7 +14221,7 @@ PrefabInstance:
     - target: {fileID: 1987774805531896932, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 666.3454
+      value: 529.0893
       objectReference: {fileID: 0}
     - target: {fileID: 1987774805531896932, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
@@ -14230,7 +14231,7 @@ PrefabInstance:
     - target: {fileID: 1987774805531896932, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -416.1727
+      value: -347.54465
       objectReference: {fileID: 0}
     - target: {fileID: 2847387495751694086, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
@@ -14245,7 +14246,12 @@ PrefabInstance:
     - target: {fileID: 2847387495751694086, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.28193986
+      value: 0.42984834
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880523086573206076, guid: 9d585432de2c24099a9d5cbc294e0330,
+        type: 3}
+      propertyPath: m_Horizontal
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3027030468652003754, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
@@ -14326,6 +14332,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -337.885
+      objectReference: {fileID: 0}
+    - target: {fileID: 8680915797842141689, guid: 9d585432de2c24099a9d5cbc294e0330,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 37.88085
       objectReference: {fileID: 0}
     - target: {fileID: 8680915797847911287, guid: 9d585432de2c24099a9d5cbc294e0330,
         type: 3}
@@ -14469,6 +14480,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d585432de2c24099a9d5cbc294e0330, type: 3}
+--- !u!114 &6180639511513987564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2880523086573206076, guid: 9d585432de2c24099a9d5cbc294e0330,
+    type: 3}
+  m_PrefabInstance: {fileID: 6180639511513987563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &6316346681862435490
 CanvasRenderer:
   m_ObjectHideFlags: 0
