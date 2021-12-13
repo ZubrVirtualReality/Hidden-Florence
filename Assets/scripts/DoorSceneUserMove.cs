@@ -26,13 +26,21 @@ public class DoorSceneUserMove : MonoBehaviour
         {
             if (Input.touchCount > 0)
             {
+                
 
-                Touch t = Input.GetTouch(0);
+                float angle = Camera.main.transform.rotation.y - chapel.transform.rotation.y;
 
-                if (t.phase == TouchPhase.Moved)
+                if (angle > -45f && angle < 45f)
                 {
-                    chapel.transform.localPosition = new Vector3(chapel.transform.localPosition.x, chapel.transform.localPosition.y, Mathf.Clamp(chapel.transform.localPosition.z + Input.GetTouch(0).deltaPosition.y / 20, chapelpos.z - 20, chapelpos.z));
+
+                    Touch t = Input.GetTouch(0);
+
+                    if (t.phase == TouchPhase.Moved)
+                    {
+                        chapel.transform.localPosition = new Vector3(chapel.transform.localPosition.x, chapel.transform.localPosition.y, Mathf.Clamp(chapel.transform.localPosition.z + Input.GetTouch(0).deltaPosition.y / 20, chapelpos.z - 20, chapelpos.z));
+                    }
                 }
+                
             }
         }
     }

@@ -3541,7 +3541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 223541721708752197}
-  nextScene: IntroScene
+  nextScene: MariaWhereAreYou
 --- !u!114 &223541721708752197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4684,6 +4684,7 @@ MonoBehaviour:
   close: {fileID: 890864315}
   infoImage: {fileID: 890864312}
   infoScroll: {fileID: 890864316}
+  userMovement: {fileID: 0}
 --- !u!222 &5056012496889787785
 CanvasRenderer:
   m_ObjectHideFlags: 0

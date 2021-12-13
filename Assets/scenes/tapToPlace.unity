@@ -67576,5 +67576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8877240080516844203, guid: 1b1e7b880bd356e48be1af487447e8a2,
+        type: 3}
+      propertyPath: nextScene
+      value: SanPierWhereAreYou
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b1e7b880bd356e48be1af487447e8a2, type: 3}

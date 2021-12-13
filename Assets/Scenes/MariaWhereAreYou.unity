@@ -764,12 +764,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -3960,7 +3960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5231adac16a046243898545c0058b745, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2e12ac8dde4545bfa976d183f3ef4eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -6704,12 +6704,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -10840,12 +10840,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -11664,12 +11664,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688140, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -11856,7 +11856,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 941965122}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3854203
+  m_Size: 0.28887638
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12693,7 +12693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7ef4e1543a32eeb4ea9f222efea2e35f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa35656a1a0914fbaae2ce793eec120b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
