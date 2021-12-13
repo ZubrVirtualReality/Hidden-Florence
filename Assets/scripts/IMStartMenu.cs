@@ -111,11 +111,15 @@ public class IMStartMenu : MonoBehaviour {
             case 3:
                 yield return new WaitForSeconds(1f);
                 // StartCoroutine(fadeOut(scanFloorIcon, 1f));
-                churchMove.SetTrigger("go");
-                instructionsTextBox.text = texts[txt];
+
+				if (churchMove != null)
+                {
+					churchMove.SetTrigger("go");
+				}
+				instructionsTextBox.text = texts[txt];
                 yield return new WaitForSeconds(5f);
                 StartCoroutine(fadeOut(subtitleBox));
-                scannerEffectDemo.startPainting();
+                //scannerEffectDemo.startPainting();
                 break;
 
 		}
@@ -126,12 +130,16 @@ public class IMStartMenu : MonoBehaviour {
     }
     public void handleHelpButtonPress()
     {
-        StartCoroutine(fadeIn(helpCanvas, 1f));
+		helpCanvas.blocksRaycasts = true;
+		helpCanvas.interactable = true;
+		StartCoroutine(fadeIn(helpCanvas, 1f));
     }
 
     public void handleCloseHelpPanelPress()
     {
-        StartCoroutine(fadeOut(helpCanvas, 1f));
+		helpCanvas.blocksRaycasts = false;
+		helpCanvas.interactable = false;
+		StartCoroutine(fadeOut(helpCanvas, 1f));
     }
 
     IEnumerator fadeIn(CanvasGroup c, float maxAlpha = 0.7f)

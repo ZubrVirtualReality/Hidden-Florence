@@ -43,7 +43,13 @@ public class LineUpStatues : MonoBehaviour
         
         
         chapel.transform.DOMoveY(chapel.transform.position.y + 4.73f, 10);
-        
+
+        //chapel.transform.rotation = new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w);
+
+        //chapel.transform.DORotate(new Vector3(0, chapel.transform.rotation.y, 0), 10);
+
+        chapel.transform.DORotateQuaternion(new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w), 10);
+
         //scannerEffect.StartShader();
 
         

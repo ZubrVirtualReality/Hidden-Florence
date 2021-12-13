@@ -17,6 +17,8 @@ public class HotspotManager : MonoBehaviour
 
     [SerializeField] ScrollRect infoScroll;
 
+    [SerializeField] DoorSceneUserMove userMovement;
+
     Sequence s;
 
     private void Awake()
@@ -57,6 +59,11 @@ public class HotspotManager : MonoBehaviour
 
     public void ShowInfo(string _title, string _info, Sprite _image = null)
     {
+        if (userMovement)
+        {
+            userMovement.SetReadyToMove(false);
+
+        }
         title.text = _title;
         content.text = _info;
         if(_image)

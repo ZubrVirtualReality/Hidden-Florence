@@ -24,6 +24,7 @@ public class Hotspot : MonoBehaviour
     }
     private void ShowInfo()
     {
+        Debug.Log("Showing info");
         HotspotManager.instance.ShowInfo(title, info, infoImage);
     }
 
@@ -49,7 +50,7 @@ public class Hotspot : MonoBehaviour
             return; 
         }
         float distance = Vector3.Distance(Camera.main.transform.position, anchor.position);
-        image.transform.localScale = Vector3.one* Mathf.Clamp(Mathf.InverseLerp(25,.5f,distance),0.1f,1);
+        image.transform.localScale = Vector3.one* Mathf.Clamp(Mathf.InverseLerp(35,.5f,distance),0.2f,1);
         rect.position = pos;
     }
 

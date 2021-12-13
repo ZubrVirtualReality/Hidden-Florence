@@ -49,6 +49,7 @@ public class PlaceDoor : MonoBehaviour
             ap.gameObject.SetActive(false);
 
         }
+        HideButton();
     }
 
     private void Update()

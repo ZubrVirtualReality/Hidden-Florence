@@ -662,7 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScannerOrigin: {fileID: 604085996}
   active: 0
-  church: {fileID: 0}
+  church: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139, type: 3}
   menu: {fileID: 1913263623}
   tim: {fileID: 625030888}
   isInnocenti: 0
@@ -1657,7 +1657,7 @@ RectTransform:
   - {fileID: 1245999849}
   - {fileID: 197519351}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1848,7 +1848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   painting: {fileID: 0}
-  paintingToSpawn: {fileID: 1199533223340674096, guid: f7c8f4615036f49d897d71ba563708b2,
+  paintingToSpawn: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
     type: 3}
   shaderScript: {fileID: 1540037841}
   scanCentre: {fileID: 604085995}
@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: f52f5aaafc8f73b40bf459d4d1d077b2,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 1199533223340674096, guid: f7c8f4615036f49d897d71ba563708b2,
+  m_TrackedImagePrefab: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
     type: 3}
 --- !u!1 &639194314
 GameObject:
@@ -1968,7 +1968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &676504885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1981,7 +1981,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -2615,7 +2615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &952442729
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2632,7 +2632,7 @@ RectTransform:
   - {fileID: 1271282444}
   - {fileID: 2119376877}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3127,7 +3127,7 @@ RectTransform:
   m_Children:
   - {fileID: 322633799}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4026,7 +4026,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4222,7 +4222,7 @@ RectTransform:
   m_Children:
   - {fileID: 386475619}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4317,7 +4317,7 @@ RectTransform:
   - {fileID: 8085661088717993889}
   - {fileID: 1244589629}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
@@ -4351,6 +4351,7 @@ MonoBehaviour:
   close: {fileID: 1244589628}
   infoImage: {fileID: 1244589627}
   infoScroll: {fileID: 1244589632}
+  userMovement: {fileID: 0}
 --- !u!1 &1539799853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4886,7 +4887,7 @@ RectTransform:
   - {fileID: 555203247}
   - {fileID: 929349352}
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5110,7 +5111,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5259,6 +5260,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780426694}
   m_CullTransparentMesh: 0
+--- !u!1001 &1850765905
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_Name
+      value: SMP New
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c4b4c7023c7443168f57965bf8a6139, type: 3}
 --- !u!1 &1869663056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5371,7 +5446,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1913263620}
-  m_RootOrder: 10
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -5581,17 +5656,17 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1897002945}
   - {fileID: 1743696347}
   - {fileID: 1496426143}
-  - {fileID: 559442523}
+  - {fileID: 1664523881}
   - {fileID: 1493437256}
   - {fileID: 1052474379}
-  - {fileID: 952442729}
   - {fileID: 504672997}
-  - {fileID: 1664523881}
+  - {fileID: 952442729}
+  - {fileID: 559442523}
   - {fileID: 676504885}
   - {fileID: 1276026175}
-  - {fileID: 1897002945}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5646,6 +5721,7 @@ MonoBehaviour:
   texts:
   - Welcome to the National Gallery
   - Look at the centre panel of the painting
+  - Wait, watch and explore
   - Wait, watch and explore
   startBackground: {fileID: 1276026178}
   titleBox: {fileID: 1493437259}
