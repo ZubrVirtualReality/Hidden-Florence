@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using DG.Tweening;
 
 
 public class triggerMain : MonoBehaviour {
@@ -21,6 +22,8 @@ public class triggerMain : MonoBehaviour {
 	const string innocenti = "Adoration_of_the_Magi_Spedale_degli_Innocenti";
 	const string sanPierMaggiore = "newTrigger";
 	[SerializeField] GameObject hotspots;
+
+	Vector3 imagePos;
 
 	// Use this for initialization
 	void Start () 
@@ -61,16 +64,26 @@ public class triggerMain : MonoBehaviour {
         }
 			Vector3 position = arImageAnchor.transform.position;
 			Quaternion rotation =arImageAnchor.transform.rotation;
-			church.transform.position = position;
+
+		imagePos = position;
+
+			church.transform.position = position + (Vector3.down * 2);
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
+
+		StartCoroutine(SpawnSequence());
 
 		church.SetActive(true); // Jake
 
 		hotspots.SetActive(true);
 	}
 
-	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
+    private void Update()
+    {
+        
+    }
+
+    void UpdateImageAnchor(ARTrackedImage arImageAnchor)
 	{
 		if (arImageAnchor.referenceImage.name != (isInnocenti ? innocenti : sanPierMaggiore))
 		{
@@ -108,5 +121,11 @@ public class triggerMain : MonoBehaviour {
 	void OnDestroy()
 	{
 		tim.trackedImagesChanged -= Changed;
+	}
+
+	IEnumerator SpawnSequence()
+    {
+		yield return new WaitForSeconds(8);
+		church.transform.DOMoveY(imagePos.y, 5f);
 	}
 }
