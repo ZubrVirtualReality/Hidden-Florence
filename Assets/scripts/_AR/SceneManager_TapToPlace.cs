@@ -82,6 +82,9 @@ public class SceneManager_TapToPlace : MonoBehaviour
             if (state == TapToPlace_StateInno.PLACING)
             {
                 setExperienceState(TapToPlace_StateInno.GETTING_READY);
+
+                //setExperienceState(TapToPlace_StateInno.EXPERIENCING); // Jake
+
             } else if (state == TapToPlace_StateInno.GETTING_READY)
             {
                 setExperienceState(TapToPlace_StateInno.EXPERIENCING);
@@ -136,6 +139,12 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
+
+                // Jake added
+                //StartCoroutine(fadeOut(instructionsCanvas, 0f));
+
+                
+
                 if (selectedExperience == ExperienceType.FLORENCE)
                 {
                     altarBase_Florence.SetActive(true);
@@ -145,6 +154,9 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 }
                 planeManager.subsystem.Stop();
                 focusSquare.SetActive(false);
+
+                //setExperienceState(TapToPlace_StateInno.EXPERIENCING); // Jake
+
                 break;
 
             case TapToPlace_StateInno.EXPERIENCING:

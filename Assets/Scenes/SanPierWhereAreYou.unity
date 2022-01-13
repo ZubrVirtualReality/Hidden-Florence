@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265630812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -4248,10 +4248,10 @@ RectTransform:
   m_Father: {fileID: 1632600957}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: -1268, y: -532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &966615508
 GameObject:
@@ -6776,60 +6776,57 @@ MonoBehaviour:
     Pier Maggiore which is at
     the top of
 
-    Via di S.Pier Maggiore (50122
-
-    Firenzi FI).
+    Via di S.Pier Maggiore.
 
 
-    2. Stand
-    under the archway facing
+    2. Stand under the archway facing
 
-    towards the Via di S. Pier Maggiore.
+    towards
+    the Via di S. Pier Maggiore.
 
-    It is
-    a pedestrianised part of the road
+    It is a pedestrianised part of the road
 
-    but please still be aware of cars.
-
-
-    3.
-    Point the camera at the floor and
-
-    scan the pavement.
+    but
+    please still be aware of cars.
 
 
-    4. Tap the screen
-    to position the altar
+    3. Point the camera at the floor and
 
-    in front of you.
+    scan
+    the pavement.
 
 
-    5. Point the camera towards
-    the far
+    4. Tap the screen to position the altar
 
-    end of the road at the intersection of
+    in front of
+    you.
 
-    via San Pier Maggiore
-    and via
+
+    5. Point the camera towards the far
+
+    end of the road at the intersection
+    of
+
+    via San Pier Maggiore and via
 
     Giuseppe Verdi, this is where the
 
-    altarpiece by Jacopo di Cione
+    altarpiece
+    by Jacopo di Cione
 
-    originally
-    hung in the church.
+    originally hung in the church.
 
 
-    6. Tap the screen to watch the
+    6. Tap the screen
+    to watch the
 
-    altarpiece move
-    into place and for the
+    altarpiece move into place and for the
 
     experience to build.
 
 
-    7. Walk around to explore
-    the lost
+    7.
+    Walk around to explore the lost
 
     church of San Pier Maggiore and its
 
@@ -7354,7 +7351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 006203487b5784e9f9c738b5571e848a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82486385932624809888de9cc8b6f59e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7436,7 +7433,7 @@ RectTransform:
   m_GameObject: {fileID: 1600646078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.000728, y: 6.000728, z: 6.000728}
+  m_LocalScale: {x: 6.000921, y: 6.000921, z: 6.000921}
   m_Children:
   - {fileID: 966615509}
   m_Father: {fileID: 1742618124}
@@ -7445,7 +7442,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 111, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1601938056
 GameObject:
@@ -9350,7 +9347,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3177631
+  m_Size: 0.32872006
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

@@ -409,6 +409,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 82541486}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!1 &153641211 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -621,9 +622,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'The project has been made possible thanks to research funding from the
-    Getty Foundation. The source code for this app and 3D augmentation is now available
-    on Github. Visit our project website to find out more about the research and
-    access the 3D models at <b><u><link="https://florence4d.org">www.florence4d.org</link></u></b>. '
+    Getty Foundation and the University of Cambridge and the University of Exeter.
+    The source code for this app and 3D augmentation is now available on Github.
+    Visit our project website to find out more about the research and access the
+    3D models: <b><u><link="https://florence4d.org">www.florence4d.org</link></u></b>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -1549,6 +1551,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!114 &637925442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -1882,6 +1885,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!114 &830031014 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
@@ -2921,6 +2925,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1100875583}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!1001 &1182099188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3309,6 +3314,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!1 &1313723863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +3915,7 @@ MonoBehaviour:
   previousPanelName: 
   futurePanelName: 
   sceneName: 
+  finalText: {fileID: 0}
 --- !u!4 &1552910111
 Transform:
   m_ObjectHideFlags: 0
@@ -4197,11 +4204,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Augmented reality can help by visualising contexts alongside artworks,
-    in this case revealing how Jacopo di Cione\u2019s altarpiece in the National
-    Gallery responded to the surrounding architecture in San Pier Maggiore, or the
-    della Robbia angels in the V&A formed part of a complex altarpiece in Brunelleschi\u2019s
-    church of Santa Maria degli Innocenti. "
+  m_text: "AR can help by visualising contexts alongside artworks, in this case revealing
+    how Jacopo di Cione\u2019s altarpiece in the National Gallery responded to the
+    surrounding architecture in San Pier Maggiore, or the della Robbia angels in
+    the V&A formed part of a complex altarpiece in Brunelleschi\u2019s church of
+    Santa Maria degli Innocenti. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
   m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
@@ -4375,6 +4382,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1638244926}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!1 &1669377309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5192,6 +5200,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1277252844}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!114 &1938784650 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,

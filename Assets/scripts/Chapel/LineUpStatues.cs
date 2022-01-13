@@ -42,7 +42,7 @@ public class LineUpStatues : MonoBehaviour
 
         
         
-        chapel.transform.DOMoveY(chapel.transform.position.y + 4.73f, 10);
+        chapel.transform.DOMoveY(chapel.transform.position.y + 3.5f, 10); // (-6.78 = 4.73f)  (- 5.55 = 3.5f)
 
         //chapel.transform.rotation = new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w);
 

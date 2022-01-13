@@ -662,7 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScannerOrigin: {fileID: 604085996}
   active: 0
-  church: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139, type: 3}
+  church: {fileID: 1426705183}
   menu: {fileID: 1913263623}
   tim: {fileID: 625030888}
   isInnocenti: 0
@@ -750,9 +750,8 @@ MonoBehaviour:
   click: {fileID: 1707485733}
   title: Jacopo di Cione high altarpiece
   info: "Jacopo di Cione\u2019s high altarpiece was completed in 1371. It is now
-    divided into sections, displayed in the National Gallery, London. Within its
-    gilded frame, the altarpiece would have been over five metres tall and four metres
-    wide."
+    cut up into sections, displayed in the National Gallery, London. Within its gilded
+    frame, the altarpiece would have been over five metres tall and four metres wide."
   image: {fileID: 1707485734}
   infoImage: {fileID: 0}
 --- !u!1 &277105483
@@ -1848,8 +1847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   painting: {fileID: 0}
-  paintingToSpawn: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
-    type: 3}
+  paintingToSpawn: {fileID: 1426705183}
   shaderScript: {fileID: 1540037841}
   scanCentre: {fileID: 604085995}
   debugText: {fileID: 0}
@@ -1868,8 +1866,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: f52f5aaafc8f73b40bf459d4d1d077b2,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!1 &639194314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,13 +2552,13 @@ LightingSettings:
   m_IndirectOutputScale: 1
   m_UsingShadowmask: 0
   m_BakeBackend: 1
-  m_LightmapMaxSize: 1024
-  m_BakeResolution: 10
-  m_Padding: 4
+  m_LightmapMaxSize: 512
+  m_BakeResolution: 40
+  m_Padding: 2
   m_TextureCompression: 0
   m_AO: 1
-  m_AOMaxDistance: 1
-  m_CompAOExponent: 3
+  m_AOMaxDistance: 3.61
+  m_CompAOExponent: 1
   m_CompAOExponentDirect: 0
   m_ExtractAO: 0
   m_MixedBakeMode: 1
@@ -2578,15 +2575,15 @@ LightingSettings:
   m_FinalGatherFiltering: 1
   m_PVRCulling: 1
   m_PVRSampling: 1
-  m_PVRDirectSampleCount: 32
-  m_PVRSampleCount: 500
-  m_PVREnvironmentSampleCount: 500
+  m_PVRDirectSampleCount: 10
+  m_PVRSampleCount: 10
+  m_PVREnvironmentSampleCount: 10
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
-  m_PVRBounces: 2
+  m_PVRBounces: 4
   m_PVRMinBounces: 2
   m_PVREnvironmentMIS: 0
-  m_PVRFilteringMode: 2
+  m_PVRFilteringMode: 1
   m_PVRDenoiserTypeDirect: 0
   m_PVRDenoiserTypeIndirect: 0
   m_PVRDenoiserTypeAO: 0
@@ -4083,6 +4080,12 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!1 &1426705183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9204259142148160713, guid: 8c4b4c7023c7443168f57965bf8a6139,
+    type: 3}
+  m_PrefabInstance: {fileID: 1850765905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1454626604
 GameObject:
   m_ObjectHideFlags: 0
@@ -5280,12 +5283,12 @@ PrefabInstance:
     - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 9204259142148160509, guid: 8c4b4c7023c7443168f57965bf8a6139,
         type: 3}
@@ -6550,9 +6553,9 @@ MonoBehaviour:
   click: {fileID: 8085661089495597596}
   title: "Nuns\u2019 Choir"
   info: San Pier Maggiore belonged to a community of Benedictine nuns, whose convent
-    and cloister was next to the church. The nuns lived a cloistered life and were
-    not allowed to freely access the church. They viewed the interior from this elevated
-    choir balcony, hidden from view by grates.
+    and cloister were located beside the church. The nuns lived a cloistered life
+    and were not allowed to freely access the church. They viewed the interior from
+    this elevated choir balcony, hidden from view by grates.
   image: {fileID: 0}
   infoImage: {fileID: 0}
 --- !u!224 &8085661088597652043

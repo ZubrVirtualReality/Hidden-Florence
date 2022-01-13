@@ -1584,7 +1584,7 @@ PrefabInstance:
     - target: {fileID: 756936576198932471, guid: 8720a82e855643f4aa9f73c06db45a16,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 756936576198932471, guid: 8720a82e855643f4aa9f73c06db45a16,
         type: 3}
@@ -1880,6 +1880,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194802585773819350, guid: 8720a82e855643f4aa9f73c06db45a16,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194802585773819350, guid: 8720a82e855643f4aa9f73c06db45a16,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194802585773819350, guid: 8720a82e855643f4aa9f73c06db45a16,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 1196074158465485273, guid: 8720a82e855643f4aa9f73c06db45a16,
         type: 3}
@@ -7653,6 +7668,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8720a82e855643f4aa9f73c06db45a16, type: 3}
+--- !u!4 &374875502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7031483168634920769, guid: 8720a82e855643f4aa9f73c06db45a16,
+    type: 3}
+  m_PrefabInstance: {fileID: 374875501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &403235332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8595,7 +8616,7 @@ PrefabInstance:
     - target: {fileID: 3106959389819202855, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
       propertyPath: m_Range
-      value: 9.921099
+      value: 10.943126
       objectReference: {fileID: 0}
     - target: {fileID: 3106959389819202855, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
@@ -8835,7 +8856,7 @@ PrefabInstance:
     - target: {fileID: 8798547041164286035, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.94
+      value: 19.06
       objectReference: {fileID: 0}
     - target: {fileID: 8798547041164286035, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
@@ -9481,6 +9502,102 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3296287546157961291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &897406964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 897406965}
+  - component: {fileID: 897406968}
+  - component: {fileID: 897406967}
+  - component: {fileID: 897406966}
+  m_Layer: 9
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &897406965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897406964}
+  m_LocalRotation: {x: -0.000000015408677, y: -0.389901, z: -0.00000002784316, w: 0.9208568}
+  m_LocalPosition: {x: -7.69, y: -3.438, z: -15.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 374875502}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -45.897, z: 0}
+--- !u!64 &897406966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897406964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &897406967
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897406964}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 584cfdacb5d266144b3db36eea65dc63, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &897406968
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897406964}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!224 &996198116 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8085661090159369676, guid: 7e764f70bcfe4834dad15988a8c686f2,
@@ -9936,7 +10053,7 @@ PrefabInstance:
     - target: {fileID: 2568851530985712851, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2568851530985712851, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
@@ -12501,7 +12618,7 @@ PrefabInstance:
         type: 3}
       propertyPath: info
       value: San Pier Maggiore belonged to a community of Benedictine nuns, whose
-        convent and cloister was next to the church. The nuns lived a cloistered
+        convent and cloister were located beside the church. The nuns lived a cloistered
         life and were not allowed to freely access the church. They viewed the interior
         from this elevated choir balcony, hidden from view by grates.
       objectReference: {fileID: 0}
@@ -32412,7 +32529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.8, y: 1.91, z: 2.7}
+  m_LocalPosition: {x: -7.8, y: -0.396, z: 2.7}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 4012713443711014874}
@@ -35931,7 +36048,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711014687}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46110,7 +46227,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013022}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46192,7 +46309,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013095}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46233,7 +46350,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013014}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46766,7 +46883,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -46971,7 +47088,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4012713443711013057}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -65051,7 +65168,7 @@ ReflectionProbe:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IntensityMultiplier: 1
+  m_IntensityMultiplier: 0.5
   m_BlendDistance: 1
   m_HDR: 1
   m_BoxProjection: 0
@@ -66592,7 +66709,7 @@ PrefabInstance:
     - target: {fileID: 2154037781645733617, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2154037781645733617, guid: d4317fea861304a60aca4d79aecea094,
         type: 3}
@@ -67300,7 +67417,7 @@ PrefabInstance:
         type: 3}
       propertyPath: info
       value: "Jacopo di Cione\u2019s high altarpiece was completed in 1371. It is
-        now divided into sections, displayed in the National Gallery, London. Within
+        now cut up into sections, displayed in the National Gallery, London. Within
         its gilded frame, the altarpiece would have been over five metres tall and
         four metres wide."
       objectReference: {fileID: 0}

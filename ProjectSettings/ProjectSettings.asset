@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Calvium
+  companyName: zubr
   productName: Hidden Florence 3D
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -127,7 +127,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.5
+  bundleVersion: 0.15
   preloadedAssets:
   - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
   - {fileID: 2960577303237016188, guid: 93a68112b4be75b47a2840eb83bc74ae, type: 2}
@@ -149,7 +149,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.Calvium.HiddenFlorence3D
-    iPhone: com.calvium.hiddenflorence3d
+    iPhone: com.zubr.hiddenflorence3d
   buildNumber:
     Standalone: 0
     iPhone: 10

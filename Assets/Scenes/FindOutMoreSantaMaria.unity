@@ -219,6 +219,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 4279095}
   sceneToMoveTo: 
   location: 
+  FinalText: 
 --- !u!1 &12252711
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +773,7 @@ MonoBehaviour:
   previousPanelName: 
   futurePanelName: 
   sceneName: 
+  finalText: {fileID: 0}
 --- !u!4 &349430686
 Transform:
   m_ObjectHideFlags: 0

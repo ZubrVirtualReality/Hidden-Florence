@@ -64,7 +64,10 @@ public class triggerMain : MonoBehaviour {
 			church.transform.position = position;
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
-			hotspots.SetActive(true);
+
+		church.SetActive(true); // Jake
+
+		hotspots.SetActive(true);
 	}
 
 	void UpdateImageAnchor(ARTrackedImage arImageAnchor)
@@ -76,7 +79,10 @@ public class triggerMain : MonoBehaviour {
 
 		church.transform.position = arImageAnchor.transform.position;
 			church.transform.rotation = arImageAnchor.transform.rotation;
-			if (!seen)
+
+		church.SetActive(true); // Jake
+
+		if (!seen)
 			{
 				menu.callSetText(3);
 				seen = true;
