@@ -67,11 +67,11 @@ public class triggerMain : MonoBehaviour {
 
 		imagePos = position;
 
-			church.transform.position = position + (Vector3.down * 2);
+		church.transform.position = position;// + (Vector3.down * 2);
 			church.transform.rotation = rotation;
 			ScannerOrigin.position = position;
 
-		StartCoroutine(SpawnSequence());
+		//StartCoroutine(SpawnSequence());
 
 		church.SetActive(true); // Jake
 
