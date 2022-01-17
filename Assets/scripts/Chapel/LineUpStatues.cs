@@ -34,21 +34,21 @@ public class LineUpStatues : MonoBehaviour
         statues.transform.parent = chapel.transform;
         chapel.transform.parent = null;
 
+        chapel.transform.DOMoveY(chapel.transform.position.y + 4.1f, 10); // (-6.78 = 4.73f)  (- 5.55 = 3.5f)
+
+        chapel.transform.DORotateQuaternion(new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w), 10);
+
+
+        yield return new WaitForSeconds(10);
 
         statueLeft.transform.DOMove(leftEndPos.position, 3);
         statueRight.transform.DOMove(rightEndPos.position, 3);
 
-        yield return new WaitForSeconds(3);
-
-        
-        
-        chapel.transform.DOMoveY(chapel.transform.position.y + 3.5f, 10); // (-6.78 = 4.73f)  (- 5.55 = 3.5f)
 
         //chapel.transform.rotation = new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w);
 
         //chapel.transform.DORotate(new Vector3(0, chapel.transform.rotation.y, 0), 10);
 
-        chapel.transform.DORotateQuaternion(new Quaternion(0, chapel.transform.rotation.y, 0, chapel.transform.rotation.w), 10);
 
         //scannerEffect.StartShader();
 

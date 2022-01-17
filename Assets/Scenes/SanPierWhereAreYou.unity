@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33794335
+  m_Size: 0.41152164
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6144,8 +6144,8 @@ MonoBehaviour:
   m_text: "To experience one of the National \nGallery's most important Italian\npaintings
     within it's original medieval \nsetting:\n\n1. Find the altarpiece by Jacopo
     di \nCione in Gallery 60 in the Sainsbury \nWing of the National Gallery.\n\n2.
-    Stand where you can view the\n whole Slater piece, about 4 meters in \nfront
-    of the central panel.\n\n3. Move your device around to scan\n the floor and walls.\n\n4.
+    Stand where you can view the\nwhole altar piece, about 4 meters in \nfront of
+    the central panel.\n\n3. Move your device around to scan\n the floor and walls.\n\n4.
     Point the camera at the central \npanel of the altarpiece by Acopo Di \nCione
     until the app recognises it.\n\n5. Wait and watch as the church \nexpands out
     from the original church \nshown in the left hand panel."
@@ -6521,7 +6521,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33794335
+  m_Size: 0.41152164
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9347,7 +9347,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.32872006
+  m_Size: 0.40029022
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
