@@ -267,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18912124}
   m_LocalRotation: {x: -0.000070346134, y: 0.9997527, z: -0.018908761, w: -0.011704574}
-  m_LocalPosition: {x: 1.55, y: 4.31, z: -26.12}
+  m_LocalPosition: {x: 1.38, y: 2.58, z: -26.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 186380991}
@@ -577,12 +577,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCam: 1
   textureName: _MainTex
-  ScannerOrigin: {fileID: 1830737766}
+  ScannerOrigin: {fileID: 3821061075626578924}
   EffectMaterial: {fileID: 2100000, guid: 808b571f85bcac742abf820a9ea9eb90, type: 2}
-  ScanDistance: 27792.434
-  speed: 105.44258
+  ScanDistance: 25000
+  speed: 1
   scanDistanceStart: 50
-  startSpeed: 5
+  startSpeed: 1
   _cameraMain: {fileID: 74601128}
   isitpainting: {fileID: 0}
   _scanning: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   fadeInPainting: {fileID: 0}
   camTran: {fileID: 0}
   started: 0
-  particleMat: {fileID: 2100000, guid: bf35fa1b75e2fb64c8c845a12e73c197, type: 2}
+  particleMat: {fileID: 0}
   _particlesStart: {r: 1, g: 1, b: 1, a: 0.5882353}
   _particlesOff: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &99236513
@@ -1871,7 +1871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604814461}
   m_LocalRotation: {x: 0.007894152, y: -0.718002, z: 0.008237379, w: 0.6959475}
-  m_LocalPosition: {x: -4.28, y: 1.74, z: -13.49}
+  m_LocalPosition: {x: -4.253, y: 1.353, z: -14.085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 186380991}
@@ -32290,6 +32290,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1991256752385382111, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
+      propertyPath: info
+      value: The church of the Innocenti was lit with simple gothic windows which
+        were hidden behind the later baroque vaulting. They were identified during
+        conservation work in the 1960s. One of  the windows has been reopened and
+        can be seen in the galleries of the museum. Through it  you can glimpse the
+        original timber roof beams above the baroque ceiling.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991256752385382111, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
       propertyPath: anchor
       value: 
       objectReference: {fileID: 72130519}
@@ -32335,9 +32344,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3899160118899621774, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
+      propertyPath: info
+      value: 'This altarpiece ,now in the museum of the Innocenti museum in Florence,
+        was  commissioned in 1491 by Piero del Pugliese, a friend of the Innocenti
+        prior Tesori, and a  wealthy merchant and member of the Florentine Silkweavers
+        Guild. In this lavish painting,  the patron of the Guild, Saint John Evangelist,
+        introduces Saint Catherine of Alexandria to  Jesus, who holds out a wedding
+        ring to contract the mystical union with her. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899160118899621774, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
       propertyPath: anchor
       value: 
       objectReference: {fileID: 1575447142}
+    - target: {fileID: 3899160119052491809, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: info
+      value: "Francesco Tesori commissioned the high altarpiece from Domenico Ghirlandaio,
+        one of  Florence\u2019s leading artists, in 1485. The predella scenes were
+        completed soon afterwards  by Bartolommeo di Giovanni. Documents allow us
+        to construct its elaborate architectural  frame of gilded wood created by
+        the Sangallo brothers, topped by a tabernacle for the  Eucharist. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3899160119052491809, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: anchor
@@ -32345,9 +32373,30 @@ PrefabInstance:
       objectReference: {fileID: 18912125}
     - target: {fileID: 3899160119099398603, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
+      propertyPath: info
+      value: "This altarpiece by Neri di Bicci, now in the museum of the Innocenti
+        hospital, was commissioned by the Lenzi family for their side altar in the
+        hospital church in 1460, shortly after the building was consecrated in 1451.
+        In 1489 the hospital prior Tesori commissioned a new stone outer frame from
+        the sculptor Simone Ferrucci so that the Lenzi altar would match the new
+        Pugliese altar opposite, preserving Neri\u2019s older altarpiece within a
+        new, symmetrical scheme. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899160119099398603, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
       propertyPath: anchor
       value: 
       objectReference: {fileID: 1604814462}
+    - target: {fileID: 3899160119243442756, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: info
+      value: "Two kneeling angels attributed to Andrea della Robbia, now in the V&A
+        Museum (London), have also been associated with the Del Pugliese altar in
+        the church of Santa Maria degli Innocenti in Florence. They evoke the kneeling
+        saints in Piero di Cosimo's altarpiece, and were likely positioned at the
+        top of the architectural frame, like the angels standing on the Virgin\u2019s
+        throne in the painting. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3899160119243442756, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: anchor
@@ -32355,9 +32404,27 @@ PrefabInstance:
       objectReference: {fileID: 1602164099}
     - target: {fileID: 3899160119474918574, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
+      propertyPath: info
+      value: "This glazed terracotta lunette, which is still preserved in the Innocenti
+        hospital in the courtyard beside the hospital church, was originally part
+        of the Del Pugliese altar\u2019s decoration. The combination of painting
+        and sculpture within an architectural frame is characteristic of Florentine
+        altar design in the late 1400s. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899160119474918574, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
       propertyPath: anchor
       value: 
       objectReference: {fileID: 3605232}
+    - target: {fileID: 3899160119993790124, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: info
+      value: 'As prior of the Innocenti hospital, Francesco Tesori (d. 1497) coordinated
+        the renewal of the  altars in the church. He was buried in a tomb in the
+        most prestigious location, directly in front of the high altar. The tomb
+        slab is decorated with elaborate inlay designs, a full-length relief of the
+        deceased, and an elegant commemorative inscription. '
+      objectReference: {fileID: 0}
     - target: {fileID: 3899160119993790124, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: anchor
@@ -32392,6 +32459,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056012495029613592, guid: e5c092463db13462ba647626ea688ccb,
+        type: 3}
+      propertyPath: info
+      value: "The Florentine church of Santa Maria degli Innocenti was built in the
+        years after 1420 to  serve the city\u2019s new foundling hospital designed
+        by Filippo Brunelleschi. Its architecture was  very simple with a wooden
+        roof rather than vaults. You see the church around the year 1500, after the
+        hospital prior Francesco Tesori had renewed the three altars in the space
+        with new  paintings and frames. "
       objectReference: {fileID: 0}
     - target: {fileID: 5056012495029613592, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}

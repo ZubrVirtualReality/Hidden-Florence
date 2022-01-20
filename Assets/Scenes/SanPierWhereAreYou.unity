@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.41152164
+  m_Size: 0.5485458
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1814,7 +1814,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 441, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &449358753
 MonoBehaviour:
@@ -2368,7 +2368,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 410}
+  m_SizeDelta: {x: 389.33334, y: 410}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &596839106
 MonoBehaviour:
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05c7948ecb8a55c41bd7d49d35bb69ba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86fba1f5818be4a95adcd00adcba54fc, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3439,7 +3439,7 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
+  m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -6141,7 +6141,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "To experience one of the National \nGallery's most important Italian\npaintings
+  m_text: "Experience the church reappearing \nbefore your eyes as you stand in front
+    \nof Jacopo di Cione\u2019s vast altarpiece \nin the National Gallery.\n\nTo
+    experience one of the National \nGallery's most important Italian\npaintings
     within it's original medieval \nsetting:\n\n1. Find the altarpiece by Jacopo
     di \nCione in Gallery 60 in the Sainsbury \nWing of the National Gallery.\n\n2.
     Stand where you can view the\nwhole altar piece, about 4 meters in \nfront of
@@ -6521,7 +6523,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.41152164
+  m_Size: 0.5485458
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6771,66 +6773,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1. In Florence go to the Piazza di San
-
-    Pier Maggiore which is at
-    the top of
-
-    Via di S.Pier Maggiore.
-
-
-    2. Stand under the archway facing
-
-    towards
-    the Via di S. Pier Maggiore.
-
-    It is a pedestrianised part of the road
-
-    but
-    please still be aware of cars.
-
-
-    3. Point the camera at the floor and
-
-    scan
-    the pavement.
-
-
-    4. Tap the screen to position the altar
-
-    in front of
-    you.
-
-
-    5. Point the camera towards the far
-
-    end of the road at the intersection
-    of
-
-    via San Pier Maggiore and via
-
-    Giuseppe Verdi, this is where the
-
-    altarpiece
-    by Jacopo di Cione
-
-    originally hung in the church.
-
-
-    6. Tap the screen
-    to watch the
-
-    altarpiece move into place and for the
-
-    experience to build.
-
-
-    7.
-    Walk around to explore the lost
-
-    church of San Pier Maggiore and its
-
-    interior.'
+  m_text: "Experience the church reappearing \nbefore your eyes as you stand in \nPiazza
+    San Pier Maggiore in Florence, \nand see some of the artworks that \noriginally
+    adorned its vast interior.\n\n1. In Florence go to the Piazza di San\nPier Maggiore
+    which is at the top of\nVia di S.Pier Maggiore.\n\n2. Stand under the archway
+    facing\ntowards the Via di S. Pier Maggiore.\nIt is a pedestrianised part of
+    the road\nbut please still be aware of cars.\n\n3. Point the camera at the floor
+    and\nscan the pavement.\n\n4. Tap the screen to position the altar\nin front
+    of you.\n\n5. Point the camera towards the far\nend of the road at the intersection
+    of\nvia San Pier Maggiore and via\nGiuseppe Verdi, this is where the\naltarpiece
+    by Jacopo di Cione\noriginally hung in the church.\n\n6. Tap the screen to watch
+    the\naltarpiece move into place and for the\nexperience to build.\n\n7. Walk
+    around to explore the lost\nchurch of San Pier Maggiore and its\ninterior."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -7955,7 +7909,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 441.8889, y: 0}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1684551060
 MonoBehaviour:
@@ -8431,7 +8385,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 441.8889, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1805925086
 MonoBehaviour:
@@ -9347,7 +9301,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.40029022
+  m_Size: 0.4421072
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9727,7 +9681,7 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
+  m_ChildControlWidth: 0
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -11232,7 +11186,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 68}
+  m_SizeDelta: {x: 389.33334, y: 68}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &8265442893399495221
 MonoBehaviour:

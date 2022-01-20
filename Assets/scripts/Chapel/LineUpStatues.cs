@@ -23,13 +23,18 @@ public class LineUpStatues : MonoBehaviour
         {
             StartCoroutine(StatueSequence());
 
+            //scannerEffect.startPainting();
+
+            scannerEffect.StartShaderWithoutApproval(0);
+            scannerEffect.StartShader();
+
             once = true;
         }
     }
 
     IEnumerator StatueSequence()
     {
-        scannerEffect.startPainting();
+        
         chapel.SetActive(true);
         statues.transform.parent = chapel.transform;
         chapel.transform.parent = null;

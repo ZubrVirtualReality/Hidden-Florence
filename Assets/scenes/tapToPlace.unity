@@ -9491,9 +9491,9 @@ RectTransform:
   m_Father: {fileID: 993613156081780662}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 684, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 684, y: 0}
   m_SizeDelta: {x: 788, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &860515085 stripped
@@ -9945,8 +9945,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2568851529684881745, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568851529684881745, guid: b94d70acea1059142b1bc5101c138c8e,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.46
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 2568851529684881746, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
@@ -10015,12 +10020,12 @@ PrefabInstance:
     - target: {fileID: 2568851530368762032, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.819
+      value: -2.77
       objectReference: {fileID: 0}
     - target: {fileID: 2568851530368762032, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.976
+      value: -38.84
       objectReference: {fileID: 0}
     - target: {fileID: 2568851530368762033, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
@@ -10044,6 +10049,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 2568851530944618110, guid: b94d70acea1059142b1bc5101c138c8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568851530944618110, guid: b94d70acea1059142b1bc5101c138c8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568851530944618110, guid: b94d70acea1059142b1bc5101c138c8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2568851530944618111, guid: b94d70acea1059142b1bc5101c138c8e,
         type: 3}
       propertyPath: m_Icon
@@ -10843,9 +10863,9 @@ RectTransform:
   m_Father: {fileID: 993613156081780662}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 684, y: -482.0893}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 684, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1739368631
@@ -12148,7 +12168,7 @@ PrefabInstance:
       value: "Side chapels were added to the medieval church to create more space
         for altars and tombs. This chapel was added in the late fifteenth century.
         The base of one of its classical-style pilasters is still visible in the
-        bathroom of a local caf\xE9. "
+        bathroom of a local caf\xE9 that now occupies this site in Florence. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -12282,10 +12302,10 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: "The fa\xE7ade of the church no longer survives but we know from historic
-        paintings showing the exterior that it had a round oculus window filled with
-        a stained-glass image of the church\u2019s titular saint Peter enthroned
-        with angels to either side."
+      value: "The fa\xE7ade of the church of San Pier Maggiore no longer survives
+        but we know from historic paintings showing the exterior that it had a round
+        oculus window filled with a stained-glass image of the church\u2019s titular
+        saint Peter enthroned with angels to either side. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -12455,11 +12475,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: "Another altarpiece now in the National Gallery, Francesco Botticini\u2019s
-        Assumption of the Virgin, was painted for this chapel in 1475-76. Botticini
-        depicts a vision of heaven inspired by the writings of his patron, the Florentine
-        poet and politician Matteo Palmieri, who would be condemned for heresy after
-        his death."
+      value: "Another altarpiece now in the National Gallery ((London), Francesco
+        Botticini\u2019s Assumption of the Virgin, was painted in 1475-76 for this
+        chapel in San Pier Maggiore. Botticini depicts a vision of heaven inspired
+        by the writings of his patron, the Florentine poet and politician Matteo
+        Palmieri, who would be condemned for heresy after his death. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -12617,10 +12637,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: San Pier Maggiore belonged to a community of Benedictine nuns, whose
-        convent and cloister were located beside the church. The nuns lived a cloistered
-        life and were not allowed to freely access the church. They viewed the interior
-        from this elevated choir balcony, hidden from view by grates.
+      value: 'The Florentine church of San Pier Maggiore belonged to a community
+        of Benedictine nuns, whose convent and cloister were located beside the church.
+        The nuns lived a cloistered life and were not allowed to freely access the
+        church. They viewed the interior from this elevated choir balcony, hidden
+        from view by grates. '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -12761,8 +12782,9 @@ PrefabInstance:
       propertyPath: info
       value: "This chapel is lower than its neighbours because it is also the base
         of the church\u2019s lofty bell tower (or \u2018campanile\u2019). Much of
-        the bell tower\u2019s structure survives in later buildings, including the
-        spiral staircase that would have been used to climb it."
+        the bell tower\u2019s structure survives in later buildings that now occupy
+        the site of the demolished Florentine church, including the spiral staircase
+        that would have been used to climb it. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -12969,11 +12991,11 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: Every altar in the church originally had a painted altarpiece, many
+      value: 'Every altar in this church originally had a painted altarpiece, many
         of which still survive. This large altarpiece showing the Visitation (the
         meeting of the Virgin Mary with St Elizabeth, mother of St John the Baptist)
         was painted by Tommaso Manzuoli in 1560. It is now in the collection of the
-        Fitzwilliam Museum, Cambridge.
+        Fitzwilliam Museum, Cambridge. '
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
@@ -67416,10 +67438,10 @@ PrefabInstance:
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}
       propertyPath: info
-      value: "Jacopo di Cione\u2019s high altarpiece was completed in 1371. It is
-        now cut up into sections, displayed in the National Gallery, London. Within
-        its gilded frame, the altarpiece would have been over five metres tall and
-        four metres wide."
+      value: "Jacopo di Cione\u2019s high altarpiece for the Florentine church of
+        San Pier Maggiore was completed in 1371. It is now cut up into sections,
+        displayed in the National Gallery, London. Within its gilded frame, the altarpiece
+        would have been over five metres tall and four metres wide. "
       objectReference: {fileID: 0}
     - target: {fileID: 8085661090159369677, guid: 7e764f70bcfe4834dad15988a8c686f2,
         type: 3}

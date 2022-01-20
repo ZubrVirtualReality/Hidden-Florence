@@ -749,9 +749,10 @@ MonoBehaviour:
   rect: {fileID: 274520690}
   click: {fileID: 1707485733}
   title: Jacopo di Cione high altarpiece
-  info: "Jacopo di Cione\u2019s high altarpiece was completed in 1371. It is now
-    cut up into sections, displayed in the National Gallery, London. Within its gilded
-    frame, the altarpiece would have been over five metres tall and four metres wide."
+  info: "Jacopo di Cione\u2019s high altarpiece for the Florentine church of San
+    Pier Maggiore was completed in 1371. It is now cut up into sections, displayed
+    in the National Gallery, London. Within its gilded frame, the altarpiece would
+    have been over five metres tall and four metres wide. "
   image: {fileID: 1707485734}
   infoImage: {fileID: 0}
 --- !u!1 &277105483
@@ -5401,6 +5402,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -8.62
       objectReference: {fileID: 0}
+    - target: {fileID: 7758147081466773533, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758147081466773533, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.92
+      objectReference: {fileID: 0}
     - target: {fileID: 7758147081957141630, guid: 8c4b4c7023c7443168f57965bf8a6139,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5430,6 +5441,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758147082736685564, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.593
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758147082736685564, guid: 8c4b4c7023c7443168f57965bf8a6139,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 9204259142148159087, guid: 8c4b4c7023c7443168f57965bf8a6139,
         type: 3}
@@ -6828,10 +6849,10 @@ MonoBehaviour:
   rect: {fileID: 8085661088597652043}
   click: {fileID: 8085661089495597596}
   title: "Nuns\u2019 Choir"
-  info: San Pier Maggiore belonged to a community of Benedictine nuns, whose convent
-    and cloister were located beside the church. The nuns lived a cloistered life
-    and were not allowed to freely access the church. They viewed the interior from
-    this elevated choir balcony, hidden from view by grates.
+  info: 'The Florentine church of San Pier Maggiore belonged to a community of Benedictine
+    nuns, whose convent and cloister were located beside the church. The nuns lived
+    a cloistered life and were not allowed to freely access the church. They viewed
+    the interior from this elevated choir balcony, hidden from view by grates. '
   image: {fileID: 0}
   infoImage: {fileID: 0}
 --- !u!224 &8085661088597652043
@@ -6872,8 +6893,9 @@ MonoBehaviour:
   title: Bell tower chapel
   info: "This chapel is lower than its neighbours because it is also the base of
     the church\u2019s lofty bell tower (or \u2018campanile\u2019). Much of the bell
-    tower\u2019s structure survives in later buildings, including the spiral staircase
-    that would have been used to climb it."
+    tower\u2019s structure survives in later buildings that now occupy the site of
+    the demolished Florentine church, including the spiral staircase that would have
+    been used to climb it. "
   image: {fileID: 0}
   infoImage: {fileID: 0}
 --- !u!224 &8085661088717993889
@@ -7070,11 +7092,11 @@ MonoBehaviour:
   rect: {fileID: 8085661088782242276}
   click: {fileID: 8085661089645896115}
   title: Altar of the Visitation
-  info: Every altar in the church originally had a painted altarpiece, many of which
-    still survive. This large altarpiece showing the Visitation (the meeting of the
-    Virgin Mary with St Elizabeth, mother of St John the Baptist) was painted by
-    Tommaso Manzuoli in 1560. It is now in the collection of the Fitzwilliam Museum,
-    Cambridge.
+  info: 'Every altar in this church originally had a painted altarpiece, many of
+    which still survive. This large altarpiece showing the Visitation (the meeting
+    of the Virgin Mary with St Elizabeth, mother of St John the Baptist) was painted
+    by Tommaso Manzuoli in 1560. It is now in the collection of the Fitzwilliam Museum,
+    Cambridge. '
   image: {fileID: 0}
   infoImage: {fileID: 21300000, guid: 1d17911889db0284c9efa9fb68aa7f5a, type: 3}
 --- !u!1 &8085661088782242279
@@ -7254,7 +7276,7 @@ MonoBehaviour:
   info: "Side chapels were added to the medieval church to create more space for
     altars and tombs. This chapel was added in the late fifteenth century. The base
     of one of its classical-style pilasters is still visible in the bathroom of a
-    local caf\xE9. "
+    local caf\xE9 that now occupies this site in Florence. "
   image: {fileID: 0}
   infoImage: {fileID: 0}
 --- !u!1 &8085661089299036871
@@ -7690,10 +7712,10 @@ MonoBehaviour:
   rect: {fileID: 8085661089663149102}
   click: {fileID: 8085661088765121657}
   title: Stained glass window
-  info: "The fa\xE7ade of the church no longer survives but we know from historic
-    paintings showing the exterior that it had a round oculus window filled with
-    a stained-glass image of the church\u2019s titular saint Peter enthroned with
-    angels to either side."
+  info: "The fa\xE7ade of the church of San Pier Maggiore no longer survives but
+    we know from historic paintings showing the exterior that it had a round oculus
+    window filled with a stained-glass image of the church\u2019s titular saint Peter
+    enthroned with angels to either side. "
   image: {fileID: 0}
   infoImage: {fileID: 0}
 --- !u!1 &8085661089819820229
@@ -7749,10 +7771,11 @@ MonoBehaviour:
   rect: {fileID: 8085661089819820230}
   click: {fileID: 8085661088553791633}
   title: Botticini altarpiece
-  info: "Another altarpiece now in the National Gallery, Francesco Botticini\u2019s
-    Assumption of the Virgin, was painted for this chapel in 1475-76. Botticini depicts
-    a vision of heaven inspired by the writings of his patron, the Florentine poet
-    and politician Matteo Palmieri, who would be condemned for heresy after his death."
+  info: "Another altarpiece now in the National Gallery ((London), Francesco Botticini\u2019s
+    Assumption of the Virgin, was painted in 1475-76 for this chapel in San Pier
+    Maggiore. Botticini depicts a vision of heaven inspired by the writings of his
+    patron, the Florentine poet and politician Matteo Palmieri, who would be condemned
+    for heresy after his death. "
   image: {fileID: 0}
   infoImage: {fileID: 21300000, guid: e5cb7b15b62956e4f89f0b9d69da2c3a, type: 3}
 --- !u!222 &8256823139667744684

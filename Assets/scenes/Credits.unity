@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 246, y: 101.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19522231
 MonoBehaviour:
@@ -234,7 +234,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 267, y: 125}
+  m_SizeDelta: {x: 171.5, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104464891
 MonoBehaviour:
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e600e86abd0664d11b3f3b08d1b4b6b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d54b7470d4d4c41dfbed2427325faeae, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -309,7 +309,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 107.16449, y: 77}
+  m_SizeDelta: {x: 233.6, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108929315
 MonoBehaviour:
@@ -599,7 +599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15, y: -14.9999695}
+  m_AnchoredPosition: {x: -15, y: -14.999878}
   m_SizeDelta: {x: 20, y: -30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &442247487
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 754790539}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3656677
+  m_Size: 0.3961108
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1144,7 +1144,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 280.38, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &813020230
 MonoBehaviour:
@@ -1441,7 +1441,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 188.21184, y: 77}
+  m_SizeDelta: {x: 229.49, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217392244
 MonoBehaviour:
@@ -2003,7 +2003,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 245.06, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839543297
 MonoBehaviour:
@@ -2587,11 +2587,11 @@ MonoBehaviour:
     Impact Fund), as well as the Arts and Humanities Research Council, UK (award:
     AH/R008086/1). \n\nWe are especially grateful to our partners for this project,
     the National Gallery and the V&A Museum in London, and the Museo degli Innocenti
-    in Florence.  \n\nThe original San Pier Maggiore model - which forms the starting
-    point for the 3D model in the app - was a collaboration between the University
-    of Cambridge  (Donal Cooper and Francois Penz) and the National Gallery (Jennifer
-    Sliwka), and created by Miguel Santa Clara in 2015. The research and 3D models
-    used in the app were produced by the Florence4D team. Find out more:\n <b><u><link=\"https://florence4d.org\">www.florence4d.org</link></u></b>"
+    in Florence.  \n\nThe research and 3D models used in the app were produced by
+    the Florence4D team. Find out more:  <b><u><link=\"https://florence4d.org\">www.florence4d.org</link></u></b>.
+    The original San Pier Maggiore model - which forms the starting point for the
+    3D model in the app - was a collaboration between the University of Cambridge
+    and the National Gallery, and created by Miguel Santa Clara in 2015."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -3009,8 +3009,8 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -3401,7 +3401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: -46
+    m_Left: 2
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
