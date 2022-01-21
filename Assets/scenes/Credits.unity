@@ -981,7 +981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: App developed and designed by <b>Calvium</b> and <b>Zubr.co</b>
+  m_Text: App developed and designed by <b>Zubr Curio</b> and <b>Calvium</b>.
 --- !u!222 &688482844
 CanvasRenderer:
   m_ObjectHideFlags: 0

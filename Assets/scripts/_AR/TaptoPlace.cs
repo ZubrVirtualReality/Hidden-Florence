@@ -55,7 +55,7 @@ public class TaptoPlace : MonoBehaviour
         shaderScript.StartShaderWithoutApproval(0);
         if(SceneManager.GetActiveScene().name == "tapToPlaceInnocenti")
         {
-            objectToEnable.transform.GetChild(0).transform.localPosition = new Vector3(0, -18, 3.2f);
+            //objectToEnable.transform.GetChild(0).transform.localPosition = new Vector3(0, -18, 3.2f);
         }    
         StartCoroutine(WaitFor(0.1f));
     }

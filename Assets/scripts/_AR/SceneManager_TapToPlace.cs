@@ -113,7 +113,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 alert.text = isFlorence ? scanningAlert_Florence : scanningAlert_Elsewhere;
                 instructions.text = isFlorence ? scanningInstruction_Florence : scanningInstruction_Elsewhere;
 				StartCoroutine(fadeIn(alertCanvas, 1f));
-                StartCoroutine(fadeIn(scanGifCanvas, 2f));
+                //StartCoroutine(fadeIn(scanGifCanvas, 2f));
 				StartCoroutine(fadeIn(instructionsCanvas, 2f));
                 StartCoroutine(fadeOut(alertCanvas, 5f));
                 altarBase_Florence.SetActive(false);
@@ -126,7 +126,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 alert.text = isFlorence ? placingAlert_Florence : placingAlert_Elsewhere;
                 instructions.text = isFlorence ? placingInstruction_Florence : placingInstruction_Elsewhere;
                 //scanGifCanvas.gameObject.SetActive(false);
-                StartCoroutine(fadeOut(scanGifCanvas, 0f));
+                //StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
@@ -136,7 +136,7 @@ public class SceneManager_TapToPlace : MonoBehaviour
                 this.state = newState;
                 alert.text = isFlorence ? gettingReadyAlert_Florence : gettingReadyAlert_Elsewhere;
                 instructions.text = isFlorence ? gettingReadyInstruction_Florence : gettingReadyInstruction_Elsewhere; ;
-                StartCoroutine(fadeOut(scanGifCanvas, 0f));
+                //StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
 

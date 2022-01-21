@@ -51,5 +51,7 @@ public class InnocentiDoor : MonoBehaviour
 
         movement.SetChapelPos(chapel.transform.localPosition);
         movement.SetReadyToMove(true);
+
+        door.SetActive(false);
     }
 }

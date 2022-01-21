@@ -84,7 +84,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
                 alert.text = scanningAlert_Elsewhere;
                 instructions.text = scanningInstruction_Elsewhere;
 				StartCoroutine(fadeIn(alertCanvas, 1f));
-                StartCoroutine(fadeIn(scanGifCanvas, 2f));
+                //StartCoroutine(fadeIn(scanGifCanvas, 2f));
 				StartCoroutine(fadeIn(instructionsCanvas, 2f));
                 StartCoroutine(fadeOut(alertCanvas, 5f));
                 focusSquare.SetActive(true);
@@ -94,7 +94,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
 				this.state = newState;
                 alert.text = placingAlert_Elsewhere;
                 instructions.text = placingInstruction_Elsewhere;
-                StartCoroutine(fadeOut(scanGifCanvas, 0f));
+                //StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
@@ -102,7 +102,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
             case TapToPlace_State.GETTING_READY:
                 if (!placeAltarPiece()) break;
                 this.state = newState;
-                StartCoroutine(fadeOut(scanGifCanvas, 0f));
+                //StartCoroutine(fadeOut(scanGifCanvas, 0f));
 
                 planeManager.subsystem.Stop();
                 focusSquare.SetActive(false);
@@ -143,7 +143,7 @@ public class SceneManager_TapToPlace_Innocenti : MonoBehaviour
         // Move church to focusSquare position
         churchContainer.transform.position = new Vector3(
             focusSquareFocused.transform.position.x,
-            focusSquareFocused.transform.position.y + 0.15f,
+            focusSquareFocused.transform.position.y + 3f,
             focusSquareFocused.transform.position.z);
         // Rotate church to face Camera
         churchContainer.transform.eulerAngles = new Vector3(
