@@ -5727,6 +5727,7 @@ GameObject:
   - component: {fileID: 1897002948}
   - component: {fileID: 1897002947}
   - component: {fileID: 1897002946}
+  - component: {fileID: 1897002951}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -5772,7 +5773,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897002944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c04fc947efb9d704687a8cac936717f2, type: 3}
   m_Name: 
@@ -5861,6 +5862,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897002944}
   m_CullTransparentMesh: 1
+--- !u!114 &1897002951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897002944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3872ec726c8c4ff58529b215d9733a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goToSceneName: SanPierWhereAreYou
 --- !u!1 &1913263616
 GameObject:
   m_ObjectHideFlags: 0
