@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
-
 
 public class SceneChanger : MonoBehaviour
 {
@@ -54,6 +52,8 @@ public class SceneChanger : MonoBehaviour
 
     public void OpenURL(string url)
     {
-        Application.OpenURL(url);
+		FirebaseAnalyticsManager.LogOpenURL(url);
+
+		Application.OpenURL(url);
     }
 }

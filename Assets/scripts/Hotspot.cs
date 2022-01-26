@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +22,7 @@ public class Hotspot : MonoBehaviour
     private void ShowInfo()
     {
         Debug.Log("Showing info");
+        FirebaseAnalyticsManager.LogHotspotView(title);
         HotspotManager.instance.ShowInfo(title, info, infoImage);
     }
 

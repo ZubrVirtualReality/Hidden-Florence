@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>935780984110-12tu83n1tbgp45p6q2csf89llbal06dh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.935780984110-12tu83n1tbgp45p6q2csf89llbal06dh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>935780984110-lvlb89jm696oica1uttrn4o1fk0obaii.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiTXwkhwDyGtJtHUAabR9Vjm1moV9Ny3Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>935780984110</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.calvium.hiddenflorence3d</string>
+	<key>PROJECT_ID</key>
+	<string>hidden-florence-3d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hidden-florence-3d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:935780984110:ios:5a3f2fd10d39fcc389c6bf</string>
+</dict>
+</plist>

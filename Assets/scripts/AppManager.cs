@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public enum ExperienceType{ FLORENCE, ELSEWHERE, INNOCENTI_ELSEWHERE, NATIONAL_GALLERY, NONE };
 
@@ -20,6 +19,11 @@ public class AppManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        FirebaseAnalyticsManager.Initialize();
     }
 
     public void ChangeExperience(string _experience)
