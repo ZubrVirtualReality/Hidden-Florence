@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2176,7 +2176,7 @@ GameObject:
   - component: {fileID: 1059374200}
   - component: {fileID: 1059374199}
   m_Layer: 5
-  m_Name: 4D Experience Text
+  m_Name: 3D Experience Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2221,7 +2221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4D Experience
+  m_text: 3D Experience
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -2547,8 +2547,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1946206201}
   m_HandleRect: {fileID: 1946206200}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.15968478
+  m_Value: 1.0000001
+  m_Size: 0.2799418
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3107,7 +3107,7 @@ GameObject:
   - component: {fileID: 1289640690}
   - component: {fileID: 1289640693}
   m_Layer: 5
-  m_Name: 4D Experience Button
+  m_Name: 3D Experience Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

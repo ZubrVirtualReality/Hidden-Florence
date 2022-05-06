@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37312, g: 0.38074034, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 754790539}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.40140843
+  m_Size: 0.61726093
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2581,14 +2581,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Hidden Florence 3D is the result of a collaborative research project led
     by Fabrizio Novola (University of Exeter), with Donal Cooper (University of Cambridge).
-    The app and project have been made possible through the Getty Foundation through
-    its digital art history initiative. Additional support was provided from the
-    University of Exeter and the University of Cambridge (via the Arts and Humanities
-    Impact Fund), as well as the Arts and Humanities Research Council, UK (award:
-    AH/R008086/1). \n\nWe are especially grateful to our partners for this project,
-    the National Gallery and the V&A Museum in London, and the Museo degli Innocenti
-    in Florence.  \n\nThe research and 3D models used in the app were produced by
-    the Florence4D team. Find out more:  <b><u><link=\"https://florence4d.org\">www.florence4d.org</link></u></b>.
+    The app and project have been made possible by the Getty Foundation through its
+    digital art history initiative. Additional support was provided from the University
+    of Exeter and the University of Cambridge (via the Arts and Humanities Impact
+    Fund), as well as the Arts and Humanities Research Council, UK (award: AH/R008086/1).
+    \n\nWe are especially grateful to our partners for this project, the National
+    Gallery and the V&A Museum in London, and the Museo degli Innocenti in Florence. 
+    \n\nThe research and 3D models used in the app were produced by the Florence4D
+    team. Find out more:  <b><u><link=\"https://florence4d.org\">www.florence4d.org</link></u></b>.
     The original San Pier Maggiore model - which forms the starting point for the
     3D model in the app - was a collaboration between the University of Cambridge
     and the National Gallery, and created by Miguel Santa Clara in 2015."

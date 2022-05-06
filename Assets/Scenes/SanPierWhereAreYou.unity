@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5485458
+  m_Size: 0.5167126
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6523,7 +6523,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5485458
+  m_Size: 0.5167126
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6781,7 +6781,7 @@ MonoBehaviour:
     the road\nbut please still be aware of cars.\n\n3. Point the camera at the floor
     and\nscan the pavement.\n\n4. Tap the screen to position the altar\nin front
     of you.\n\n5. Point the camera towards the far\nend of the road at the intersection
-    of\nvia San Pier Maggiore and via\nGiuseppe Verdi, this is where the\naltarpiece
+    of\nVia San Pier Maggiore and Via\nGiuseppe Verdi, this is where the\naltarpiece
     by Jacopo di Cione\noriginally hung in the church.\n\n6. Tap the screen to watch
     the\naltarpiece move into place and for the\nexperience to build.\n\n7. Walk
     around to explore the lost\nchurch of San Pier Maggiore and its\ninterior."
@@ -9301,7 +9301,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4421072
+  m_Size: 0.41645092
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
