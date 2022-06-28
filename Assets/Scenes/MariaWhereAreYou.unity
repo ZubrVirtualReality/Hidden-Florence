@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1453616548}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5167126
+  m_Size: 0.5485458
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9211,20 +9211,20 @@ MonoBehaviour:
     the model brings back together artworks in London and Florence with the original
     church.\n\nTo experience how the main altarpiece may have looked in Brunelleschi\u2019s
     original church:\n\n1. Go to the Piazza Santissima Annunziata 13, Florence and
-    enter the Museo degli Innocenti,  (you will need to pay for a ticket). Go to
-    the picture gallery (Pinacoteca) on the top floor (there is a lift).\n\n2. After
+    enter the Museo degli Innocenti (you will need to pay for a ticket). Go to the
+    picture gallery (Pinacoteca) on the top floor (there is a lift).\n\n2. After
     enjoying the gallery, move to the far end of the long gallery and enter the smaller
     room at the end. Stand facing towards the large altarpiece by Domenico Ghirlandaio
     of the \u2018Adoration of the Magi\u2019.\n\n3. Point the camera at the painting.\n\n4.
     Tap the screen to position the altar in front of you.\n\n5. Tap the screen to
     watch the altarpiece move into place and for the experience to build.\n\n6. Walk
-    around to explore the lost church of San Pier Maggiore and its interior.\n\nPlease
+    around to explore the lost church of Santa Maria degli Innocenti and its interior.\n\nPlease
     note that the model you will see has been designed to provide a sense of the
     context of the church where the painting originally was housed. The actual church
     is just a few steps from where you are standing, but is oriented at a 90\xBA
     angle to the gallery. After you\u2019ve tried this app, you can move to the next
-    room and watch the video; take a look through the window on the right side of
-    the room to see into the original church."
+    room and watch the video on the gallery screen; take a look through the window
+    on the right side of the room to see into the original church."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -11843,7 +11843,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 941965122}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.37373906
+  m_Size: 0.39676404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12580,7 +12580,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 65887427}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4286991
+  m_Size: 0.45511
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13458,7 +13458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44ce91c0db70bfa4185aea99c23693eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d838a7dd8714d4b1bb5eb4558c948766, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16209,7 +16209,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1619831051}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.50261027
+  m_Size: 0.53357464
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

@@ -1880,17 +1880,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "You can hear more about the church of San Pier Maggiore by downloading
-    the Hidden Florence app (iOS and Android) \u2013 try the \u2018Saints and Sinners\u2019
-    and \u2018Neighbourhood World\u2019 trails. \n\nRead more about the building
-    and how it was used on the  <u><b><link=\"https://florence4d.org/s/florence4d/page/spmaggiore\">Florence
+    the separate Hidden Florence app (iOS and Android) \u2013 try the \u2018Saints
+    and Sinners\u2019 and \u2018Neighbourhood World\u2019 trails. \n\nRead more about
+    the building and how it was used on the  <u><b><link=\"https://florence4d.org/s/florence4d/page/spmaggiore\">Florence
     4D website</link></b></u>.\n\nDiscover more about the research project and watch
     a <u><b><link=\"https://florence4d.org/s/florence4d/page/a-neighbourhood-story\">video</link></b></u>
     about it.\n\nYou can find out much more information about Jacopo di Cione\u2019s
-    altarpiece on the  <u><b><link=\"https://nationalgallery.org.uk\">National Gallery
+    altarpiece on the  <u><b><link=\"https://tinyurl.com/2p99skrj\">National Gallery
     website</link></b></u>."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
-  m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
+  m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
+  m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

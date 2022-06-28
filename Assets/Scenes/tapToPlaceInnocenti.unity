@@ -1063,7 +1063,7 @@ PrefabInstance:
     - target: {fileID: 3899160118899621774, guid: e5c092463db13462ba647626ea688ccb,
         type: 3}
       propertyPath: info
-      value: 'This altarpiece ,now in the museum of the Innocenti museum in Florence,
+      value: 'This altarpiece, now in the museum of the Innocenti hospital in Florence,
         was  commissioned in 1491 by Piero del Pugliese, a friend of the Innocenti
         prior Tesori, and a  wealthy merchant and member of the Florentine Silkweavers
         Guild. In this lavish painting,  the patron of the Guild, Saint John Evangelist,

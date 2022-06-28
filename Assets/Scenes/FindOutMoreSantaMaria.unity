@@ -1881,15 +1881,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Read more about the building and how it was used on the Florence 4D website
     <u><b><link=\"https://florence4d.org/s/florence4d/page/spmaggiore\">Florence
-    4D website</link></b></u>.\n\nYou can hear more about the complex of Santa Maria
-    degli Innocenti by downloading the Hidden Florence app (iOS and Android) \u2013
+    4D website</link></b></u>.\n\nYou can hear more about the Innocenti hospital
+    complex by downloading the separate Hidden Florence app (iOS and Android) \u2013
     try the \u2018City of Women\u2019 to discover more about the life of orphans
     raised in the hospital. \n\nYou can find out much more information about Ghirlandaio\u2019s
     magnificent altarpiece on the  <u><b><link=\"https://www.museodeglinnocenti.it/en/the-museum/art-path/\">Museo
     degli Innocenti website</link></b></u>."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3, type: 2}
-  m_sharedMaterial: {fileID: 21063493897158814, guid: 45ad1c9c7f5e59743aee9b86a3ac29a3,
+  m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
+  m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
