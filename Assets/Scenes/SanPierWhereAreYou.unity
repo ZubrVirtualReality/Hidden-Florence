@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1464996150}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5485458
+  m_Size: 0.41140932
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2216,9 +2216,9 @@ MonoBehaviour:
     Gallery''s most important Italian
 
     paintings
-    within its original medival
+    within its original medieval
 
-    settings:
+    setting:
 
 
     1. As the church is very big
@@ -6144,11 +6144,11 @@ MonoBehaviour:
   m_text: "Experience the church reappearing \nbefore your eyes as you stand in front
     \nof Jacopo di Cione\u2019s vast altarpiece \nin the National Gallery.\n\nTo
     experience one of the National \nGallery's most important Italian\npaintings
-    within it's original medieval \nsetting:\n\n1. Find the altarpiece by Jacopo
-    di \nCione in Gallery 60 in the Sainsbury \nWing of the National Gallery.\n\n2.
+    within its original medieval \nsetting:\n\n1. Find the altarpiece by Jacopo di
+    \nCione in Gallery 60 in the Sainsbury \nWing of the National Gallery.\n\n2.
     Stand where you can view the\nwhole altar piece, about 4 meters in \nfront of
     the central panel.\n\n3. Move your device around to scan\n the floor and walls.\n\n4.
-    Point the camera at the central \npanel of the altarpiece by Acopo Di \nCione
+    Point the camera at the central \npanel of the altarpiece by Jacopo di \nCione
     until the app recognises it.\n\n5. Wait and watch as the church \nexpands out
     from the original church \nshown in the left hand panel."
   m_isRightToLeft: 0
@@ -6523,7 +6523,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 995270835}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5485458
+  m_Size: 0.41140932
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6775,13 +6775,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Experience the church reappearing \nbefore your eyes as you stand in \nPiazza
     San Pier Maggiore in Florence, \nand see some of the artworks that \noriginally
-    adorned its vast interior.\n\n1. In Florence go to the Piazza di San\nPier Maggiore
-    which is at the top of\nVia di S.Pier Maggiore.\n\n2. Stand under the archway
-    facing\ntowards the Via di S. Pier Maggiore.\nIt is a pedestrianised part of
-    the road\nbut please still be aware of cars.\n\n3. Point the camera at the floor
+    adorned its vast interior.\n\n1. In Florence go to Piazza San\nPier Maggiore
+    which is at the top of\nVia San Pier Maggiore.\n\n2. Stand under the archway
+    facing\ntowards Via San Pier Maggiore.\nIt is a semi-pedestrianised part of the
+    road\nbut please still be aware of cars.\n\n3. Point the camera at the floor
     and\nscan the pavement.\n\n4. Tap the screen to position the altar\nin front
     of you.\n\n5. Point the camera towards the far\nend of the road at the intersection
-    of\nvia San Pier Maggiore and via\nGiuseppe Verdi, this is where the\naltarpiece
+    of\nVia San Pier Maggiore and Via\nGiuseppe Verdi, this is where the\naltarpiece
     by Jacopo di Cione\noriginally hung in the church.\n\n6. Tap the screen to watch
     the\naltarpiece move into place and for the\nexperience to build.\n\n7. Walk
     around to explore the lost\nchurch of San Pier Maggiore and its\ninterior."
@@ -9301,7 +9301,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1974508478}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4421072
+  m_Size: 0.33158043
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

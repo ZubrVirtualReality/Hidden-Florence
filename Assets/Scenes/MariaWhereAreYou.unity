@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -779,12 +779,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -799,12 +799,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 285
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -26.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265442891979350083, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1453616548}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33794335
+  m_Size: 0.5485458
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3148,7 +3148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cba67961424ac7479de73a64df8b0b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44ce91c0db70bfa4185aea99c23693eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Santa Maria delgi Innocenti Florence
+  m_text: Santa Maria degli Innocenti Florence
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92219f0d09bff624f8cf4912e98e0d29, type: 2}
   m_sharedMaterial: {fileID: 21308044233802706, guid: 92219f0d09bff624f8cf4912e98e0d29,
@@ -5929,14 +5929,10 @@ MonoBehaviour:
     designed by \nBrunelleschi. Experience the church interior and its artworks in
     context, as the model brings \nback together artworks in London and Florence
     with the original church. You can see many \nof these artworks in the Museo degli
-    Innocenti, a few steps from where you are standing.\n\nGhirlandaio\u2019s magnificent
-    altarpiece originally stood on the main altar of the hospital church \nof the
-    Innocenti designed by Brunelleschi, as did the two other paintings in this room.
-    \nExperience these paintings in context, as the model brings back together artworks
-    in London\nand Florence with the original church.\n\nTo see the doors open to
-    experience how the church originally appeared:\n\n1. In Florence go to the Piazza
-    Santissima Annunziata, Florence which is at the end of via dei Servi.\n\n2. Stand
-    on the piazza facing towards the steps and arcade of the Museo degli Innocenti.
+    Innocenti, a few steps from where you are standing.\n\nTo see the doors open
+    to experience how the church originally appeared:\n\n1. In Florence go to the
+    Piazza Santissima Annunziata, Florence which is at the end of Via dei Servi.\n\n2.
+    Stand on the piazza facing towards the steps and arcade of the Museo degli Innocenti.
     This is a pedestrianised square but please still be aware of cars and mopeds.\n\n3.
     Walk up the steps towards the closed door on the left side of the arcade (as
     you face towards it).\n\n4. Point the camera at the door.\n\n5. Tap the floor
@@ -6706,12 +6702,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -6726,12 +6722,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 285
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25.97
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265442891979350083, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
@@ -9209,22 +9205,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "To experience how the main altarpiece may have looked in Brunelleschi\u2019s
+  m_text: "Ghirlandaio\u2019s magnificent altarpiece originally stood on the main
+    altar of the hospital church of the Innocenti designed by Brunelleschi, as did
+    the two other paintings in this room. Experience the paintings in context, as
+    the model brings back together artworks in London and Florence with the original
+    church.\n\nTo experience how the main altarpiece may have looked in Brunelleschi\u2019s
     original church:\n\n1. Go to the Piazza Santissima Annunziata 13, Florence and
-    enter the Museo degli Innocenti,  (you will need to pay for a ticket). Go to
-    the picture gallery (Pinacoteca) on the top floor (there is a lift).\n\n2. After
+    enter the Museo degli Innocenti (you will need to pay for a ticket). Go to the
+    picture gallery (Pinacoteca) on the top floor (there is a lift).\n\n2. After
     enjoying the gallery, move to the far end of the long gallery and enter the smaller
     room at the end. Stand facing towards the large altarpiece by Domenico Ghirlandaio
     of the \u2018Adoration of the Magi\u2019.\n\n3. Point the camera at the painting.\n\n4.
     Tap the screen to position the altar in front of you.\n\n5. Tap the screen to
     watch the altarpiece move into place and for the experience to build.\n\n6. Walk
-    around to explore the lost church of San Pier Maggiore and its interior.\n\nPlease
+    around to explore the lost church of Santa Maria degli Innocenti and its interior.\n\nPlease
     note that the model you will see has been designed to provide a sense of the
     context of the church where the painting originally was housed. The actual church
     is just a few steps from where you are standing, but is oriented at a 90\xBA
     angle to the gallery. After you\u2019ve tried this app, you can move to the next
-    room and watch the video; take a look through the window on the right side of
-    the room to see into the original church."
+    room and watch the video on the gallery screen; take a look through the window
+    on the right side of the room to see into the original church."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -10842,12 +10842,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -10862,12 +10862,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 285
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -26.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265442891979350083, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
@@ -11666,12 +11666,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
@@ -11686,12 +11686,12 @@ PrefabInstance:
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 285
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265442893501688141, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25.97
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265442891979350083, guid: 263793ec85bfe7a4aaf6fdb0b6545c9f, type: 3}
@@ -11843,7 +11843,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 941965122}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.2979035
+  m_Size: 0.39676404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12580,7 +12580,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 65887427}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22697571
+  m_Size: 0.45511
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13458,7 +13458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e2d30e2d4daa1144ea495eeeccfa619e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d838a7dd8714d4b1bb5eb4558c948766, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16209,7 +16209,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1619831051}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.32872006
+  m_Size: 0.53357464
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

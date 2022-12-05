@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This Hidden Florence 4D experience reconstructs the church of San Pier
+  m_text: "This Hidden Florence 3D experience reconstructs the church of San Pier
     Maggiore at full \nscale, so you can walk around the space using your phone or
     tablet. We\u2019ve also reinstalled a\nnumber of the artworks originally located
     in the church, allowing you to explore the building \nas it might have appeared
@@ -2176,7 +2176,7 @@ GameObject:
   - component: {fileID: 1059374200}
   - component: {fileID: 1059374199}
   m_Layer: 5
-  m_Name: 4D Experience Text
+  m_Name: 3D Experience Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2221,7 +2221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4D Experience
+  m_text: 3D Experience
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
@@ -2548,7 +2548,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1946206200}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.15968478
+  m_Size: 0.20917174
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3107,7 +3107,7 @@ GameObject:
   - component: {fileID: 1289640690}
   - component: {fileID: 1289640693}
   m_Layer: 5
-  m_Name: 4D Experience Button
+  m_Name: 3D Experience Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4713,11 +4713,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "You can hear more about the church of San Pier \nMaggiore by downloading
-    the Hidden Florence \napp (iOS and Android) \u2013 try the \u2018Saints and \nSinners\u2019
-    and \u2018Neighbourhood World\u2019 trails. Read \nmore about the building and
-    how it was used on \nthe <u><b><link=\"https://florence4d.org\">Florence 4D website</link></u></b>.\n\nYou
-    can find out much more information about \nJacopo di Cione\u2019s altarpiece
-    on the  \n<u><b><link=\"https://nationalgallery.org.uk\">National Gallery website</link></u></b>."
+    the separate Hidden Florence \napp (iOS and Android) \u2013 try the \u2018Saints
+    and \nSinners\u2019 and \u2018Neighbourhood World\u2019 trails. Read \nmore about
+    the building and how it was used on \nthe <u><b><link=\"https://florence4d.org/s/florence4d/page/spmaggiore\">Florence
+    4D website</link></u></b>.\n\nYou can find out much more information about \nJacopo
+    di Cione\u2019s altarpiece on the  \n<u><b><link=\"https://tinyurl.com/2p99skrj\">National
+    Gallery website</link></u></b>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e53abcde1e3ce048adc09f0600622ab, type: 2}
   m_sharedMaterial: {fileID: 21204219285659052, guid: 9e53abcde1e3ce048adc09f0600622ab,
